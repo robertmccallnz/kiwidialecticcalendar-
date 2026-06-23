@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Kiwi Dialectic Courses Calendar</title>
+  <meta name="description" content="Public course calendar for The Kiwi Dialectic." />
+  <style>
+    body{font-family:Arial,sans-serif;max-width:960px;margin:0 auto;padding:2rem;line-height:1.6;color:#222}
+    h1,h2{line-height:1.15} .course,.lesson{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:1rem 0}
+    .muted{color:#555}.pill{display:inline-block;padding:.25rem .75rem;border-radius:999px;background:#e8f3f3;color:#0b5c63;font-size:.85rem;font-weight:700}
+    pre,code{background:#f4f4f4;border-radius:6px} code{padding:.15rem .4rem} pre{padding:1rem;overflow:auto}
+    a{color:#0b5c63}
+  </style>
+</head>
+<body>
+  <h1>The Kiwi Dialectic Courses Calendar</h1>
+  <p class="muted">A public calendar page for course lessons hosted on GitHub Pages and linked from Substack.</p>
+  <div id="app"></div>
+  <h2>Embed in Substack</h2>
+  <pre>&lt;iframe src="https://robertmccallnz.github.io/kiwidialecticcalendar-/github-calendar-connector.html" width="100%" height="900" frameborder="0" loading="lazy" title="The Kiwi Dialectic course calendar"&gt;&lt;/iframe&gt;</pre>
+  <script>
+    async function loadCourses(){
+      const fallback={courses:[{title:'Gramsci for Aotearoa',status:'Live',description:'Power, hegemony, institutions, and counter-power from below.',lessons:[{title:'Lesson 1: Why read Gramsci now?',date:'2026-07-07',time:'19:00',location:'Substack email',link:'https://solamiculum589777.substack.com/'},{title:'Lesson 2: Hegemony',date:'2026-07-10',time:'19:00',location:'Substack email',link:'https://solamiculum589777.substack.com/'}]}]};
+      try{const r=await fetch('./courses.json'); if(r.ok) return await r.json();}catch(e){}
+      return fallback;
+    }
+    loadCourses().then(data=>{
+      document.getElementById('app').innerHTML=data.courses.map(c=>`<div class="course"><div style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap"><div><h2>${c.title}</h2><p class="muted">${c.description||''}</p></div><span class="pill">${c.status||'Draft'}</span></div>${c.lessons.map(l=>`<div class="lesson"><strong>${l.title}</strong><div class="muted">${l.date} ${l.time||'TBA'} · ${l.location||'Substack'}</div>${l.link&&l.link!=='#'?`<div><a href="${l.link}" target="_blank" rel="noopener noreferrer">Open lesson</a></div>`:''}</div>`).join('')}</div>`).join('')
+    })
+  </script>
+</body>
+</html>
