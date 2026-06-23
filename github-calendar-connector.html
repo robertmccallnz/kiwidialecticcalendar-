@@ -6,27 +6,42 @@
   <title>The Kiwi Dialectic Courses Calendar</title>
   <meta name="description" content="Public course calendar for The Kiwi Dialectic." />
   <style>
-    body{font-family:Arial,sans-serif;max-width:960px;margin:0 auto;padding:2rem;line-height:1.6;color:#222}
-    h1,h2{line-height:1.15} .course,.lesson{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:1rem 0}
-    .muted{color:#555}.pill{display:inline-block;padding:.25rem .75rem;border-radius:999px;background:#e8f3f3;color:#0b5c63;font-size:.85rem;font-weight:700}
+    body{font-family:Arial,sans-serif;max-width:1040px;margin:0 auto;padding:2rem;line-height:1.6;color:#222;background:#faf9f6}
+    h1,h2,h3{line-height:1.15} .course,.lesson{border:1px solid #ddd;border-radius:12px;padding:1rem;margin:1rem 0;background:#fff}
+    .muted{color:#555}.pill{display:inline-block;padding:.25rem .75rem;border-radius:999px;font-size:.82rem;font-weight:700}
+    .pill.public{background:#e8f3f3;color:#0b5c63}.pill.free_subscriber{background:#eef2ff;color:#3047a3}.pill.paid{background:#fbe8ea;color:#8a2030}.pill.hidden{background:#eee;color:#555}
     pre,code{background:#f4f4f4;border-radius:6px} code{padding:.15rem .4rem} pre{padding:1rem;overflow:auto}
-    a{color:#0b5c63}
+    a.button{display:inline-block;padding:.55rem .9rem;border-radius:999px;text-decoration:none;font-weight:700;border:1px solid #ccc;color:#222;background:#fff;margin-top:.6rem}
+    a.button.primary{background:#0b5c63;color:#fff;border-color:#0b5c63}
+    a.button.free{background:#3047a3;color:#fff;border-color:#3047a3}
+    a.button.paid{background:#8a2030;color:#fff;border-color:#8a2030}
+    .row{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:flex-start}
   </style>
 </head>
 <body>
   <h1>The Kiwi Dialectic Courses Calendar</h1>
-  <p class="muted">A public calendar page for course lessons hosted on GitHub Pages and linked from Substack.</p>
+  <p class="muted">A public course calendar page for course lessons hosted on GitHub Pages and linked from Substack. Access is controlled on Substack; this page signals what kind of access each course requires.</p>
   <div id="app"></div>
   <h2>Embed in Substack</h2>
   <pre>&lt;iframe src="https://robertmccallnz.github.io/kiwidialecticcalendar-/github-calendar-connector.html" width="100%" height="900" frameborder="0" loading="lazy" title="The Kiwi Dialectic course calendar"&gt;&lt;/iframe&gt;</pre>
   <script>
+    function buttonFor(access, link){
+      if(access === 'paid') return `<a class="button paid" href="${link}" target="_blank" rel="noopener noreferrer">Upgrade to unlock</a>`;
+      if(access === 'free_subscriber') return `<a class="button free" href="${link}" target="_blank" rel="noopener noreferrer">Subscribe free to access</a>`;
+      return `<a class="button primary" href="${link}" target="_blank" rel="noopener noreferrer">Open lesson</a>`;
+    }
     async function loadCourses(){
-      const fallback={courses:[{title:'Gramsci for Aotearoa',status:'Live',description:'Power, hegemony, institutions, and counter-power from below.',lessons:[{title:'Lesson 1: Why read Gramsci now?',date:'2026-07-07',time:'19:00',location:'Substack email',link:'https://solamiculum589777.substack.com/'},{title:'Lesson 2: Hegemony',date:'2026-07-10',time:'19:00',location:'Substack email',link:'https://solamiculum589777.substack.com/'}]}]};
+      const fallback={courses:[{title:'Gramsci for Aotearoa',status:'Live',access:'free_subscriber',description:'Power, hegemony, institutions, and counter-power from below.',lessons:[{title:'Lesson 1: Why read Gramsci now?',date:'2026-07-07',time:'19:00',location:'Substack email',access:'free_subscriber',link:'https://solamiculum589777.substack.com/'},{title:'Lesson 2: Hegemony',date:'2026-07-10',time:'19:00',location:'Substack email',access:'free_subscriber',link:'https://solamiculum589777.substack.com/'}]}]};
       try{const r=await fetch('./courses.json'); if(r.ok) return await r.json();}catch(e){}
       return fallback;
     }
     loadCourses().then(data=>{
-      document.getElementById('app').innerHTML=data.courses.map(c=>`<div class="course"><div style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap"><div><h2>${c.title}</h2><p class="muted">${c.description||''}</p></div><span class="pill">${c.status||'Draft'}</span></div>${c.lessons.map(l=>`<div class="lesson"><strong>${l.title}</strong><div class="muted">${l.date} ${l.time||'TBA'} · ${l.location||'Substack'}</div>${l.link&&l.link!=='#'?`<div><a href="${l.link}" target="_blank" rel="noopener noreferrer">Open lesson</a></div>`:''}</div>`).join('')}</div>`).join('')
+      const visible=(data.courses||[]).filter(c => (c.calendar_visibility || 'public') !== 'hidden');
+      document.getElementById('app').innerHTML=visible.map(c=>{
+        const access=c.access||'public';
+        const lessons=(c.lessons||[]).filter(l => (l.calendar_visibility || 'public') !== 'hidden');
+        return `<div class="course"><div class="row"><div><h2>${c.title}</h2><p class="muted">${c.description||''}</p></div><div><span class="pill ${access}">${access.replace('_',' ')}</span> <span class="pill public">${c.status||'Draft'}</span></div></div>${lessons.map(l=>`<div class="lesson"><div class="row"><div><strong>${l.title}</strong><div class="muted">${l.date} ${l.time||'TBA'} · ${l.location||'Substack'}</div>${l.teaser?`<div class="muted">${l.teaser}</div>`:''}</div><div>${l.link&&l.link!=='#'?buttonFor(l.access||access,l.link):''}</div></div></div>`).join('')}</div>`
+      }).join('')
     })
   </script>
 </body>
