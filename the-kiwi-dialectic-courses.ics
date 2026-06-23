@@ -7,71 +7,71 @@ X-WR-CALNAME:The Kiwi Dialectic Courses
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-1@thekiwidialectic
-DTSTAMP:20260623T234011Z
+DTSTAMP:20260623T234856Z
 DTSTART;TZID=Pacific/Auckland:20260707T190000
 DTEND;TZID=Pacific/Auckland:20260707T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 1: Why read Gramsci now?
-DESCRIPTION:Gramsci for Aotearoa — Lesson 1: Why read Gramsci now?\nhttps://solamiculum589777.substack.com/
+DESCRIPTION:Gramsci for Aotearoa — Lesson 1: Why read Gramsci now?\nAccess: free_subscriber\nFree subscribers can read the lesson in the Courses section.\nhttps://solamiculum589777.substack.com/
 LOCATION:Substack email
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-2@thekiwidialectic
-DTSTAMP:20260623T234011Z
+DTSTAMP:20260623T234856Z
 DTSTART;TZID=Pacific/Auckland:20260710T190000
 DTEND;TZID=Pacific/Auckland:20260710T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 2: Hegemony
-DESCRIPTION:Gramsci for Aotearoa — Lesson 2: Hegemony\nhttps://solamiculum589777.substack.com/
+DESCRIPTION:Gramsci for Aotearoa — Lesson 2: Hegemony\nAccess: free_subscriber\nWhy ruling ideas become ordinary life.\nhttps://solamiculum589777.substack.com/
 LOCATION:Substack email
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-3@thekiwidialectic
-DTSTAMP:20260623T234011Z
+DTSTAMP:20260623T234856Z
 DTSTART;TZID=Pacific/Auckland:20260714T190000
 DTEND;TZID=Pacific/Auckland:20260714T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 3: Organic intellectuals
-DESCRIPTION:Gramsci for Aotearoa — Lesson 3: Organic intellectuals\nhttps://solamiculum589777.substack.com/
+DESCRIPTION:Gramsci for Aotearoa — Lesson 3: Organic intellectuals\nAccess: free_subscriber\nWho speaks for the working class and how?\nhttps://solamiculum589777.substack.com/
 LOCATION:Substack email
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-1@thekiwidialectic
-DTSTAMP:20260623T234011Z
+DTSTAMP:20260623T234856Z
 DTSTART;TZID=Pacific/Auckland:20260721T190000
 DTEND;TZID=Pacific/Auckland:20260721T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 1: What is mutual aid?
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 1: What is mutual aid?\nhttps://solamiculum589777.substack.com/
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 1: What is mutual aid?\nAccess: public\nAn introduction to cooperation beyond capitalist myth-making.\nhttps://solamiculum589777.substack.com/
 LOCATION:Substack email
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-2@thekiwidialectic
-DTSTAMP:20260623T234011Z
+DTSTAMP:20260623T234856Z
 DTSTART;TZID=Pacific/Auckland:20260724T190000
 DTEND;TZID=Pacific/Auckland:20260724T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 2: Beyond competition
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 2: Beyond competition\nhttps://solamiculum589777.substack.com/
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 2: Beyond competition\nAccess: public\nWhy solidarity is practical, not sentimental.\nhttps://solamiculum589777.substack.com/
 LOCATION:Substack email
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-everyday-power-1@thekiwidialectic
-DTSTAMP:20260623T234011Z
+DTSTAMP:20260623T234856Z
 DTSTART;TZID=Pacific/Auckland:20260804T190000
 DTEND;TZID=Pacific/Auckland:20260804T200000
 SUMMARY:Graeber and Everyday Power — Lesson 1: Defamiliarisation
-DESCRIPTION:Graeber and Everyday Power — Lesson 1: Defamiliarisation\nhttps://solamiculum589777.substack.com/
+DESCRIPTION:Graeber and Everyday Power — Lesson 1: Defamiliarisation\nAccess: paid\nA teaser is public; full lesson is for paid subscribers.\nhttps://solamiculum589777.substack.com/
 LOCATION:Substack email
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-everyday-power-2@thekiwidialectic
-DTSTAMP:20260623T234011Z
+DTSTAMP:20260623T234856Z
 DTSTART;TZID=Pacific/Auckland:20260807T190000
 DTEND;TZID=Pacific/Auckland:20260807T200000
 SUMMARY:Graeber and Everyday Power — Lesson 2: Debt
-DESCRIPTION:Graeber and Everyday Power — Lesson 2: Debt\nhttps://solamiculum589777.substack.com/
+DESCRIPTION:Graeber and Everyday Power — Lesson 2: Debt\nAccess: paid\nHow debt becomes moral discipline under capitalism.\nhttps://solamiculum589777.substack.com/
 LOCATION:Substack email
 STATUS:CONFIRMED
 END:VEVENT
