@@ -1,0 +1,35 @@
+{
+  "courses": [
+    {
+      "title": "Gramsci for Aotearoa",
+      "slug": "gramsci-for-aotearoa",
+      "status": "Live",
+      "description": "Power, hegemony, institutions, and counter-power from below.",
+      "lessons": [
+        {"title": "Lesson 1: Why read Gramsci now?", "date": "2026-07-07", "time": "19:00", "location": "Substack email", "link": "https://solamiculum589777.substack.com/"},
+        {"title": "Lesson 2: Hegemony", "date": "2026-07-10", "time": "19:00", "location": "Substack email", "link": "https://solamiculum589777.substack.com/"},
+        {"title": "Lesson 3: Organic intellectuals", "date": "2026-07-14", "time": "19:00", "location": "Substack email", "link": "https://solamiculum589777.substack.com/"}
+      ]
+    },
+    {
+      "title": "Kropotkin & Mutual Aid",
+      "slug": "kropotkin-mutual-aid",
+      "status": "Draft",
+      "description": "Cooperation, survival, working-class care, and socialist practice.",
+      "lessons": [
+        {"title": "Lesson 1: What is mutual aid?", "date": "2026-07-21", "time": "19:00", "location": "Substack email", "link": "https://solamiculum589777.substack.com/"},
+        {"title": "Lesson 2: Beyond competition", "date": "2026-07-24", "time": "19:00", "location": "Substack email", "link": "https://solamiculum589777.substack.com/"}
+      ]
+    },
+    {
+      "title": "Graeber and Everyday Power",
+      "slug": "graeber-everyday-power",
+      "status": "Draft",
+      "description": "Debt, bullshit jobs, bureaucracy, and radical possibility.",
+      "lessons": [
+        {"title": "Lesson 1: Defamiliarisation", "date": "2026-08-04", "time": "19:00", "location": "Substack email", "link": "https://solamiculum589777.substack.com/"},
+        {"title": "Lesson 2: Debt", "date": "2026-08-07", "time": "19:00", "location": "Substack email", "link": "https://solamiculum589777.substack.com/"}
+      ]
+    }
+  ]
+}
