@@ -1,6 +1,86 @@
 {
   "courses": [
     {
+      "title": "Gramsci for Aotearoa",
+      "slug": "gramsci-for-aotearoa",
+      "status": "Live",
+      "access": "free_subscriber",
+      "calendar_visibility": "public",
+      "description": "Power, hegemony, institutions, and counter-power from below. Six lessons.",
+      "lessons": [
+        {
+          "title": "Course launch",
+          "date": "2026-06-20",
+          "time": "",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Course overview and how to follow along.",
+          "link": "https://solamiculum589777.substack.com/p/gramsci-for-aotearoa-course-launch"
+        },
+        {
+          "title": "Lesson 1: Who was Gramsci, and why read him now?",
+          "date": "2026-06-20",
+          "time": "",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Introduction to Gramsci's life, ideas, and relevance today.",
+          "link": "https://solamiculum589777.substack.com/p/gramsci-for-aotearoa-lesson-1-who"
+        },
+        {
+          "title": "Lesson 2: Hegemony — how ruling ideas become ordinary life",
+          "date": "2026-06-20",
+          "time": "",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Why ruling ideas become ordinary life.",
+          "link": "https://solamiculum589777.substack.com/p/gramsci-for-aotearoa-lesson-2-hegemony"
+        },
+        {
+          "title": "Lesson 3: Organic Intellectuals — who speaks for the working class?",
+          "date": "2026-06-20",
+          "time": "",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Who speaks for the working class and how?",
+          "link": "https://solamiculum589777.substack.com/p/gramsci-for-aotearoa-lesson-3-organic"
+        },
+        {
+          "title": "Lesson 4: Civil Society, the State, and who controls the institutions",
+          "date": "2026-06-20",
+          "time": "",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "How institutions reproduce power — and how to fight back.",
+          "link": "https://solamiculum589777.substack.com/p/gramsci-for-aotearoa-lesson-4-civil"
+        },
+        {
+          "title": "Lesson 5: War of Position — building counter-power from below",
+          "date": "2026-06-20",
+          "time": "",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "The long game of building socialist counter-power.",
+          "link": "https://solamiculum589777.substack.com/p/gramsci-for-aotearoa-lesson-5-war"
+        },
+        {
+          "title": "Lesson 6: Putting it all together — a socialist toolkit for Aotearoa",
+          "date": "2026-06-20",
+          "time": "",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Applying Gramsci's framework to Aotearoa New Zealand today.",
+          "link": "https://solamiculum589777.substack.com/p/gramsci-for-aotearoa-lesson-6-putting"
+        }
+      ]
+    },
+    {
       "title": "Kropotkin & Mutual Aid",
       "slug": "kropotkin-mutual-aid",
       "status": "Live",
@@ -9,63 +89,73 @@
       "description": "Cooperation, survival, working-class care, and socialist practice. Six lessons, free to all.",
       "lessons": [
         {
-          "title": "Lesson 1: Course intro — What is mutual aid?",
+          "title": "Course intro — free email course from The Kiwi Dialect",
           "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Overview and how to enrol.",
+          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-free-email"
+        },
+        {
+          "title": "Lesson 1: Who was Kropotkin, and what is mutual aid?",
+          "date": "2026-06-20",
           "time": "",
           "location": "Substack",
           "access": "public",
           "calendar_visibility": "public",
           "teaser": "An introduction to cooperation beyond capitalist myth-making.",
-          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-free-email"
+          "link": "https://solamiculum589777.substack.com/p/lesson-1-who-was-kropotkin-and-what"
         },
         {
-          "title": "Lesson 2: Mutual Aid vs Social Darwinism",
+          "title": "Lesson 2: Mutual Aid vs Social Darwinism — nature is not a war of all against all",
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
           "access": "public",
           "calendar_visibility": "public",
-          "teaser": "Nature is not a war of all against all.",
+          "teaser": "The idea that humans are naturally selfish is ideology, not science.",
           "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-2"
         },
         {
-          "title": "Lesson 3: Mutual Aid in Working-Class History",
+          "title": "Lesson 3: Mutual Aid in Working-Class History — strikes, friendly societies, and solidarity networks",
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
           "access": "public",
           "calendar_visibility": "public",
-          "teaser": "Strikes, friendly societies, and solidarity networks.",
+          "teaser": "Working-class people have always built mutual aid networks to survive capitalism.",
           "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-3"
         },
         {
-          "title": "Lesson 4: Mutual Aid in Aotearoa",
+          "title": "Lesson 4: Mutual Aid in Aotearoa — hapū, whānau, working-class communities",
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
           "access": "public",
           "calendar_visibility": "public",
-          "teaser": "Hapū, whānau, working-class communities, and cooperative economies.",
+          "teaser": "Mutual aid is not a Western import to Aotearoa. It was already here.",
           "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-4"
         },
         {
-          "title": "Lesson 5: The State vs Mutual Aid",
+          "title": "Lesson 5: The State vs Mutual Aid — when welfare replaced self-organised solidarity",
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
           "access": "public",
           "calendar_visibility": "public",
-          "teaser": "When welfare replaced self-organised solidarity.",
+          "teaser": "The welfare state was a genuine gain — and also used to dismantle self-organisation.",
           "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-5"
         },
         {
-          "title": "Lesson 6: Mutual Aid Now",
+          "title": "Lesson 6: Mutual Aid Now — from food banks to tenants unions to climate response",
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
           "access": "public",
           "calendar_visibility": "public",
-          "teaser": "From food banks to tenants unions to climate response.",
+          "teaser": "Mutual aid is not theoretical. It is happening right now.",
           "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-6"
         }
       ]
@@ -79,23 +169,23 @@
       "description": "Six lessons on debt as a tool of power, why most work is meaningless by design, and how ordinary people build direct democracy. Free, delivered by email.",
       "lessons": [
         {
-          "title": "Course intro — enrol now",
+          "title": "Course intro — free email course from The Kiwi Dialect",
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
           "access": "public",
           "calendar_visibility": "public",
-          "teaser": "Six lessons, free by email. Lesson 1: Who was Graeber? Lesson 2: Debt. Lesson 3: Bullshit Jobs. Lesson 4: Bureaucratic violence. Lesson 5: Direct democracy. Lesson 6: Graeber in Aotearoa.",
+          "teaser": "Six lessons on Graeber's big ideas — free, by email. Enrol here.",
           "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
         },
         {
-          "title": "Lesson 1: Who was Graeber?",
+          "title": "Lesson 1: Who was Graeber? Anthropology, anarchism, and seeing the world differently",
           "date": "TBA",
           "time": "",
           "location": "Email to subscribers",
           "access": "public",
           "calendar_visibility": "public",
-          "teaser": "Anthropology, anarchism, and seeing the world differently. Delivered by email — subscribe to receive.",
+          "teaser": "Delivered by email — subscribe to receive.",
           "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
         },
         {
@@ -151,42 +241,22 @@
       ]
     },
     {
-      "title": "Gramsci for Aotearoa",
-      "slug": "gramsci-for-aotearoa",
+      "title": "Gilles Deleuze for Educators, Artists, and Organisers",
+      "slug": "gilles-deleuze",
       "status": "Upcoming",
       "access": "free_subscriber",
       "calendar_visibility": "public",
-      "description": "Power, hegemony, institutions, and counter-power from below. Coming July 2026.",
+      "description": "Rhizomes, assemblages, and lines of flight — Deleuze's ideas for those who teach, create, and organise.",
       "lessons": [
         {
-          "title": "Lesson 1: Why read Gramsci now?",
-          "date": "2026-07-07",
-          "time": "19:00",
-          "location": "Substack email",
+          "title": "Course intro — coming soon",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
           "access": "free_subscriber",
           "calendar_visibility": "public",
-          "teaser": "Free subscribers can read the lesson in the Courses section.",
-          "link": "https://solamiculum589777.substack.com/"
-        },
-        {
-          "title": "Lesson 2: Hegemony",
-          "date": "2026-07-10",
-          "time": "19:00",
-          "location": "Substack email",
-          "access": "free_subscriber",
-          "calendar_visibility": "public",
-          "teaser": "Why ruling ideas become ordinary life.",
-          "link": "https://solamiculum589777.substack.com/"
-        },
-        {
-          "title": "Lesson 3: Organic intellectuals",
-          "date": "2026-07-14",
-          "time": "19:00",
-          "location": "Substack email",
-          "access": "free_subscriber",
-          "calendar_visibility": "public",
-          "teaser": "Who speaks for the working class and how?",
-          "link": "https://solamiculum589777.substack.com/"
+          "teaser": "Overview of the upcoming Deleuze course.",
+          "link": "https://solamiculum589777.substack.com/p/gilles-deleuze-for-educators-artists"
         }
       ]
     }
