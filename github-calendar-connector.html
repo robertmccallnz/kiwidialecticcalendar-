@@ -23,7 +23,9 @@
   <p class="muted">A public course calendar page for course lessons hosted on GitHub Pages and linked from Substack. Access is controlled on Substack; this page signals what kind of access each course requires.</p>
   <div id="app"></div>
   <h2>Embed in Substack</h2>
-  <pre>&lt;iframe src="https://robertmccallnz.github.io/kiwidialecticcalendar-/github-calendar-connector.html" width="100%" height="900" frameborder="0" loading="lazy" title="The Kiwi Dialectic course calendar"&gt;&lt;/iframe&gt;</pre>
+  <p style="background:#fff3cd;border:1px solid #e6b800;border-radius:8px;padding:1rem;color:#5a4000;"><strong>⚠ Note:</strong> The iframe code below does <strong>not work in Substack</strong>. Substack blocks external iframe embeds for security reasons. Instead, link directly to this page from your Substack post or page. The iframe code is kept here for reference only — do not attempt to use it in a Substack embed block.</p>
+  <pre style="opacity:.6;">&lt;!-- Does NOT work in Substack --&gt;
+&lt;iframe src="https://robertmccallnz.github.io/kiwidialecticcalendar-/github-calendar-connector.html" width="100%" height="900" frameborder="0" loading="lazy" title="The Kiwi Dialectic course calendar"&gt;&lt;/iframe&gt;</pre>
   <script>
     function buttonFor(access, link){
       if(access === 'paid') return `<a class="button paid" href="${link}" target="_blank" rel="noopener noreferrer">Upgrade to unlock</a>`;
