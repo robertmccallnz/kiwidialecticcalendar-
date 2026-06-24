@@ -1,40 +1,193 @@
 {
   "courses": [
     {
-      "title": "Gramsci for Aotearoa",
-      "slug": "gramsci-for-aotearoa",
-      "status": "Live",
-      "access": "free_subscriber",
-      "calendar_visibility": "public",
-      "description": "Power, hegemony, institutions, and counter-power from below.",
-      "lessons": [
-        {"title": "Lesson 1: Why read Gramsci now?", "date": "2026-07-07", "time": "19:00", "location": "Substack email", "access": "free_subscriber", "calendar_visibility": "public", "teaser": "Free subscribers can read the lesson in the Courses section.", "link": "https://solamiculum589777.substack.com/"},
-        {"title": "Lesson 2: Hegemony", "date": "2026-07-10", "time": "19:00", "location": "Substack email", "access": "free_subscriber", "calendar_visibility": "public", "teaser": "Why ruling ideas become ordinary life.", "link": "https://solamiculum589777.substack.com/"},
-        {"title": "Lesson 3: Organic intellectuals", "date": "2026-07-14", "time": "19:00", "location": "Substack email", "access": "free_subscriber", "calendar_visibility": "public", "teaser": "Who speaks for the working class and how?", "link": "https://solamiculum589777.substack.com/"}
-      ]
-    },
-    {
       "title": "Kropotkin & Mutual Aid",
       "slug": "kropotkin-mutual-aid",
-      "status": "Draft",
+      "status": "Live",
       "access": "public",
       "calendar_visibility": "public",
-      "description": "Cooperation, survival, working-class care, and socialist practice.",
+      "description": "Cooperation, survival, working-class care, and socialist practice. Six lessons, free to all.",
       "lessons": [
-        {"title": "Lesson 1: What is mutual aid?", "date": "2026-07-21", "time": "19:00", "location": "Substack email", "access": "public", "calendar_visibility": "public", "teaser": "An introduction to cooperation beyond capitalist myth-making.", "link": "https://solamiculum589777.substack.com/"},
-        {"title": "Lesson 2: Beyond competition", "date": "2026-07-24", "time": "19:00", "location": "Substack email", "access": "public", "calendar_visibility": "public", "teaser": "Why solidarity is practical, not sentimental.", "link": "https://solamiculum589777.substack.com/"}
+        {
+          "title": "Lesson 1: Course intro — What is mutual aid?",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "An introduction to cooperation beyond capitalist myth-making.",
+          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-free-email"
+        },
+        {
+          "title": "Lesson 2: Mutual Aid vs Social Darwinism",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Nature is not a war of all against all.",
+          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-2"
+        },
+        {
+          "title": "Lesson 3: Mutual Aid in Working-Class History",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Strikes, friendly societies, and solidarity networks.",
+          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-3"
+        },
+        {
+          "title": "Lesson 4: Mutual Aid in Aotearoa",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Hapū, whānau, working-class communities, and cooperative economies.",
+          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-4"
+        },
+        {
+          "title": "Lesson 5: The State vs Mutual Aid",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "When welfare replaced self-organised solidarity.",
+          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-5"
+        },
+        {
+          "title": "Lesson 6: Mutual Aid Now",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "From food banks to tenants unions to climate response.",
+          "link": "https://solamiculum589777.substack.com/p/kropotkin-and-mutual-aid-lesson-6"
+        }
       ]
     },
     {
-      "title": "Graeber and Everyday Power",
-      "slug": "graeber-everyday-power",
-      "status": "Draft",
-      "access": "paid",
+      "title": "Graeber: Debt, Bullshit Jobs & Direct Democracy",
+      "slug": "graeber-debt-bullshit-jobs-direct-democracy",
+      "status": "Live",
+      "access": "public",
       "calendar_visibility": "public",
-      "description": "Debt, bullshit jobs, bureaucracy, and radical possibility.",
+      "description": "Six lessons on debt as a tool of power, why most work is meaningless by design, and how ordinary people build direct democracy. Free, delivered by email.",
       "lessons": [
-        {"title": "Lesson 1: Defamiliarisation", "date": "2026-08-04", "time": "19:00", "location": "Substack email", "access": "paid", "calendar_visibility": "public", "teaser": "A teaser is public; full lesson is for paid subscribers.", "link": "https://solamiculum589777.substack.com/"},
-        {"title": "Lesson 2: Debt", "date": "2026-08-07", "time": "19:00", "location": "Substack email", "access": "paid", "calendar_visibility": "public", "teaser": "How debt becomes moral discipline under capitalism.", "link": "https://solamiculum589777.substack.com/"}
+        {
+          "title": "Course intro — enrol now",
+          "date": "2026-06-21",
+          "time": "",
+          "location": "Substack",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Six lessons, free by email. Lesson 1: Who was Graeber? Lesson 2: Debt. Lesson 3: Bullshit Jobs. Lesson 4: Bureaucratic violence. Lesson 5: Direct democracy. Lesson 6: Graeber in Aotearoa.",
+          "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
+        },
+        {
+          "title": "Lesson 1: Who was Graeber?",
+          "date": "TBA",
+          "time": "",
+          "location": "Email to subscribers",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Anthropology, anarchism, and seeing the world differently. Delivered by email — subscribe to receive.",
+          "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
+        },
+        {
+          "title": "Lesson 2: Debt — the first 5,000 years",
+          "date": "TBA",
+          "time": "",
+          "location": "Email to subscribers",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "How debt was invented as a tool of domination long before capitalism.",
+          "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
+        },
+        {
+          "title": "Lesson 3: Bullshit Jobs",
+          "date": "TBA",
+          "time": "",
+          "location": "Email to subscribers",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Why so much work under capitalism is meaningless by design.",
+          "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
+        },
+        {
+          "title": "Lesson 4: Bureaucratic violence",
+          "date": "TBA",
+          "time": "",
+          "location": "Email to subscribers",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "How paperwork, means-testing, and administration humiliate and exhaust people.",
+          "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
+        },
+        {
+          "title": "Lesson 5: Direct democracy & prefigurative politics",
+          "date": "TBA",
+          "time": "",
+          "location": "Email to subscribers",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "What Occupy Wall Street and other movements actually built.",
+          "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
+        },
+        {
+          "title": "Lesson 6: Graeber in Aotearoa today",
+          "date": "TBA",
+          "time": "",
+          "location": "Email to subscribers",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "Debt, work, bureaucracy, and direct democracy through a New Zealand lens.",
+          "link": "https://solamiculum589777.substack.com/p/graeber-debt-bullshit-jobs-and-direct"
+        }
+      ]
+    },
+    {
+      "title": "Gramsci for Aotearoa",
+      "slug": "gramsci-for-aotearoa",
+      "status": "Upcoming",
+      "access": "free_subscriber",
+      "calendar_visibility": "public",
+      "description": "Power, hegemony, institutions, and counter-power from below. Coming July 2026.",
+      "lessons": [
+        {
+          "title": "Lesson 1: Why read Gramsci now?",
+          "date": "2026-07-07",
+          "time": "19:00",
+          "location": "Substack email",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Free subscribers can read the lesson in the Courses section.",
+          "link": "https://solamiculum589777.substack.com/"
+        },
+        {
+          "title": "Lesson 2: Hegemony",
+          "date": "2026-07-10",
+          "time": "19:00",
+          "location": "Substack email",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Why ruling ideas become ordinary life.",
+          "link": "https://solamiculum589777.substack.com/"
+        },
+        {
+          "title": "Lesson 3: Organic intellectuals",
+          "date": "2026-07-14",
+          "time": "19:00",
+          "location": "Substack email",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Who speaks for the working class and how?",
+          "link": "https://solamiculum589777.substack.com/"
+        }
       ]
     }
   ]
