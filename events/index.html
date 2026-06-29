@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Events — The Kiwi Dialectic</title>
+<meta name="description" content="Live upcoming-events calendar for all Kiwi Dialectic courses. Subscribe via .ics, RSS, or JSON.">
+<style>
+  :root{--bg:#0c0c0c;--ink:#f5f0e6;--red:#c41e1e;--grey:#8a8a8a;--card:#141414;--rule:#262626}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.45}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 20px 80px}
+  h1{font-family:"Bebas Neue",sans-serif;letter-spacing:4px;font-size:2.4rem;margin:0 0 6px;color:var(--ink)}
+  .lede{color:var(--grey);margin:0 0 28px;max-width:60ch}
+  .sub{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+  .sub a{display:inline-block;padding:8px 14px;border:1px solid var(--red);color:var(--ink);text-decoration:none;font-size:.85rem;letter-spacing:1px;text-transform:uppercase}
+  .sub a:hover{background:var(--red)}
+  .group{margin-top:32px}
+  .group h2{font-family:"Bebas Neue",sans-serif;letter-spacing:3px;font-size:1.2rem;color:var(--red);border-bottom:1px solid var(--rule);padding-bottom:6px;margin:0 0 14px}
+  .event{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--rule)}
+  .date{font-family:"Bebas Neue",sans-serif;letter-spacing:2px;color:var(--ink)}
+  .date .d{font-size:1.8rem;line-height:1}
+  .date .m{font-size:.85rem;color:var(--grey)}
+  .date .t{font-size:.75rem;color:var(--grey);margin-top:4px}
+  .meta a{color:var(--ink);text-decoration:none;font-weight:600}
+  .meta a:hover{color:var(--red)}
+  .teaser{color:var(--grey);font-size:.92rem;margin:4px 0 0}
+  .badge-link{display:inline-block;margin-top:6px;font-size:.78rem;color:var(--red);letter-spacing:1px;text-transform:uppercase;text-decoration:none;border:1px solid var(--red);padding:3px 8px}
+  .badge-link:hover{background:var(--red);color:var(--ink)}
+  .empty{color:var(--grey);font-style:italic;padding:18px 0}
+  .course-tag{display:inline-block;font-size:.7rem;color:var(--grey);letter-spacing:1px;text-transform:uppercase;border:1px solid var(--rule);padding:2px 6px;margin-left:8px;vertical-align:middle}
+  footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--rule);color:var(--grey);font-size:.85rem}
+  footer a{color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>UPCOMING COURSE EVENTS</h1>
+  <p class="lede">Every Kiwi Dialectic course in one place. Updated live from <a href="https://github.com/robertmccallnz/kiwidialecticcalendar-" style="color:var(--ink)">the course calendar repo</a>.</p>
+  <div class="sub">
+    <a href="../the-kiwi-dialectic-courses.ics">Subscribe (.ics)</a>
+    <a href="../events.rss">RSS feed</a>
+    <a href="../events.json">JSON</a>
+    <a href="../badges/">Badges</a>
+  </div>
+  <div id="campaign-banners"></div>
+  <div id="event-list"><p class="empty">Loading events…</p></div>
+  <footer>
+    Updated <span id="updated"></span>.
+    All times Pacific/Auckland (NZ).
+  </footer>
+</div>
+<script>
+const FEED = "../events.json";
+const COURSE_TITLES = {};
+async function load(){
+  const r = await fetch(FEED, {cache:"no-store"});
+  const data = await r.json();
+  const now = new Date();
+  const upcoming = data.events
+    .map(e => ({...e, _d: new Date(e.start)}))
+    .filter(e => e._d >= new Date(now.getTime() - 6*3600*1000))
+    .sort((a,b) => a._d - b._d);
+  for (const e of data.events) COURSE_TITLES[e.course_slug] = e.course_title;
+
+  const byCourse = {};
+  for (const e of upcoming){
+    (byCourse[e.course_slug] ||= []).push(e);
+  }
+
+  const el = document.getElementById("event-list");
+  if (upcoming.length === 0){
+    el.innerHTML = '<p class="empty">No upcoming events scheduled.</p>';
+  } else {
+    el.innerHTML = "";
+    for (const slug of Object.keys(byCourse)){
+      const g = document.createElement("div");
+      g.className = "group";
+      g.innerHTML = `<h2>${COURSE_TITLES[slug]}</h2>` +
+        byCourse[slug].map(ev => renderEvent(ev)).join("");
+      el.appendChild(g);
+    }
+  }
+  document.getElementById("updated").textContent = new Date(data.generated_at).toLocaleString("en-NZ", {timeZone:"Pacific/Auckland"});
+  renderCampaignBanners(upcoming);
+}
+function renderEvent(e){
+  const d = e._d;
+  const day   = d.toLocaleDateString("en-NZ",{day:"2-digit",timeZone:"Pacific/Auckland"});
+  const mon   = d.toLocaleDateString("en-NZ",{month:"short",timeZone:"Pacific/Auckland"}).toUpperCase();
+  const time  = d.toLocaleTimeString("en-NZ",{hour:"2-digit",minute:"2-digit",timeZone:"Pacific/Auckland"});
+  const badge = e.badge_slug || e.badge;
+  const claim = e.claim_url || (badge ? `../badges/${badge}/` : null);
+  return `<div class="event">
+    <div class="date">
+      <div class="d">${day}</div>
+      <div class="m">${mon}</div>
+      <div class="t">${time}</div>
+    </div>
+    <div class="meta">
+      <a href="${e.link||'#'}" target="_blank" rel="noopener">${e.title}</a>
+      <span class="course-tag">${e.access || ''}</span>
+      ${e.teaser ? `<p class="teaser">${e.teaser}</p>` : ''}
+      ${claim ? `<a class="badge-link" href="${claim}" target="_blank" rel="noopener">Claim pou tohu</a>` : ''}
+    </div>
+  </div>`;
+}
+function renderCampaignBanners(events){
+  // Highlight next event per active campaign
+  const banners = [];
+  const tePaNext = events.find(e => e.course_slug === "te-pa-tuwatawata");
+  const ailNext  = events.find(e => e.course_slug === "ai-literacy-for-families");
+  for (const ev of [tePaNext, ailNext].filter(Boolean)){
+    const when = ev._d.toLocaleDateString("en-NZ",{weekday:"long",day:"numeric",month:"short",timeZone:"Pacific/Auckland"});
+    banners.push(`<div style="padding:14px;border:1px solid var(--red);margin-bottom:14px;background:#1a0a0a">
+      <strong style="color:var(--red);letter-spacing:2px;font-size:.85rem">NEXT UP · ${when.toUpperCase()}</strong><br>
+      <a href="${ev.link||'#'}" style="color:var(--ink);font-weight:600;text-decoration:none">${ev.course_title} — ${ev.title}</a>
+    </div>`);
+  }
+  document.getElementById("campaign-banners").innerHTML = banners.join("");
+}
+load().catch(e => {
+  document.getElementById("event-list").innerHTML = `<p class="empty">Failed to load events: ${e}</p>`;
+});
+</script>
+</body>
+</html>

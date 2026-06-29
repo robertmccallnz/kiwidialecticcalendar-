@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#0c0c0c"/>
+  <rect x="0" y="0" width="14" height="675" fill="#c41e1e"/>
+  <text x="80" y="100" font-family="'Bebas Neue',sans-serif" font-size="30" fill="#c41e1e" letter-spacing="5">TE PĀ TŪWATAWATA · MODULE 6</text>
+  <text y="250" font-family="'Bebas Neue',sans-serif" font-size="60" fill="#f5f0e6" letter-spacing="2"><tspan x="80" dy="0">He anamata rangatira</tspan></text>
+  <text y="346" font-family="-apple-system,sans-serif" font-size="22" fill="#bfb9aa"><tspan x="80" dy="0">Sovereign digital futures — building Māori-controlled</tspan><tspan x="80" dy="32">infrastructure for generations.</tspan></text>
+  <g fill="none" stroke-linecap="round" stroke-width="9"><path d="M 880 230 C 880 185 910 155 950 155 C 990 155 1020 185 1020 230 C 1020 265 990 290 955 290 C 930 290 915 275 915 250 C 915 230 935 215 950 230" stroke="#f5f0e6"/><path d="M 1020 230 C 1020 275 990 305 950 305 C 910 305 880 275 880 230 C 880 185 910 155 950 155 C 975 155 990 170 990 195 C 990 220 970 235 950 225" stroke="#c41e1e"/></g><circle cx="950" cy="230" r="7" fill="#f5f0e6"/>
+  <line x1="80" y1="560" x2="1120" y2="560" stroke="#262626" stroke-width="2"/>
+  <text x="80" y="612" font-family="'Bebas Neue',sans-serif" font-size="28" fill="#f5f0e6" letter-spacing="4">WED 05 AUG 2026 · 6PM NZT</text>
+  <text x="1120" y="612" text-anchor="end" font-family="'Bebas Neue',sans-serif" font-size="22" fill="#c41e1e" letter-spacing="2">TE-PA.ORG · MODULE 6</text>
+</svg>

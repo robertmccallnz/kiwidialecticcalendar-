@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#0c0c0c"/>
+  <rect x="0" y="0" width="14" height="675" fill="#c41e1e"/>
+  <text x="80" y="100" font-family="'Bebas Neue',sans-serif" font-size="30" fill="#c41e1e" letter-spacing="5">TE PĀ TŪWATAWATA · MODULE 1</text>
+  <text y="250" font-family="'Bebas Neue',sans-serif" font-size="60" fill="#f5f0e6" letter-spacing="2"><tspan x="80" dy="0">Whakapapa o te raraunga</tspan></text>
+  <text y="346" font-family="-apple-system,sans-serif" font-size="22" fill="#bfb9aa"><tspan x="80" dy="0">The whakapapa of data — where does data come from, and who</tspan><tspan x="80" dy="32">does it belong to?</tspan></text>
+  <g stroke="#f5f0e6" stroke-width="10" fill="none" stroke-linecap="round"><path d="M 980 380 C 880 380 800 300 800 200 C 800 130 870 80 950 80 C 1010 80 1050 130 1050 180 C 1050 220 1020 250 980 250 C 960 250 940 230 940 210"/></g><circle cx="940" cy="210" r="9" fill="#c41e1e"/>
+  <line x1="80" y1="560" x2="1120" y2="560" stroke="#262626" stroke-width="2"/>
+  <text x="80" y="612" font-family="'Bebas Neue',sans-serif" font-size="28" fill="#f5f0e6" letter-spacing="4">WED 01 JUL 2026 · 6PM NZT</text>
+  <text x="1120" y="612" text-anchor="end" font-family="'Bebas Neue',sans-serif" font-size="22" fill="#c41e1e" letter-spacing="2">TE-PA.ORG · MODULE 1</text>
+</svg>
