@@ -6,7 +6,8 @@ import subprocess, sys
 from pathlib import Path
 
 SCRIPTS = Path(__file__).parent
-for s in ["generate_ics.py", "generate_events.py", "generate_badges.py"]:
+for s in ["generate_ics.py", "generate_events.py", "generate_badges.py",
+          "generate_announcements_rss.py", "generate_subscriber_rss.py"]:
     print(f"→ {s}")
     r = subprocess.run([sys.executable, str(SCRIPTS / s)])
     if r.returncode != 0:

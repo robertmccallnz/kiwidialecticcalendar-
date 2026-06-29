@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>The Kiwi Dialectic — Subscriber Feed (AI Warrior + Mapper)</title>
+<link>https://robertmccallnz.github.io/kiwidialecticcalendar-/</link>
+<atom:link href="https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/subscriber.rss" rel="self" type="application/rss+xml"/>
+<description>For people who follow the project, not the calendar. AI Warrior site updates plus live indigenous-news pulses from the te-pa.org rhizome mapper.</description>
+<language>en-NZ</language>
+<lastBuildDate>Mon, 29 Jun 2026 16:37:44 +0000</lastBuildDate>
+<item>
+  <title>AI Warrior — Reframe Te Pā as open kaupapa + remove broken partner links (#6)</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/1fef69c9d874d89b7d426e70a252d963f8ef2986</link>
+  <guid isPermaLink="false">aw-1fef69c9d874</guid>
+  <pubDate>Mon, 29 Jun 2026 16:18:30 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Reframe Te Pā as open kaupapa + remove broken partner links (#6)</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/1fef69c9d874d89b7d426e70a252d963f8ef2986">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — feat(footer): link te-pa.org + Calendar &amp;amp; Badges into ecosystem strip…</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/39f9dc5e8686cbf44b2d24f80d2338490a8d5cf3</link>
+  <guid isPermaLink="false">aw-39f9dc5e8686</guid>
+  <pubDate>Mon, 29 Jun 2026 06:12:04 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>feat(footer): link te-pa.org + Calendar &amp;amp; Badges into ecosystem strip…</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/39f9dc5e8686cbf44b2d24f80d2338490a8d5cf3">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — chore(css): strip dead #families selectors after section removal (#3)</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/b3bfad7ae4c9dee70ca523baeee0d5b44a1938b6</link>
+  <guid isPermaLink="false">aw-b3bfad7ae4c9</guid>
+  <pubDate>Mon, 29 Jun 2026 05:02:30 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>chore(css): strip dead #families selectors after section removal (#3)</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/b3bfad7ae4c9dee70ca523baeee0d5b44a1938b6">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — feat(design): Hotere-informed redesign v0.3 — full site, additive CSS…</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/0626b294fae2da2e2dba73e6153304d1369642f0</link>
+  <guid isPermaLink="false">aw-0626b294fae2</guid>
+  <pubDate>Mon, 29 Jun 2026 04:59:38 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>feat(design): Hotere-informed redesign v0.3 — full site, additive CSS…</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/0626b294fae2da2e2dba73e6153304d1369642f0">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — refactor: route AI Literacy for Families to its own site (#2)</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/e00d26c9c54e283ec7d614b71468b01711ed202a</link>
+  <guid isPermaLink="false">aw-e00d26c9c54e</guid>
+  <pubDate>Mon, 29 Jun 2026 04:59:18 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>refactor: route AI Literacy for Families to its own site (#2)</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/e00d26c9c54e283ec7d614b71468b01711ed202a">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — feat(thinkers): point Freire card at canonical course-launch slug</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/038496f84ab67319950b478b49a3413be2eeb7e4</link>
+  <guid isPermaLink="false">aw-038496f84ab6</guid>
+  <pubDate>Mon, 29 Jun 2026 02:35:36 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>feat(thinkers): point Freire card at canonical course-launch slug</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/038496f84ab67319950b478b49a3413be2eeb7e4">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — fix(thinkers): point cards at real Substack slugs; mark Freire+Bakuni…</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/4e84bf599febf71a19ebf4649f8065fa2b34a48c</link>
+  <guid isPermaLink="false">aw-4e84bf599feb</guid>
+  <pubDate>Mon, 29 Jun 2026 02:07:30 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>fix(thinkers): point cards at real Substack slugs; mark Freire+Bakuni…</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/4e84bf599febf71a19ebf4649f8065fa2b34a48c">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Add AI Literacy for Families sister-project section + nav link</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/09d500186e6b3ad2a555927d34369df8db905fa0</link>
+  <guid isPermaLink="false">aw-09d500186e6b</guid>
+  <pubDate>Mon, 29 Jun 2026 01:31:40 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Add AI Literacy for Families sister-project section + nav link</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/09d500186e6b3ad2a555927d34369df8db905fa0">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Add Bakunin dossier + Lesson 1 draft to _research</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/47c96b0d36aa8f783cc8d917b009ccc6a82a3f21</link>
+  <guid isPermaLink="false">aw-47c96b0d36aa</guid>
+  <pubDate>Mon, 29 Jun 2026 01:05:41 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Add Bakunin dossier + Lesson 1 draft to _research</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/47c96b0d36aa8f783cc8d917b009ccc6a82a3f21">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Point Badges nav link to Pages URL (HTML rendering)</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/593e1ddf43ac892e61494a93fcc138cae89ee07e</link>
+  <guid isPermaLink="false">aw-593e1ddf43ac</guid>
+  <pubDate>Mon, 29 Jun 2026 01:02:03 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Point Badges nav link to Pages URL (HTML rendering)</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/593e1ddf43ac892e61494a93fcc138cae89ee07e">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Wire Mapper + Badges links into AI Warrior nav</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/049f024dd558a290af770e94ae42c000ec42b140</link>
+  <guid isPermaLink="false">aw-049f024dd558</guid>
+  <pubDate>Mon, 29 Jun 2026 01:01:49 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Wire Mapper + Badges links into AI Warrior nav</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/049f024dd558a290af770e94ae42c000ec42b140">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Bakunin thinker tile → course launch + add Tangi o te Tāheke social kit</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/12ccc0448ed5a4b429e9b917d4a838e3fc5254e0</link>
+  <guid isPermaLink="false">aw-12ccc0448ed5</guid>
+  <pubDate>Mon, 29 Jun 2026 00:46:20 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Bakunin thinker tile → course launch + add Tangi o te Tāheke social kit</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/12ccc0448ed5a4b429e9b917d4a838e3fc5254e0">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Add Hotere-aesthetic Media Kit: trilingual social posters + graduate …</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/55a1615339aec953808b47de3bdcab5413c0bb01</link>
+  <guid isPermaLink="false">aw-55a1615339ae</guid>
+  <pubDate>Sun, 28 Jun 2026 07:06:24 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Add Hotere-aesthetic Media Kit: trilingual social posters + graduate …</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/55a1615339aec953808b47de3bdcab5413c0bb01">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Add Partners page linking Te Pā and indigenous AI/pedagogy/arts kaupapa</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/52bc047de2f84ca9d79d19bbaeece4f1f9334f42</link>
+  <guid isPermaLink="false">aw-52bc047de2f8</guid>
+  <pubDate>Sun, 28 Jun 2026 06:27:45 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Add Partners page linking Te Pā and indigenous AI/pedagogy/arts kaupapa</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/52bc047de2f84ca9d79d19bbaeece4f1f9334f42">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Replace 6 module cards with single CTA to Substack /s/courses</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/d61897591759d0e527fb9e8fe5d2dbb3434147f3</link>
+  <guid isPermaLink="false">aw-d61897591759</guid>
+  <pubDate>Sun, 28 Jun 2026 04:47:35 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Replace 6 module cards with single CTA to Substack /s/courses</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/d61897591759d0e527fb9e8fe5d2dbb3434147f3">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Swap site logo to KD koru-spiral mark to match @musenz X identity</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/eb0bda181a96bf09002b598559f33561771fc1de</link>
+  <guid isPermaLink="false">aw-eb0bda181a96</guid>
+  <pubDate>Sun, 28 Jun 2026 04:14:20 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Swap site logo to KD koru-spiral mark to match @musenz X identity</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/eb0bda181a96bf09002b598559f33561771fc1de">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Add @musenz X avatar (KD koru mark) to branding assets</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/f26ccb7806459c9af9e837304f0747aadc9177f2</link>
+  <guid isPermaLink="false">aw-f26ccb780645</guid>
+  <pubDate>Sun, 28 Jun 2026 04:12:35 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Add @musenz X avatar (KD koru mark) to branding assets</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/f26ccb7806459c9af9e837304f0747aadc9177f2">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Add branding assets: Francis Bacon stencil portrait + brand README</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/5e30c6dd6ed95480cfa2aa93f3a39ee6cca5778c</link>
+  <guid isPermaLink="false">aw-5e30c6dd6ed9</guid>
+  <pubDate>Sun, 28 Jun 2026 04:10:14 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Add branding assets: Francis Bacon stencil portrait + brand README</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/5e30c6dd6ed95480cfa2aa93f3a39ee6cca5778c">View change on GitHub →</a></p>]]></description>
+</item>
+<item>
+  <title>AI Warrior — Launch: Become an AI Warrior — single-page course site with social kit</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/64bd317c50ebbda7a42b9145fba776235023786e</link>
+  <guid isPermaLink="false">aw-64bd317c50eb</guid>
+  <pubDate>Sun, 28 Jun 2026 04:06:24 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Launch: Become an AI Warrior — single-page course site with social kit</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/64bd317c50ebbda7a42b9145fba776235023786e">View change on GitHub →</a></p>]]></description>
+</item>
+</channel>
+</rss>
