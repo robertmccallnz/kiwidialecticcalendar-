@@ -8,6 +8,10 @@ on:
       - 'scripts/**'
       - '.github/workflows/build.yml'
   workflow_dispatch:
+  schedule:
+    # Run the link check every Monday 18:00 UTC (Tuesday 07:00 NZST) so a
+    # newly-published lesson with the wrong slug gets caught the next day.
+    - cron: '0 18 * * 1'
 
 permissions:
   contents: write
@@ -23,6 +27,8 @@ jobs:
         run: pip install cairosvg || true
       - name: Build artefacts
         run: python3 scripts/build_all.py
+      - name: Audit all links
+        run: python3 scripts/check_links.py
       - name: Commit regenerated files
         run: |
           git config user.name  "kd-bot"
