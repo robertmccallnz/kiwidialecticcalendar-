@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#0c0c0c"/>
+  <rect x="0" y="0" width="14" height="675" fill="#c41e1e"/>
+  <text x="80" y="100" font-family="'Bebas Neue',sans-serif" font-size="30" fill="#c41e1e" letter-spacing="5">TE PĀ TŪWATAWATA · MODULE 4</text>
+  <text y="210" font-family="'Bebas Neue',sans-serif" font-size="60" fill="#f5f0e6" letter-spacing="2"><tspan x="80" dy="0">Tikanga, ture, mana</tspan><tspan x="80" dy="68">whakahaere</tspan></text>
+  <text y="374" font-family="-apple-system,sans-serif" font-size="22" fill="#bfb9aa"><tspan x="80" dy="0">Tikanga, law, and governance — how Māori legal frameworks</tspan><tspan x="80" dy="32">challenge tech power.</tspan></text>
+  <g fill="none" stroke="#f5f0e6" stroke-width="8" stroke-linecap="round"><path d="M 800 230 C 800 170 850 170 880 210 C 910 250 910 320 880 320 C 850 320 850 230 890 230 C 940 230 950 320 990 320 C 1030 320 1040 240 1010 200 C 980 170 970 230 1010 230 C 1050 230 1060 190 1060 150"/></g><circle cx="800" cy="230" r="7" fill="#c41e1e"/>
+  <line x1="80" y1="560" x2="1120" y2="560" stroke="#262626" stroke-width="2"/>
+  <text x="80" y="612" font-family="'Bebas Neue',sans-serif" font-size="28" fill="#f5f0e6" letter-spacing="4">WED 22 JUL 2026 · 6PM NZT</text>
+  <text x="1120" y="612" text-anchor="end" font-family="'Bebas Neue',sans-serif" font-size="22" fill="#c41e1e" letter-spacing="2">TE-PA.ORG · MODULE 4</text>
+</svg>

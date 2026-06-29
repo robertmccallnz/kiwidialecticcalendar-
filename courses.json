@@ -518,8 +518,8 @@
       "lessons": [
         {
           "title": "Course launch — AI Literacy for Families",
-          "date": "2026-07-06",
-          "time": "19:00",
+          "date": "2026-07-04",
+          "time": "10:00",
           "location": "Substack + GitHub Pages",
           "access": "free_public",
           "calendar_visibility": "public",
@@ -529,8 +529,8 @@
         },
         {
           "title": "Week 1 — How AI actually works",
-          "date": "2026-07-13",
-          "time": "19:00",
+          "date": "2026-07-11",
+          "time": "10:00",
           "location": "GitHub Pages",
           "access": "free_public",
           "calendar_visibility": "public",
@@ -540,8 +540,8 @@
         },
         {
           "title": "Week 2 — Bias & deepfakes",
-          "date": "2026-07-20",
-          "time": "19:00",
+          "date": "2026-07-18",
+          "time": "10:00",
           "location": "GitHub Pages",
           "access": "free_public",
           "calendar_visibility": "public",
@@ -551,8 +551,8 @@
         },
         {
           "title": "Week 3 — Privacy & ethics",
-          "date": "2026-07-27",
-          "time": "19:00",
+          "date": "2026-07-25",
+          "time": "10:00",
           "location": "GitHub Pages",
           "access": "free_public",
           "calendar_visibility": "public",
@@ -562,8 +562,8 @@
         },
         {
           "title": "Week 4 — Critical thinking & fact-checking",
-          "date": "2026-08-03",
-          "time": "19:00",
+          "date": "2026-08-01",
+          "time": "10:00",
           "location": "GitHub Pages",
           "access": "free_public",
           "calendar_visibility": "public",
@@ -573,8 +573,8 @@
         },
         {
           "title": "Week 5 — Setting household digital boundaries",
-          "date": "2026-08-10",
-          "time": "19:00",
+          "date": "2026-08-08",
+          "time": "10:00",
           "location": "GitHub Pages",
           "access": "free_public",
           "calendar_visibility": "public",
@@ -584,8 +584,8 @@
         },
         {
           "title": "Week 6 — Modeling responsible tech habits",
-          "date": "2026-08-17",
-          "time": "19:00",
+          "date": "2026-08-15",
+          "time": "10:00",
           "location": "GitHub Pages",
           "access": "free_public",
           "calendar_visibility": "public",
@@ -594,7 +594,25 @@
           "published": true
         }
       ],
-      "chat_thread": ""
+      "chat_thread": "",
+      "campaign": {
+        "cadence": "weekly",
+        "day_of_week": "Saturday",
+        "post_time": "08:00",
+        "auto_post_platforms": [
+          "x",
+          "facebook_pages",
+          "bluesky"
+        ],
+        "draft_notify_platforms": [
+          "linkedin",
+          "instagram",
+          "tiktok",
+          "substack"
+        ],
+        "starts": "2026-07-04",
+        "ends": "2026-08-15"
+      }
     },
     {
       "title": "Te Pā Tūwatawata — AI, tikanga & data sovereignty",
@@ -604,78 +622,108 @@
       "calendar_visibility": "public",
       "external_course": true,
       "external_url": "https://te-pa.org/",
-      "badge_glyph": "koru",
+      "badge_glyph": null,
       "license": "CC BY-NC-SA 4.0",
       "description": "A bilingual te reo Māori / English mini-site of six modules on Māori data sovereignty, tikanga, and Indigenous digital futures. Built on a Freire / Graeber / Kropotkin / Kaupapa Māori pedagogy. Free to use, translate, fork, and self-host.",
       "lessons": [
         {
           "title": "Module 1 — Whakapapa o te raraunga",
-          "date": "2026-06-29",
-          "time": "",
+          "date": "2026-07-01",
+          "time": "18:00",
           "location": "te-pa.org",
           "access": "free_public",
           "calendar_visibility": "public",
           "teaser": "The whakapapa of data — where does data come from, and who does it belong to?",
           "link": "https://te-pa.org/modules/module-1.html",
-          "published": true
+          "published": true,
+          "badge_slug": "te-pa-module-1",
+          "claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/te-pa-module-1/"
         },
         {
           "title": "Module 2 — Te Pā Tūwatawata hei tauira",
-          "date": "2026-06-29",
-          "time": "",
+          "date": "2026-07-08",
+          "time": "18:00",
           "location": "te-pa.org",
           "access": "free_public",
           "calendar_visibility": "public",
           "teaser": "Te Pā Tūwatawata as a model for Indigenous-led digital infrastructure.",
           "link": "https://te-pa.org/modules/module-2.html",
-          "published": true
+          "published": true,
+          "badge_slug": "te-pa-module-2",
+          "claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/te-pa-module-2/"
         },
         {
           "title": "Module 3 — AI me te raupatu matihiko",
-          "date": "2026-06-29",
-          "time": "",
+          "date": "2026-07-15",
+          "time": "18:00",
           "location": "te-pa.org",
           "access": "free_public",
           "calendar_visibility": "public",
           "teaser": "AI and digital extraction — tracing the colonial logic inside machine learning.",
           "link": "https://te-pa.org/modules/module-3.html",
-          "published": true
+          "published": true,
+          "badge_slug": "te-pa-module-3",
+          "claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/te-pa-module-3/"
         },
         {
           "title": "Module 4 — Tikanga, ture, mana whakahaere",
-          "date": "2026-06-29",
-          "time": "",
+          "date": "2026-07-22",
+          "time": "18:00",
           "location": "te-pa.org",
           "access": "free_public",
           "calendar_visibility": "public",
           "teaser": "Tikanga, law, and governance — how Māori legal frameworks challenge tech power.",
           "link": "https://te-pa.org/modules/module-4.html",
-          "published": true
+          "published": true,
+          "badge_slug": "te-pa-module-4",
+          "claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/te-pa-module-4/"
         },
         {
           "title": "Module 5 — Hoahoa tika",
-          "date": "2026-06-29",
-          "time": "",
+          "date": "2026-07-29",
+          "time": "18:00",
           "location": "te-pa.org",
           "access": "free_public",
           "calendar_visibility": "public",
           "teaser": "Designing ethical systems — what does a decolonised AI architecture look like?",
           "link": "https://te-pa.org/modules/module-5.html",
-          "published": true
+          "published": true,
+          "badge_slug": "te-pa-module-5",
+          "claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/te-pa-module-5/"
         },
         {
           "title": "Module 6 — He anamata rangatira",
-          "date": "2026-06-29",
-          "time": "",
+          "date": "2026-08-05",
+          "time": "18:00",
           "location": "te-pa.org",
           "access": "free_public",
           "calendar_visibility": "public",
           "teaser": "Sovereign digital futures — building Māori-controlled infrastructure for generations.",
           "link": "https://te-pa.org/modules/module-6.html",
-          "published": true
+          "published": true,
+          "badge_slug": "te-pa-module-6",
+          "claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/te-pa-module-6/"
         }
       ],
-      "chat_thread": ""
+      "chat_thread": "",
+      "campaign": {
+        "cadence": "weekly",
+        "day_of_week": "Wednesday",
+        "post_time": "07:00",
+        "auto_post_platforms": [
+          "x",
+          "facebook_pages",
+          "bluesky"
+        ],
+        "draft_notify_platforms": [
+          "linkedin",
+          "instagram",
+          "tiktok",
+          "substack"
+        ],
+        "starts": "2026-07-01",
+        "ends": "2026-08-05"
+      }
     }
   ]
 }

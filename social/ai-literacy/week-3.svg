@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#fffaf0"/>
+  <rect x="0" y="0" width="14" height="675" fill="#1a3a6c"/>
+  <text x="80" y="100" font-family="-apple-system,sans-serif" font-weight="700" font-size="24" fill="#1a3a6c" letter-spacing="3">AI LITERACY FOR FAMILIES · WEEK 3</text>
+  <text y="250" font-family="-apple-system,sans-serif" font-weight="700" font-size="62" fill="#1a1a1a" letter-spacing="-1"><tspan x="80" dy="0">Week 3 — Privacy &amp; ethics</tspan></text>
+  <text y="350" font-family="-apple-system,sans-serif" font-size="22" fill="#4a4a4a"><tspan x="80" dy="0">Who owns the conversation when you talk to a chatbot.</tspan></text>
+  <g transform="translate(880,140)" stroke="#1a3a6c" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M 0 140 L 130 20 L 260 140"/><rect x="20" y="140" width="220" height="130"/><rect x="100" y="180" width="60" height="90" fill="#c41e1e" stroke="none"/><rect x="40" y="160" width="40" height="40"/><rect x="180" y="160" width="40" height="40"/><path d="M 195 60 Q 215 45 200 30 Q 185 15 205 0" stroke-width="4"/></g>
+  <line x1="80" y1="560" x2="1120" y2="560" stroke="#e8e0cf" stroke-width="2"/>
+  <text x="80" y="612" font-family="-apple-system,sans-serif" font-weight="700" font-size="22" fill="#1a3a6c" letter-spacing="2">SAT 25 JUL 2026 · 10AM NZT</text>
+  <text x="1120" y="612" text-anchor="end" font-family="-apple-system,sans-serif" font-weight="700" font-size="22" fill="#c41e1e" letter-spacing="2">AI-LITERACY-FOR-FAMILIES.VERCEL.APP</text>
+</svg>
