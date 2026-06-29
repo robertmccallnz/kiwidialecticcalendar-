@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "start_date": "2026-06-30",
+    "end_date": "2026-07-27",
+    "delivery_time_local": "08:00",
+    "timezone": "Pacific/Auckland",
+    "cadence": "daily",
+    "pattern": "weekday=AI Warrior, weekend=Families"
+  },
+  "schedule": [
+    {"day": 1,  "date": "2026-06-30", "dow": "Tue", "track": "AW",  "title": "Bakunin Launch — Tangi o te Tāheke",                "draft": "substack_bakunin_course_launch.md",       "slug": "bakunin-mo-aotearoa-course-launch",            "visibility": "subscriber"},
+    {"day": 2,  "date": "2026-07-01", "dow": "Wed", "track": "AW",  "title": "Bakunin Lesson 1 — Ko wai a Bakunin?",               "draft": "lesson_1_ko_wai_a_bakunin.md",            "slug": "bakunin-mo-aotearoa-lesson-1-ko-wai",          "visibility": "subscriber"},
+    {"day": 3,  "date": "2026-07-02", "dow": "Thu", "track": "AW",  "title": "Bakunin Lesson 2 — Mana motuhake",                  "draft": "substack_bakunin_lesson_2.md",            "slug": "bakunin-mo-aotearoa-lesson-2-mana-motuhake",   "visibility": "subscriber"},
+    {"day": 4,  "date": "2026-07-03", "dow": "Fri", "track": "AW",  "title": "Bakunin Lesson 3 — Te tāheke",                       "draft": "substack_bakunin_lesson_3.md",            "slug": "bakunin-mo-aotearoa-lesson-3-te-taheke",       "visibility": "subscriber"},
+    {"day": 5,  "date": "2026-07-04", "dow": "Sat", "track": "FAM", "title": "Families Launch — Refuse the chatbot-friend",        "draft": "substack_families_course_launch.md",      "slug": "ai-literacy-for-families-launch",              "visibility": "free"},
+    {"day": 6,  "date": "2026-07-05", "dow": "Sun", "track": "FAM", "title": "Families Intro — A 6-week course",                   "draft": "substack_families_intro.md",              "slug": "ai-literacy-for-families-intro",               "visibility": "free"},
+    {"day": 7,  "date": "2026-07-06", "dow": "Mon", "track": "AW",  "title": "Bakunin Lesson 4 — Caracoles in the kāinga",         "draft": "substack_bakunin_lesson_4.md",            "slug": "bakunin-mo-aotearoa-lesson-4-caracoles",       "visibility": "subscriber"},
+    {"day": 8,  "date": "2026-07-07", "dow": "Tue", "track": "AW",  "title": "Bakunin Lesson 5 — Algorithmic Leviathan",           "draft": "substack_bakunin_lesson_5.md",            "slug": "bakunin-mo-aotearoa-lesson-5-algorithmic-leviathan", "visibility": "subscriber"},
+    {"day": 9,  "date": "2026-07-08", "dow": "Wed", "track": "AW",  "title": "Bakunin Lesson 6 — Arm the Class",                   "draft": "substack_bakunin_lesson_6.md",            "slug": "bakunin-mo-aotearoa-lesson-6-arm-the-class",   "visibility": "subscriber"},
+    {"day": 10, "date": "2026-07-09", "dow": "Thu", "track": "AW",  "title": "Freire Launch — Pedagogy of the Algorithm",          "draft": "substack_freire_course_launch.md",        "slug": "freire-mo-aotearoa-course-launch",             "visibility": "subscriber"},
+    {"day": 11, "date": "2026-07-10", "dow": "Fri", "track": "AW",  "title": "Freire Lesson 1 — Ko wai a Freire?",                 "draft": "substack_freire_lesson_1.md",             "slug": "freire-mo-aotearoa-lesson-1-ko-wai",           "visibility": "subscriber"},
+    {"day": 12, "date": "2026-07-11", "dow": "Sat", "track": "FAM", "title": "Families Week 1 — How AI actually works",           "draft": "substack_families_week_1.md",             "slug": "ai-literacy-for-families-week-1",              "visibility": "free"},
+    {"day": 13, "date": "2026-07-12", "dow": "Sun", "track": "FAM", "title": "Families Week 2 — Bias and deepfakes",              "draft": "substack_families_week_2.md",             "slug": "ai-literacy-for-families-week-2",              "visibility": "free"},
+    {"day": 14, "date": "2026-07-13", "dow": "Mon", "track": "AW",  "title": "Freire Lesson 2 — Banking model goes industrial",   "draft": "substack_freire_lesson_2.md",             "slug": "freire-mo-aotearoa-lesson-2-banking-model",    "visibility": "subscriber"},
+    {"day": 15, "date": "2026-07-14", "dow": "Tue", "track": "AW",  "title": "Freire Lesson 3 — Problem-posing",                  "draft": "substack_freire_lesson_3.md",             "slug": "freire-mo-aotearoa-lesson-3-problem-posing",   "visibility": "subscriber"},
+    {"day": 16, "date": "2026-07-15", "dow": "Wed", "track": "AW",  "title": "Freire Lesson 4 — Conscientização",                 "draft": "substack_freire_lesson_4.md",             "slug": "freire-mo-aotearoa-lesson-4-conscientizacao", "visibility": "subscriber"},
+    {"day": 17, "date": "2026-07-16", "dow": "Thu", "track": "AW",  "title": "Freire Lesson 5 — Kura kaupapa Māori",              "draft": "substack_freire_lesson_5.md",             "slug": "freire-mo-aotearoa-lesson-5-kura-kaupapa",     "visibility": "subscriber"},
+    {"day": 18, "date": "2026-07-17", "dow": "Fri", "track": "AW",  "title": "Freire Lesson 6 — A Freirean praxis",               "draft": "substack_freire_lesson_6.md",             "slug": "freire-mo-aotearoa-lesson-6-praxis",           "visibility": "subscriber"},
+    {"day": 19, "date": "2026-07-18", "dow": "Sat", "track": "FAM", "title": "Families Week 3 — Privacy and ethics",              "draft": "substack_families_week_3.md",             "slug": "ai-literacy-for-families-week-3",              "visibility": "free"},
+    {"day": 20, "date": "2026-07-19", "dow": "Sun", "track": "FAM", "title": "Families Week 4 — Critical thinking and SIFT",      "draft": "substack_families_week_4.md",             "slug": "ai-literacy-for-families-week-4",              "visibility": "free"},
+    {"day": 21, "date": "2026-07-20", "dow": "Mon", "track": "AW",  "title": "Bridge — Privacy is a class issue",                 "draft": "substack_post_1_privacy_is_a_class_issue.md",         "slug": "privacy-is-a-class-issue",                  "visibility": "subscriber"},
+    {"day": 22, "date": "2026-07-21", "dow": "Tue", "track": "AW",  "title": "Bridge — Household agreement as federation",        "draft": "substack_post_2_household_agreement_federation.md",   "slug": "household-agreement-federation",            "visibility": "subscriber"},
+    {"day": 23, "date": "2026-07-22", "dow": "Wed", "track": "AW",  "title": "Bridge — Why CC BY-SA is political",                "draft": "substack_post_3_why_cc_by_sa_political.md",           "slug": "why-cc-by-sa-is-political",                 "visibility": "subscriber"},
+    {"day": 24, "date": "2026-07-23", "dow": "Thu", "track": "AW",  "title": "Deleuze teaser — Course 5, 2027",                   "draft": "substack_deleuze_teaser.md",              "slug": "deleuze-teaser-course-5-2027",                 "visibility": "subscriber"},
+    {"day": 25, "date": "2026-07-24", "dow": "Fri", "track": "AW",  "title": "Reading list — six thinkers, fifty books",          "draft": "substack_reading_list.md",                "slug": "ai-warrior-reading-list",                      "visibility": "free"},
+    {"day": 26, "date": "2026-07-25", "dow": "Sat", "track": "FAM", "title": "Families Week 5 — Household boundaries",            "draft": "substack_families_week_5.md",             "slug": "ai-literacy-for-families-week-5",              "visibility": "free"},
+    {"day": 27, "date": "2026-07-26", "dow": "Sun", "track": "FAM", "title": "Families Week 6 — Modeling responsible habits",     "draft": "substack_families_week_6.md",             "slug": "ai-literacy-for-families-week-6",              "visibility": "free"},
+    {"day": 28, "date": "2026-07-27", "dow": "Mon", "track": "AW",  "title": "AI Warrior — series recap and next horizon",       "draft": "substack_ai_warrior_finale.md",           "slug": "ai-warrior-series-finale-recap",               "visibility": "subscriber"}
+  ]
+}
