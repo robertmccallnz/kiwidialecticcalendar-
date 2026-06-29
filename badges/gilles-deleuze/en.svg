@@ -2,13 +2,13 @@
   <rect width="1200" height="1200" fill="#0c0c0c"/>
   <circle cx="600" cy="600" r="560" fill="#0e0e0e" stroke="#c41e1e" stroke-width="10"/>
   <circle cx="600" cy="600" r="500" fill="none" stroke="#1a1a1a" stroke-width="2"/>
-  <defs><path id="arc-503242" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
+  <defs><path id="arc-514931" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="54" fill="#f5f0e6" letter-spacing="6">
-  <textPath href="#arc-503242" startOffset="50%" text-anchor="middle">GILLES DELEUZE FOR EDUCATO…</textPath>
+  <textPath href="#arc-514931" startOffset="50%" text-anchor="middle">GILLES DELEUZE FOR EDUCATO…</textPath>
 </text>
-  <defs><path id="arc-128513" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
+  <defs><path id="arc-211047" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="42" fill="#c41e1e" letter-spacing="8">
-  <textPath href="#arc-128513" startOffset="50%" text-anchor="middle">COMPLETED — COURSE POU</textPath>
+  <textPath href="#arc-211047" startOffset="50%" text-anchor="middle">COMPLETED — COURSE POU</textPath>
 </text>
   <g fill="none" stroke="#f5f0e6" stroke-width="10">
                     <circle cx="500" cy="540" r="22"/><circle cx="700" cy="540" r="22"/>
