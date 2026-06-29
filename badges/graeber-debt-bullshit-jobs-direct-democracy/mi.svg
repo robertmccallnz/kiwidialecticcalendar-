@@ -2,13 +2,13 @@
   <rect width="1200" height="1200" fill="#0c0c0c"/>
   <circle cx="600" cy="600" r="560" fill="#0e0e0e" stroke="#c41e1e" stroke-width="10"/>
   <circle cx="600" cy="600" r="500" fill="none" stroke="#1a1a1a" stroke-width="2"/>
-  <defs><path id="arc-282178" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
+  <defs><path id="arc-473541" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="54" fill="#f5f0e6" letter-spacing="6">
-  <textPath href="#arc-282178" startOffset="50%" text-anchor="middle">GRAEBER: DEBT, BULLSHIT JO…</textPath>
+  <textPath href="#arc-473541" startOffset="50%" text-anchor="middle">GRAEBER: DEBT, BULLSHIT JO…</textPath>
 </text>
-  <defs><path id="arc-529295" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
+  <defs><path id="arc-217669" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="42" fill="#c41e1e" letter-spacing="8">
-  <textPath href="#arc-529295" startOffset="50%" text-anchor="middle">KUA OTI — POU TOHU</textPath>
+  <textPath href="#arc-217669" startOffset="50%" text-anchor="middle">KUA OTI — POU TOHU</textPath>
 </text>
   <g fill="none" stroke="#f5f0e6" stroke-width="14">
                   <ellipse cx="540" cy="600" rx="60" ry="90"/>

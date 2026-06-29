@@ -81,13 +81,14 @@
       ],
       "chat_thread": "",
       "badge_glyph": "gear",
-      "badge_slug": "gramsci-for-aotearoa-pou"
+      "badge_slug": "gramsci-for-aotearoa-pou",
+      "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#gramsci-for-aotearoa"
     },
     {
       "title": "Kropotkin & Mutual Aid",
       "slug": "kropotkin-mutual-aid",
       "status": "Live",
-      "access": "public",
+      "access": "free_subscriber",
       "calendar_visibility": "public",
       "description": "Cooperation, survival, working-class care, and socialist practice. Six lessons, free to all.",
       "lessons": [
@@ -96,7 +97,7 @@
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Overview and how to enrol.",
           "link": "https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-free-email"
@@ -106,7 +107,7 @@
           "date": "2026-06-20",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "An introduction to cooperation beyond capitalist myth-making.",
           "link": "https://www.kiwidialectic.com/p/lesson-1-who-was-kropotkin-and-what"
@@ -116,7 +117,7 @@
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "The idea that humans are naturally selfish is ideology, not science.",
           "link": "https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-2"
@@ -126,7 +127,7 @@
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Working-class people have always built mutual aid networks to survive capitalism.",
           "link": "https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-3"
@@ -136,7 +137,7 @@
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Mutual aid is not a Western import to Aotearoa. It was already here.",
           "link": "https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-4"
@@ -146,7 +147,7 @@
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "The welfare state was a genuine gain — and also used to dismantle self-organisation.",
           "link": "https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-5"
@@ -156,7 +157,7 @@
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Mutual aid is not theoretical. It is happening right now.",
           "link": "https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-6"
@@ -164,13 +165,14 @@
       ],
       "chat_thread": "",
       "badge_glyph": "hands",
-      "badge_slug": "kropotkin-mutual-aid-pou"
+      "badge_slug": "kropotkin-mutual-aid-pou",
+      "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#kropotkin-mutual-aid"
     },
     {
       "title": "Graeber: Debt, Bullshit Jobs & Direct Democracy",
       "slug": "graeber-debt-bullshit-jobs-direct-democracy",
       "status": "Live",
-      "access": "public",
+      "access": "free_subscriber",
       "calendar_visibility": "public",
       "description": "Six lessons on debt as a tool of power, why most work is meaningless by design, and how ordinary people build direct democracy. Free, delivered by email.",
       "lessons": [
@@ -179,7 +181,7 @@
           "date": "2026-06-21",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Six lessons on Graeber's big ideas — free. Enrol here.",
           "link": "https://www.kiwidialectic.com/p/graeber-debt-bullshit-jobs-and-direct"
@@ -189,7 +191,7 @@
           "date": "2026-06-29",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Anthropology, anarchism, and seeing the world differently.",
           "link": "https://www.kiwidialectic.com/p/graeber-lesson-1-who-was-graeber"
@@ -199,7 +201,7 @@
           "date": "2026-06-29",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "How debt was invented as a tool of domination long before capitalism.",
           "link": "https://www.kiwidialectic.com/p/graeber-lesson-2-debt-the-first-5000"
@@ -209,7 +211,7 @@
           "date": "2026-06-29",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Why most work under capitalism is pointless by design.",
           "link": "https://www.kiwidialectic.com/p/graeber-lesson-3-bullshit-jobs-and"
@@ -219,7 +221,7 @@
           "date": "2026-06-29",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "How paperwork, means-testing, and administration humiliate and exhaust people.",
           "link": "https://www.kiwidialectic.com/p/graeber-lesson-4-the-utopia-of-rules"
@@ -229,7 +231,7 @@
           "date": "2026-06-29",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "What Occupy Wall Street and other movements actually built.",
           "link": "https://www.kiwidialectic.com/p/graeber-lesson-5-the-dawn-of-everything"
@@ -239,7 +241,7 @@
           "date": "2026-06-29",
           "time": "",
           "location": "Substack",
-          "access": "public",
+          "access": "free_subscriber",
           "calendar_visibility": "public",
           "teaser": "Debt, work, bureaucracy, and direct democracy through a New Zealand lens.",
           "link": "https://www.kiwidialectic.com/p/lesson-6-synthesis-what-graebers"
@@ -247,7 +249,8 @@
       ],
       "chat_thread": "",
       "badge_glyph": "chain",
-      "badge_slug": "graeber-debt-bullshit-jobs-direct-democracy-pou"
+      "badge_slug": "graeber-debt-bullshit-jobs-direct-democracy-pou",
+      "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#graeber-debt-bullshit-jobs-direct-democracy"
     },
     {
       "title": "He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa",
@@ -270,7 +273,8 @@
       ],
       "chat_thread": "",
       "badge_glyph": "koru",
-      "badge_slug": "he-ako-mo-nga-umanga-mahi-ngatahi-pou"
+      "badge_slug": "he-ako-mo-nga-umanga-mahi-ngatahi-pou",
+      "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#he-ako-mo-nga-umanga-mahi-ngatahi"
     },
     {
       "title": "Gilles Deleuze for Educators, Artists, and Organisers",
@@ -293,7 +297,8 @@
       ],
       "chat_thread": "",
       "badge_glyph": "rhizome",
-      "badge_slug": "gilles-deleuze-pou"
+      "badge_slug": "gilles-deleuze-pou",
+      "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#gilles-deleuze"
     },
     {
       "title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -376,7 +381,8 @@
       ],
       "chat_thread": "",
       "badge_glyph": "star",
-      "badge_slug": "bakunin-mo-aotearoa-pou"
+      "badge_slug": "bakunin-mo-aotearoa-pou",
+      "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#bakunin-mo-aotearoa"
     }
   ]
 }

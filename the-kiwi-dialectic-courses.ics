@@ -7,7 +7,7 @@ X-WR-CALNAME:The Kiwi Dialectic Courses
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-1@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Course launch
@@ -17,7 +17,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-2@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 1: Who was Gramsci, and why read him now?
@@ -27,7 +27,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-3@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 2: Hegemony — how ruling ideas become ordinary life
@@ -37,7 +37,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-4@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 3: Organic Intellectuals — who speaks for the working class?
@@ -47,7 +47,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-5@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 4: Civil Society, the State, and who controls the institutions
@@ -57,7 +57,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-6@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 5: War of Position — building counter-power from below
@@ -67,7 +67,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-7@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 6: Putting it all together — a socialist toolkit for Aotearoa
@@ -77,147 +77,147 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-1@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Course intro — free email course from The Kiwi Dialect
-DESCRIPTION:Kropotkin & Mutual Aid — Course intro — free email course from The Kiwi Dialect\nAccess: public\nOverview and how to enrol.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-free-email
+DESCRIPTION:Kropotkin & Mutual Aid — Course intro — free email course from The Kiwi Dialect\nAccess: free_subscriber\nOverview and how to enrol.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-free-email
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-2@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 1: Who was Kropotkin, and what is mutual aid?
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 1: Who was Kropotkin, and what is mutual aid?\nAccess: public\nAn introduction to cooperation beyond capitalist myth-making.\nhttps://www.kiwidialectic.com/p/lesson-1-who-was-kropotkin-and-what
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 1: Who was Kropotkin, and what is mutual aid?\nAccess: free_subscriber\nAn introduction to cooperation beyond capitalist myth-making.\nhttps://www.kiwidialectic.com/p/lesson-1-who-was-kropotkin-and-what
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-3@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 2: Mutual Aid vs Social Darwinism — nature is not a war of all against all
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 2: Mutual Aid vs Social Darwinism — nature is not a war of all against all\nAccess: public\nThe idea that humans are naturally selfish is ideology, not science.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-2
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 2: Mutual Aid vs Social Darwinism — nature is not a war of all against all\nAccess: free_subscriber\nThe idea that humans are naturally selfish is ideology, not science.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-2
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-4@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 3: Mutual Aid in Working-Class History — strikes, friendly societies, and solidarity networks
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 3: Mutual Aid in Working-Class History — strikes, friendly societies, and solidarity networks\nAccess: public\nWorking-class people have always built mutual aid networks to survive capitalism.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-3
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 3: Mutual Aid in Working-Class History — strikes, friendly societies, and solidarity networks\nAccess: free_subscriber\nWorking-class people have always built mutual aid networks to survive capitalism.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-3
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-5@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 4: Mutual Aid in Aotearoa — hapū, whānau, working-class communities
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 4: Mutual Aid in Aotearoa — hapū, whānau, working-class communities\nAccess: public\nMutual aid is not a Western import to Aotearoa. It was already here.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-4
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 4: Mutual Aid in Aotearoa — hapū, whānau, working-class communities\nAccess: free_subscriber\nMutual aid is not a Western import to Aotearoa. It was already here.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-4
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-6@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 5: The State vs Mutual Aid — when welfare replaced self-organised solidarity
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 5: The State vs Mutual Aid — when welfare replaced self-organised solidarity\nAccess: public\nThe welfare state was a genuine gain — and also used to dismantle self-organisation.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-5
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 5: The State vs Mutual Aid — when welfare replaced self-organised solidarity\nAccess: free_subscriber\nThe welfare state was a genuine gain — and also used to dismantle self-organisation.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-5
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-7@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 6: Mutual Aid Now — from food banks to tenants unions to climate response
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 6: Mutual Aid Now — from food banks to tenants unions to climate response\nAccess: public\nMutual aid is not theoretical. It is happening right now.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-6
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 6: Mutual Aid Now — from food banks to tenants unions to climate response\nAccess: free_subscriber\nMutual aid is not theoretical. It is happening right now.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-6
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-1@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Course intro — free email course from The Kiwi Dialect
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Course intro — free email course from The Kiwi Dialect\nAccess: public\nSix lessons on Graeber's big ideas — free. Enrol here.\nhttps://www.kiwidialectic.com/p/graeber-debt-bullshit-jobs-and-direct
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Course intro — free email course from The Kiwi Dialect\nAccess: free_subscriber\nSix lessons on Graeber's big ideas — free. Enrol here.\nhttps://www.kiwidialectic.com/p/graeber-debt-bullshit-jobs-and-direct
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-2@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 1: Who was Graeber, and why does anthropology make you dangerous?
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 1: Who was Graeber, and why does anthropology make you dangerous?\nAccess: public\nAnthropology, anarchism, and seeing the world differently.\nhttps://www.kiwidialectic.com/p/graeber-lesson-1-who-was-graeber
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 1: Who was Graeber, and why does anthropology make you dangerous?\nAccess: free_subscriber\nAnthropology, anarchism, and seeing the world differently.\nhttps://www.kiwidialectic.com/p/graeber-lesson-1-who-was-graeber
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-3@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 2: Debt — the first 5,000 years and why you should never feel morally obligated to a bank
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 2: Debt — the first 5,000 years and why you should never feel morally obligated to a bank\nAccess: public\nHow debt was invented as a tool of domination long before capitalism.\nhttps://www.kiwidialectic.com/p/graeber-lesson-2-debt-the-first-5000
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 2: Debt — the first 5,000 years and why you should never feel morally obligated to a bank\nAccess: free_subscriber\nHow debt was invented as a tool of domination long before capitalism.\nhttps://www.kiwidialectic.com/p/graeber-lesson-2-debt-the-first-5000
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-4@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 3: Bullshit Jobs — why so much work under capitalism is meaningless by design
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 3: Bullshit Jobs — why so much work under capitalism is meaningless by design\nAccess: public\nWhy most work under capitalism is pointless by design.\nhttps://www.kiwidialectic.com/p/graeber-lesson-3-bullshit-jobs-and
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 3: Bullshit Jobs — why so much work under capitalism is meaningless by design\nAccess: free_subscriber\nWhy most work under capitalism is pointless by design.\nhttps://www.kiwidialectic.com/p/graeber-lesson-3-bullshit-jobs-and
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-5@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 4: The Utopia of Rules — why bureaucracy is a problem for the left, not just the right
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 4: The Utopia of Rules — why bureaucracy is a problem for the left, not just the right\nAccess: public\nHow paperwork, means-testing, and administration humiliate and exhaust people.\nhttps://www.kiwidialectic.com/p/graeber-lesson-4-the-utopia-of-rules
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 4: The Utopia of Rules — why bureaucracy is a problem for the left, not just the right\nAccess: free_subscriber\nHow paperwork, means-testing, and administration humiliate and exhaust people.\nhttps://www.kiwidialectic.com/p/graeber-lesson-4-the-utopia-of-rules
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-6@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 5: The Dawn of Everything — what the deep past tells us about human freedom
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 5: The Dawn of Everything — what the deep past tells us about human freedom\nAccess: public\nWhat Occupy Wall Street and other movements actually built.\nhttps://www.kiwidialectic.com/p/graeber-lesson-5-the-dawn-of-everything
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 5: The Dawn of Everything — what the deep past tells us about human freedom\nAccess: free_subscriber\nWhat Occupy Wall Street and other movements actually built.\nhttps://www.kiwidialectic.com/p/graeber-lesson-5-the-dawn-of-everything
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-7@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 6: Synthesis — what Graeber's work means for thinking and acting in Aotearoa today
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 6: Synthesis — what Graeber's work means for thinking and acting in Aotearoa today\nAccess: public\nDebt, work, bureaucracy, and direct democracy through a New Zealand lens.\nhttps://www.kiwidialectic.com/p/lesson-6-synthesis-what-graebers
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 6: Synthesis — what Graeber's work means for thinking and acting in Aotearoa today\nAccess: free_subscriber\nDebt, work, bureaucracy, and direct democracy through a New Zealand lens.\nhttps://www.kiwidialectic.com/p/lesson-6-synthesis-what-graebers
 LOCATION:Substack
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:he-ako-mo-nga-umanga-mahi-ngatahi-1@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260626T190000
 DTEND;TZID=Pacific/Auckland:20260626T200000
 SUMMARY:He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa — Course intro — He Ako mo ngā Umanga Mahi Ngātahi
@@ -227,7 +227,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gilles-deleuze-1@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Gilles Deleuze for Educators, Artists, and Organisers — Course intro — coming soon
@@ -237,7 +237,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-1@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260704T190000
 DTEND;TZID=Pacific/Auckland:20260704T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Course launch — Tangi o te Tāheke
@@ -247,7 +247,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-2@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260705T190000
 DTEND;TZID=Pacific/Auckland:20260705T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 1: Ko wai a Bakunin? — the man Marx feared
@@ -257,7 +257,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-3@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260712T190000
 DTEND;TZID=Pacific/Auckland:20260712T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 2: Mana motuhake — federation from below, not the state from above
@@ -267,7 +267,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-4@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260719T190000
 DTEND;TZID=Pacific/Auckland:20260719T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 3: Te tāheke — the passion for destruction is also a creative passion
@@ -277,7 +277,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-5@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260726T190000
 DTEND;TZID=Pacific/Auckland:20260726T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 4: Caracoles in the kāinga — a Zapatista reading for Aotearoa
@@ -287,7 +287,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-6@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260802T190000
 DTEND;TZID=Pacific/Auckland:20260802T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 5: Refusing the algorithmic Leviathan — anarchism in the age of AI
@@ -297,7 +297,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-7@thekiwidialectic
-DTSTAMP:20260629T010041Z
+DTSTAMP:20260629T014048Z
 DTSTART;TZID=Pacific/Auckland:20260809T190000
 DTEND;TZID=Pacific/Auckland:20260809T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 6: Arm the class — closing the AI Warrior thinkers series
