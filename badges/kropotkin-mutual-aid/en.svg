@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <rect width="1200" height="1200" fill="#0c0c0c"/>
+  <circle cx="600" cy="600" r="560" fill="#0e0e0e" stroke="#c41e1e" stroke-width="10"/>
+  <circle cx="600" cy="600" r="500" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <defs><path id="arc-567010" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
+<text font-family="'Bebas Neue',sans-serif" font-size="54" fill="#f5f0e6" letter-spacing="6">
+  <textPath href="#arc-567010" startOffset="50%" text-anchor="middle">KROPOTKIN & MUTUAL AID</textPath>
+</text>
+  <defs><path id="arc-521365" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
+<text font-family="'Bebas Neue',sans-serif" font-size="42" fill="#c41e1e" letter-spacing="8">
+  <textPath href="#arc-521365" startOffset="50%" text-anchor="middle">COMPLETED — COURSE POU</textPath>
+</text>
+  <g fill="none" stroke="#f5f0e6" stroke-width="14" stroke-linecap="round">
+                  <path d="M460 640 Q540 540 600 600 Q660 540 740 640"/>
+                  <path d="M460 690 Q540 590 600 650 Q660 590 740 690" stroke="#c41e1e"/>
+                </g>
+  <rect x="360" y="882" width="18" height="18" fill="#c41e1e"/>
+<rect x="378" y="864" width="18" height="36" fill="#c41e1e"/>
+<rect x="396" y="846" width="18" height="54" fill="#c41e1e"/>
+<rect x="414" y="828" width="18" height="72" fill="#c41e1e"/>
+<rect x="432" y="810" width="18" height="90" fill="#c41e1e"/>
+<rect x="740" y="882" width="18" height="18" fill="#c41e1e"/>
+<rect x="758" y="864" width="18" height="36" fill="#c41e1e"/>
+<rect x="776" y="846" width="18" height="54" fill="#c41e1e"/>
+<rect x="794" y="828" width="18" height="72" fill="#c41e1e"/>
+<rect x="812" y="810" width="18" height="90" fill="#c41e1e"/>
+  <text x="600" y="230" font-family="'Bebas Neue',sans-serif" font-size="30" fill="#c41e1e"
+        text-anchor="middle" letter-spacing="8">THE KIWI DIALECTIC</text>
+  <text x="600" y="1000" font-family="'Bebas Neue',sans-serif" font-size="22" fill="#8a8a8a"
+        text-anchor="middle" letter-spacing="6">POU TOHU · ENGLISH</text>
+</svg>

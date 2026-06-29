@@ -1,0 +1,36 @@
+name: Regenerate course artefacts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'courses.json'
+      - 'scripts/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Install optional renderer
+        run: pip install cairosvg || true
+      - name: Build artefacts
+        run: python3 scripts/build_all.py
+      - name: Commit regenerated files
+        run: |
+          git config user.name  "kd-bot"
+          git config user.email "bot@kiwidialectic.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "ci: regenerate ICS, events.json, events.rss, badges"
+            git push
+          else
+            echo "no changes"
+          fi

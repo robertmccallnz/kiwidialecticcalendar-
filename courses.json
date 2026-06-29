@@ -78,7 +78,10 @@
           "teaser": "Applying Gramsci's framework to Aotearoa New Zealand today.",
           "link": "https://www.kiwidialectic.com/p/gramsci-for-aotearoa-lesson-6-putting"
         }
-      ]
+      ],
+      "chat_thread": "",
+      "badge_glyph": "gear",
+      "badge_slug": "gramsci-for-aotearoa-pou"
     },
     {
       "title": "Kropotkin & Mutual Aid",
@@ -158,7 +161,10 @@
           "teaser": "Mutual aid is not theoretical. It is happening right now.",
           "link": "https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-6"
         }
-      ]
+      ],
+      "chat_thread": "",
+      "badge_glyph": "hands",
+      "badge_slug": "kropotkin-mutual-aid-pou"
     },
     {
       "title": "Graeber: Debt, Bullshit Jobs & Direct Democracy",
@@ -238,7 +244,10 @@
           "teaser": "Debt, work, bureaucracy, and direct democracy through a New Zealand lens.",
           "link": "https://www.kiwidialectic.com/p/lesson-6-synthesis-what-graebers"
         }
-      ]
+      ],
+      "chat_thread": "",
+      "badge_glyph": "chain",
+      "badge_slug": "graeber-debt-bullshit-jobs-direct-democracy-pou"
     },
     {
       "title": "He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa",
@@ -258,7 +267,10 @@
           "teaser": "How to start a cooperative in Aotearoa — overview and how to follow along.",
           "link": "https://www.kiwidialectic.com/p/he-ako-mo-nga-umanga-mahi-ngatahi"
         }
-      ]
+      ],
+      "chat_thread": "",
+      "badge_glyph": "koru",
+      "badge_slug": "he-ako-mo-nga-umanga-mahi-ngatahi-pou"
     },
     {
       "title": "Gilles Deleuze for Educators, Artists, and Organisers",
@@ -278,7 +290,10 @@
           "teaser": "Overview of the upcoming Deleuze course.",
           "link": "https://www.kiwidialectic.com/p/gilles-deleuze-for-educators-artists"
         }
-      ]
+      ],
+      "chat_thread": "",
+      "badge_glyph": "rhizome",
+      "badge_slug": "gilles-deleuze-pou"
     },
     {
       "title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -358,7 +373,10 @@
           "teaser": "From Gramsci to Bakunin in six thinkers. The toolkit, the refrain, the kaupapa for the next decade. E kore e mau te rongo ki te whenua kāore e watea.",
           "link": "https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-6-arm-the-class"
         }
-      ]
+      ],
+      "chat_thread": "",
+      "badge_glyph": "star",
+      "badge_slug": "bakunin-mo-aotearoa-pou"
     }
   ]
 }
