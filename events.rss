@@ -4,7 +4,7 @@
 <link>https://www.kiwidialectic.com/s/courses</link>
 <description>Course lesson events across The Kiwi Dialectic.</description>
 <language>en-NZ</language>
-<lastBuildDate>Mon, 29 Jun 2026 02:30:07 +0000</lastBuildDate>
+<lastBuildDate>Mon, 29 Jun 2026 06:12:19 +0000</lastBuildDate>
     <item>
       <title>Course launch</title>
       <link>https://www.kiwidialectic.com/p/gramsci-for-aotearoa-course-launch</link>
@@ -188,6 +188,54 @@
       <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
       <category>graeber-debt-bullshit-jobs-direct-democracy</category>
       <description>Graeber: Debt, Bullshit Jobs &amp; Direct Democracy — Debt, work, bureaucracy, and direct democracy through a New Zealand lens.</description>
+    </item>
+    <item>
+      <title>Module 1 — Whakapapa o te raraunga</title>
+      <link>https://te-pa.org/modules/module-1.html</link>
+      <guid isPermaLink="false">te-pa-tuwatawata-1</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
+      <category>te-pa-tuwatawata</category>
+      <description>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty — The whakapapa of data — where does data come from, and who does it belong to?</description>
+    </item>
+    <item>
+      <title>Module 2 — Te Pā Tūwatawata hei tauira</title>
+      <link>https://te-pa.org/modules/module-2.html</link>
+      <guid isPermaLink="false">te-pa-tuwatawata-2</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
+      <category>te-pa-tuwatawata</category>
+      <description>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty — Te Pā Tūwatawata as a model for Indigenous-led digital infrastructure.</description>
+    </item>
+    <item>
+      <title>Module 3 — AI me te raupatu matihiko</title>
+      <link>https://te-pa.org/modules/module-3.html</link>
+      <guid isPermaLink="false">te-pa-tuwatawata-3</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
+      <category>te-pa-tuwatawata</category>
+      <description>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty — AI and digital extraction — tracing the colonial logic inside machine learning.</description>
+    </item>
+    <item>
+      <title>Module 4 — Tikanga, ture, mana whakahaere</title>
+      <link>https://te-pa.org/modules/module-4.html</link>
+      <guid isPermaLink="false">te-pa-tuwatawata-4</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
+      <category>te-pa-tuwatawata</category>
+      <description>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty — Tikanga, law, and governance — how Māori legal frameworks challenge tech power.</description>
+    </item>
+    <item>
+      <title>Module 5 — Hoahoa tika</title>
+      <link>https://te-pa.org/modules/module-5.html</link>
+      <guid isPermaLink="false">te-pa-tuwatawata-5</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
+      <category>te-pa-tuwatawata</category>
+      <description>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty — Designing ethical systems — what does a decolonised AI architecture look like?</description>
+    </item>
+    <item>
+      <title>Module 6 — He anamata rangatira</title>
+      <link>https://te-pa.org/modules/module-6.html</link>
+      <guid isPermaLink="false">te-pa-tuwatawata-6</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
+      <category>te-pa-tuwatawata</category>
+      <description>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty — Sovereign digital futures — building Māori-controlled infrastructure for generations.</description>
     </item>
     <item>
       <title>Course launch — Tangi o te Tāheke</title>
