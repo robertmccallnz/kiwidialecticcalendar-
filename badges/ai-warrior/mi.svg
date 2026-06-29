@@ -2,18 +2,16 @@
   <rect width="1200" height="1200" fill="#0c0c0c"/>
   <circle cx="600" cy="600" r="560" fill="#0e0e0e" stroke="#c41e1e" stroke-width="10"/>
   <circle cx="600" cy="600" r="500" fill="none" stroke="#1a1a1a" stroke-width="2"/>
-  <defs><path id="arc-839904" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
+  <defs><path id="arc-572708" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="54" fill="#f5f0e6" letter-spacing="6">
-  <textPath href="#arc-839904" startOffset="50%" text-anchor="middle">KROPOTKIN & MUTUAL AID</textPath>
+  <textPath href="#arc-572708" startOffset="50%" text-anchor="middle">AI WARRIOR</textPath>
 </text>
   <defs><path id="arc-892521" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="42" fill="#c41e1e" letter-spacing="8">
   <textPath href="#arc-892521" startOffset="50%" text-anchor="middle">KUA OTI — POU TOHU</textPath>
 </text>
-  <g fill="none" stroke="#f5f0e6" stroke-width="14" stroke-linecap="round">
-                  <path d="M460 640 Q540 540 600 600 Q660 540 740 640"/>
-                  <path d="M460 690 Q540 590 600 650 Q660 590 740 690" stroke="#c41e1e"/>
-                </g>
+  <polygon points="600,310 660,500 860,500 700,615 760,810 600,695 440,810 500,615 340,500 540,500"
+                 fill="#f5f0e6" stroke="#c41e1e" stroke-width="6"/>
   <rect x="360" y="882" width="18" height="18" fill="#c41e1e"/>
 <rect x="378" y="864" width="18" height="36" fill="#c41e1e"/>
 <rect x="396" y="846" width="18" height="54" fill="#c41e1e"/>

@@ -1,6 +1,31 @@
 {
   "courses": [
     {
+      "title": "AI Warrior — The Kiwi Dialectic",
+      "slug": "ai-warrior",
+      "status": "Live",
+      "access": "public",
+      "calendar_visibility": "public",
+      "description": "A working-class course in AI literacy, ideological clarity, and systems thinking. Six modules built around six thinkers — Gramsci, Kropotkin, Graeber, Freire, Deleuze, Bakunin — refitted for the algorithmic century. Train the mind. Arm the class.",
+      "lessons": [
+        {
+          "title": "Course launch — AI Warrior",
+          "date": "2026-07-02",
+          "time": "19:00",
+          "location": "Substack + kiwidialectic.com",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "AI Warrior goes live: a working-class course in AI literacy, six modules, six thinkers, one praxis. Train the mind. Arm the class.",
+          "link": "https://kiwidialectic.com",
+          "published": true
+        }
+      ],
+      "chat_thread": null,
+      "badge_glyph": "red-star",
+      "badge_slug": "ai-warrior-pou",
+      "badge_claim_url": null
+    },
+    {
       "title": "Gramsci for Aotearoa",
       "slug": "gramsci-for-aotearoa",
       "status": "Live",

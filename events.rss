@@ -4,7 +4,7 @@
 <link>https://www.kiwidialectic.com/s/courses</link>
 <description>Course lesson events across The Kiwi Dialectic.</description>
 <language>en-NZ</language>
-<lastBuildDate>Mon, 29 Jun 2026 08:52:51 +0000</lastBuildDate>
+<lastBuildDate>Mon, 29 Jun 2026 16:23:10 +0000</lastBuildDate>
     <item>
       <title>Course launch</title>
       <link>https://www.kiwidialectic.com/p/gramsci-for-aotearoa-course-launch</link>
@@ -236,6 +236,14 @@
       <pubDate>Mon, 29 Jun 2026 19:00:00 +1200</pubDate>
       <category>te-pa-tuwatawata</category>
       <description>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty — Sovereign digital futures — building Māori-controlled infrastructure for generations.</description>
+    </item>
+    <item>
+      <title>Course launch — AI Warrior</title>
+      <link>https://kiwidialectic.com</link>
+      <guid isPermaLink="false">ai-warrior-1</guid>
+      <pubDate>Thu, 02 Jul 2026 19:00:00 +1200</pubDate>
+      <category>ai-warrior</category>
+      <description>AI Warrior — The Kiwi Dialectic — AI Warrior goes live: a working-class course in AI literacy, six modules, six thinkers, one praxis. Train the mind. Arm the class.</description>
     </item>
     <item>
       <title>Course launch — Tangi o te Tāheke</title>
