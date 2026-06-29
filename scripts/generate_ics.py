@@ -11,7 +11,7 @@ for course in data.get('courses', []):
     for idx, lesson in enumerate(course.get('lessons', []), start=1):
         if lesson.get('calendar_visibility', 'public') == 'hidden':
             continue
-        dt = datetime.strptime(f"{lesson['date']} {lesson.get('time','19:00')}", '%Y-%m-%d %H:%M')
+        dt = datetime.strptime(f"{lesson['date']} {(lesson.get('time') or '19:00')}", '%Y-%m-%d %H:%M')
         dtend = dt.replace(hour=min(dt.hour + 1, 23))
         uid = f"{course.get('slug','course')}-{idx}@thekiwidialectic"
         access = lesson.get('access') or course.get('access', 'public')
