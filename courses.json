@@ -299,6 +299,97 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#he-ako-mo-nga-umanga-mahi-ngatahi"
     },
     {
+      "title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "slug": "freire-mo-aotearoa",
+      "status": "Upcoming",
+      "access": "free_subscriber",
+      "calendar_visibility": "public",
+      "description": "AI Warrior Course 4. Paulo Freire's pedagogy of the oppressed, refitted for the age of generative AI. The chatbot is a banking-model classroom that talks back. Six lessons on dialogue, problem-posing, conscientização, and the kura kaupapa Māori parallel — Graham Hingangaroa Smith's kaupapa Māori praxis as Aotearoa's own refusal of the banking model. Sundays 19:00 NZST.",
+      "lessons": [
+        {
+          "title": "Course launch — Pedagogy of the Algorithm",
+          "date": "2026-08-16",
+          "time": "19:00",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Why Freire, why now. Every chatbot is a banking-model classroom. Freire's antidote, mapped onto kura kaupapa Māori praxis. Six lessons across six weeks.",
+          "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-course-launch",
+          "published": false
+        },
+        {
+          "title": "Lesson 1: Ko wai a Freire? — the teacher who refused to deposit",
+          "date": "2026-08-23",
+          "time": "19:00",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Recife 1921 to São Paulo 1997. The man whose literacy method taught sugar-cane workers to read the word and the world — and got him 70 days in a military prison for it.",
+          "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-1-ko-wai",
+          "published": false
+        },
+        {
+          "title": "Lesson 2: The banking model goes industrial — every chatbot is a deposit",
+          "date": "2026-08-30",
+          "time": "19:00",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Freire's banking concept of education, retold for the age of generative AI. What happens when the teacher is the model and the deposit is your prompt history.",
+          "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-2-banking-model",
+          "published": false
+        },
+        {
+          "title": "Lesson 3: Problem-posing — how to force the chatbot to think with you",
+          "date": "2026-09-06",
+          "time": "19:00",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "From banking to dialogue. Problem-posing as a praxis — the prompts, the discipline, the refusal to be a passive depositor of someone else's training data.",
+          "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-3-problem-posing",
+          "published": false
+        },
+        {
+          "title": "Lesson 4: Conscientização — critical consciousness in the algorithmic feed",
+          "date": "2026-09-13",
+          "time": "19:00",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Freire's central concept. Reading the word and the world when the world is a recommendation algorithm. How conscientização becomes a daily discipline, not a one-off awakening.",
+          "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-4-conscientizacao",
+          "published": false
+        },
+        {
+          "title": "Lesson 5: Kura kaupapa Māori — Aotearoa's own refusal of the banking model",
+          "date": "2026-09-20",
+          "time": "19:00",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Graham Hingangaroa Smith's kaupapa Māori praxis read alongside Freire. Te reo revitalisation as a Freirean act. The pedagogy that built itself when the Crown's would not teach it.",
+          "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-5-kura-kaupapa",
+          "published": false
+        },
+        {
+          "title": "Lesson 6: A Freirean praxis for the AI moment — what we teach next",
+          "date": "2026-09-27",
+          "time": "19:00",
+          "location": "Substack",
+          "access": "free_subscriber",
+          "calendar_visibility": "public",
+          "teaser": "Closing the loop. A working-class, kaupapa-aligned, AI-aware Freirean praxis. Generative themes for organisers, study circles, and the household. What we carry into Deleuze.",
+          "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-6-praxis",
+          "published": false
+        }
+      ],
+      "chat_thread": "",
+      "badge_glyph": "book",
+      "badge_slug": "freire-mo-aotearoa-pou",
+      "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#freire-mo-aotearoa"
+    },
+    {
       "title": "Gilles Deleuze for Educators, Artists, and Organisers",
       "slug": "gilles-deleuze",
       "status": "Upcoming",
@@ -413,6 +504,97 @@
       "badge_glyph": "star",
       "badge_slug": "bakunin-mo-aotearoa-pou",
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#bakunin-mo-aotearoa"
+    },
+    {
+      "title": "AI Literacy for Families — a 6-week household course",
+      "slug": "ai-literacy-for-families",
+      "status": "Live",
+      "access": "free_public",
+      "calendar_visibility": "public",
+      "external_course": true,
+      "external_url": "https://robertmccallnz.github.io/ai-literacy-for-families/",
+      "license": "CC BY-SA 4.0",
+      "description": "Sibling course to AI Warrior, written for parent-teen pairs rather than organisers. Six weekly modules, a printable workbook, a Substack post pack, and a Household AI Agreement template — all CC BY-SA 4.0, free to download, fork, and translate. If AI Warrior trains the organiser, AI Literacy for Families trains the household.",
+      "lessons": [
+        {
+          "title": "Course launch — AI Literacy for Families",
+          "date": "2026-07-06",
+          "time": "19:00",
+          "location": "Substack + GitHub Pages",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Why a working-class AI literacy course for families. The household agreement, the workbook, the SIFT cheat sheet.",
+          "link": "https://www.kiwidialectic.com/p/ai-literacy-for-families-launch",
+          "published": false
+        },
+        {
+          "title": "Week 1 — How AI actually works",
+          "date": "2026-07-13",
+          "time": "19:00",
+          "location": "GitHub Pages",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Pattern-matching, not magic. Predict, classify, generate.",
+          "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-1",
+          "published": true
+        },
+        {
+          "title": "Week 2 — Bias & deepfakes",
+          "date": "2026-07-20",
+          "time": "19:00",
+          "location": "GitHub Pages",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Structural problems with the same root.",
+          "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-2",
+          "published": true
+        },
+        {
+          "title": "Week 3 — Privacy & ethics",
+          "date": "2026-07-27",
+          "time": "19:00",
+          "location": "GitHub Pages",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Who owns the conversation when you talk to a chatbot.",
+          "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-3",
+          "published": true
+        },
+        {
+          "title": "Week 4 — Critical thinking & fact-checking",
+          "date": "2026-08-03",
+          "time": "19:00",
+          "location": "GitHub Pages",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "The SIFT method.",
+          "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-4",
+          "published": true
+        },
+        {
+          "title": "Week 5 — Setting household digital boundaries",
+          "date": "2026-08-10",
+          "time": "19:00",
+          "location": "GitHub Pages",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Co-written, not imposed. The Household AI Agreement.",
+          "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-5",
+          "published": true
+        },
+        {
+          "title": "Week 6 — Modeling responsible tech habits",
+          "date": "2026-08-17",
+          "time": "19:00",
+          "location": "GitHub Pages",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Parents commit too. Closing the loop.",
+          "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-6",
+          "published": true
+        }
+      ],
+      "chat_thread": ""
     }
   ]
 }

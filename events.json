@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-29T02:00:44+00:00",
+  "generated_at": "2026-06-29T02:29:30+00:00",
   "source": "https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/courses.json",
   "ics": "https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/the-kiwi-dialectic-courses.ics",
   "rss": "https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/events.rss",
-  "count": 30,
+  "count": 44,
   "events": [
     {
       "id": "gramsci-for-aotearoa-1",
@@ -381,6 +381,21 @@
       "badge": "bakunin-mo-aotearoa-pou"
     },
     {
+      "id": "ai-literacy-for-families-1",
+      "course_slug": "ai-literacy-for-families",
+      "course_title": "AI Literacy for Families — a 6-week household course",
+      "lesson_index": 0,
+      "title": "Course launch — AI Literacy for Families",
+      "start": "2026-07-06T19:00:00+12:00",
+      "end": "2026-07-06T20:00:00+12:00",
+      "location": "Substack + GitHub Pages",
+      "access": "free_public",
+      "teaser": "Why a working-class AI literacy course for families. The household agreement, the workbook, the SIFT cheat sheet.",
+      "link": "https://www.kiwidialectic.com/p/ai-literacy-for-families-launch",
+      "chat": "",
+      "badge": ""
+    },
+    {
       "id": "bakunin-mo-aotearoa-3",
       "course_slug": "bakunin-mo-aotearoa",
       "course_title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -394,6 +409,21 @@
       "link": "https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-2-mana-motuhake",
       "chat": "",
       "badge": "bakunin-mo-aotearoa-pou"
+    },
+    {
+      "id": "ai-literacy-for-families-2",
+      "course_slug": "ai-literacy-for-families",
+      "course_title": "AI Literacy for Families — a 6-week household course",
+      "lesson_index": 1,
+      "title": "Week 1 — How AI actually works",
+      "start": "2026-07-13T19:00:00+12:00",
+      "end": "2026-07-13T20:00:00+12:00",
+      "location": "GitHub Pages",
+      "access": "free_public",
+      "teaser": "Pattern-matching, not magic. Predict, classify, generate.",
+      "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-1",
+      "chat": "",
+      "badge": ""
     },
     {
       "id": "bakunin-mo-aotearoa-4",
@@ -411,6 +441,21 @@
       "badge": "bakunin-mo-aotearoa-pou"
     },
     {
+      "id": "ai-literacy-for-families-3",
+      "course_slug": "ai-literacy-for-families",
+      "course_title": "AI Literacy for Families — a 6-week household course",
+      "lesson_index": 2,
+      "title": "Week 2 — Bias & deepfakes",
+      "start": "2026-07-20T19:00:00+12:00",
+      "end": "2026-07-20T20:00:00+12:00",
+      "location": "GitHub Pages",
+      "access": "free_public",
+      "teaser": "Structural problems with the same root.",
+      "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-2",
+      "chat": "",
+      "badge": ""
+    },
+    {
       "id": "bakunin-mo-aotearoa-5",
       "course_slug": "bakunin-mo-aotearoa",
       "course_title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -424,6 +469,21 @@
       "link": "https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-4-caracoles",
       "chat": "",
       "badge": "bakunin-mo-aotearoa-pou"
+    },
+    {
+      "id": "ai-literacy-for-families-4",
+      "course_slug": "ai-literacy-for-families",
+      "course_title": "AI Literacy for Families — a 6-week household course",
+      "lesson_index": 3,
+      "title": "Week 3 — Privacy & ethics",
+      "start": "2026-07-27T19:00:00+12:00",
+      "end": "2026-07-27T20:00:00+12:00",
+      "location": "GitHub Pages",
+      "access": "free_public",
+      "teaser": "Who owns the conversation when you talk to a chatbot.",
+      "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-3",
+      "chat": "",
+      "badge": ""
     },
     {
       "id": "bakunin-mo-aotearoa-6",
@@ -441,6 +501,21 @@
       "badge": "bakunin-mo-aotearoa-pou"
     },
     {
+      "id": "ai-literacy-for-families-5",
+      "course_slug": "ai-literacy-for-families",
+      "course_title": "AI Literacy for Families — a 6-week household course",
+      "lesson_index": 4,
+      "title": "Week 4 — Critical thinking & fact-checking",
+      "start": "2026-08-03T19:00:00+12:00",
+      "end": "2026-08-03T20:00:00+12:00",
+      "location": "GitHub Pages",
+      "access": "free_public",
+      "teaser": "The SIFT method.",
+      "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-4",
+      "chat": "",
+      "badge": ""
+    },
+    {
       "id": "bakunin-mo-aotearoa-7",
       "course_slug": "bakunin-mo-aotearoa",
       "course_title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -454,6 +529,141 @@
       "link": "https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-6-arm-the-class",
       "chat": "",
       "badge": "bakunin-mo-aotearoa-pou"
+    },
+    {
+      "id": "ai-literacy-for-families-6",
+      "course_slug": "ai-literacy-for-families",
+      "course_title": "AI Literacy for Families — a 6-week household course",
+      "lesson_index": 5,
+      "title": "Week 5 — Setting household digital boundaries",
+      "start": "2026-08-10T19:00:00+12:00",
+      "end": "2026-08-10T20:00:00+12:00",
+      "location": "GitHub Pages",
+      "access": "free_public",
+      "teaser": "Co-written, not imposed. The Household AI Agreement.",
+      "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-5",
+      "chat": "",
+      "badge": ""
+    },
+    {
+      "id": "freire-mo-aotearoa-1",
+      "course_slug": "freire-mo-aotearoa",
+      "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "lesson_index": 0,
+      "title": "Course launch — Pedagogy of the Algorithm",
+      "start": "2026-08-16T19:00:00+12:00",
+      "end": "2026-08-16T20:00:00+12:00",
+      "location": "Substack",
+      "access": "free_subscriber",
+      "teaser": "Why Freire, why now. Every chatbot is a banking-model classroom. Freire's antidote, mapped onto kura kaupapa Māori praxis. Six lessons across six weeks.",
+      "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-course-launch",
+      "chat": "",
+      "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "ai-literacy-for-families-7",
+      "course_slug": "ai-literacy-for-families",
+      "course_title": "AI Literacy for Families — a 6-week household course",
+      "lesson_index": 6,
+      "title": "Week 6 — Modeling responsible tech habits",
+      "start": "2026-08-17T19:00:00+12:00",
+      "end": "2026-08-17T20:00:00+12:00",
+      "location": "GitHub Pages",
+      "access": "free_public",
+      "teaser": "Parents commit too. Closing the loop.",
+      "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-6",
+      "chat": "",
+      "badge": ""
+    },
+    {
+      "id": "freire-mo-aotearoa-2",
+      "course_slug": "freire-mo-aotearoa",
+      "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "lesson_index": 1,
+      "title": "Lesson 1: Ko wai a Freire? — the teacher who refused to deposit",
+      "start": "2026-08-23T19:00:00+12:00",
+      "end": "2026-08-23T20:00:00+12:00",
+      "location": "Substack",
+      "access": "free_subscriber",
+      "teaser": "Recife 1921 to São Paulo 1997. The man whose literacy method taught sugar-cane workers to read the word and the world — and got him 70 days in a military prison for it.",
+      "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-1-ko-wai",
+      "chat": "",
+      "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "freire-mo-aotearoa-3",
+      "course_slug": "freire-mo-aotearoa",
+      "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "lesson_index": 2,
+      "title": "Lesson 2: The banking model goes industrial — every chatbot is a deposit",
+      "start": "2026-08-30T19:00:00+12:00",
+      "end": "2026-08-30T20:00:00+12:00",
+      "location": "Substack",
+      "access": "free_subscriber",
+      "teaser": "Freire's banking concept of education, retold for the age of generative AI. What happens when the teacher is the model and the deposit is your prompt history.",
+      "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-2-banking-model",
+      "chat": "",
+      "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "freire-mo-aotearoa-4",
+      "course_slug": "freire-mo-aotearoa",
+      "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "lesson_index": 3,
+      "title": "Lesson 3: Problem-posing — how to force the chatbot to think with you",
+      "start": "2026-09-06T19:00:00+12:00",
+      "end": "2026-09-06T20:00:00+12:00",
+      "location": "Substack",
+      "access": "free_subscriber",
+      "teaser": "From banking to dialogue. Problem-posing as a praxis — the prompts, the discipline, the refusal to be a passive depositor of someone else's training data.",
+      "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-3-problem-posing",
+      "chat": "",
+      "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "freire-mo-aotearoa-5",
+      "course_slug": "freire-mo-aotearoa",
+      "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "lesson_index": 4,
+      "title": "Lesson 4: Conscientização — critical consciousness in the algorithmic feed",
+      "start": "2026-09-13T19:00:00+12:00",
+      "end": "2026-09-13T20:00:00+12:00",
+      "location": "Substack",
+      "access": "free_subscriber",
+      "teaser": "Freire's central concept. Reading the word and the world when the world is a recommendation algorithm. How conscientização becomes a daily discipline, not a one-off awakening.",
+      "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-4-conscientizacao",
+      "chat": "",
+      "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "freire-mo-aotearoa-6",
+      "course_slug": "freire-mo-aotearoa",
+      "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "lesson_index": 5,
+      "title": "Lesson 5: Kura kaupapa Māori — Aotearoa's own refusal of the banking model",
+      "start": "2026-09-20T19:00:00+12:00",
+      "end": "2026-09-20T20:00:00+12:00",
+      "location": "Substack",
+      "access": "free_subscriber",
+      "teaser": "Graham Hingangaroa Smith's kaupapa Māori praxis read alongside Freire. Te reo revitalisation as a Freirean act. The pedagogy that built itself when the Crown's would not teach it.",
+      "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-5-kura-kaupapa",
+      "chat": "",
+      "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "freire-mo-aotearoa-7",
+      "course_slug": "freire-mo-aotearoa",
+      "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
+      "lesson_index": 6,
+      "title": "Lesson 6: A Freirean praxis for the AI moment — what we teach next",
+      "start": "2026-09-27T19:00:00+12:00",
+      "end": "2026-09-27T20:00:00+12:00",
+      "location": "Substack",
+      "access": "free_subscriber",
+      "teaser": "Closing the loop. A working-class, kaupapa-aligned, AI-aware Freirean praxis. Generative themes for organisers, study circles, and the household. What we carry into Deleuze.",
+      "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-6-praxis",
+      "chat": "",
+      "badge": "freire-mo-aotearoa-pou"
     }
   ]
 }

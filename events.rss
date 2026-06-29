@@ -4,7 +4,7 @@
 <link>https://www.kiwidialectic.com/s/courses</link>
 <description>Course lesson events across The Kiwi Dialectic.</description>
 <language>en-NZ</language>
-<lastBuildDate>Mon, 29 Jun 2026 02:00:44 +0000</lastBuildDate>
+<lastBuildDate>Mon, 29 Jun 2026 02:29:30 +0000</lastBuildDate>
     <item>
       <title>Course launch</title>
       <link>https://www.kiwidialectic.com/p/gramsci-for-aotearoa-course-launch</link>
@@ -206,12 +206,28 @@
       <description>Tangi o te Tāheke — Bakunin mō Aotearoa — The Russian who split the First International, defended the Paris Commune, and warned that any state — even a workers' state — becomes a new prison.</description>
     </item>
     <item>
+      <title>Course launch — AI Literacy for Families</title>
+      <link>https://www.kiwidialectic.com/p/ai-literacy-for-families-launch</link>
+      <guid isPermaLink="false">ai-literacy-for-families-1</guid>
+      <pubDate>Mon, 06 Jul 2026 19:00:00 +1200</pubDate>
+      <category>ai-literacy-for-families</category>
+      <description>AI Literacy for Families — a 6-week household course — Why a working-class AI literacy course for families. The household agreement, the workbook, the SIFT cheat sheet.</description>
+    </item>
+    <item>
       <title>Lesson 2: Mana motuhake — federation from below, not the state from above</title>
       <link>https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-2-mana-motuhake</link>
       <guid isPermaLink="false">bakunin-mo-aotearoa-3</guid>
       <pubDate>Sun, 12 Jul 2026 19:00:00 +1200</pubDate>
       <category>bakunin-mo-aotearoa</category>
       <description>Tangi o te Tāheke — Bakunin mō Aotearoa — Bakunin's free federation read alongside He Whakaputanga and tino rangatiratanga. Power binds upward from the hapū, never downward from Wellington.</description>
+    </item>
+    <item>
+      <title>Week 1 — How AI actually works</title>
+      <link>https://robertmccallnz.github.io/ai-literacy-for-families/#week-1</link>
+      <guid isPermaLink="false">ai-literacy-for-families-2</guid>
+      <pubDate>Mon, 13 Jul 2026 19:00:00 +1200</pubDate>
+      <category>ai-literacy-for-families</category>
+      <description>AI Literacy for Families — a 6-week household course — Pattern-matching, not magic. Predict, classify, generate.</description>
     </item>
     <item>
       <title>Lesson 3: Te tāheke — the passion for destruction is also a creative passion</title>
@@ -222,12 +238,28 @@
       <description>Tangi o te Tāheke — Bakunin mō Aotearoa — How to tear down without nihilism. The waterfall as kaupapa: what falls feeds the awa, what is demolished irrigates the kāinga.</description>
     </item>
     <item>
+      <title>Week 2 — Bias &amp; deepfakes</title>
+      <link>https://robertmccallnz.github.io/ai-literacy-for-families/#week-2</link>
+      <guid isPermaLink="false">ai-literacy-for-families-3</guid>
+      <pubDate>Mon, 20 Jul 2026 19:00:00 +1200</pubDate>
+      <category>ai-literacy-for-families</category>
+      <description>AI Literacy for Families — a 6-week household course — Structural problems with the same root.</description>
+    </item>
+    <item>
       <title>Lesson 4: Caracoles in the kāinga — a Zapatista reading for Aotearoa</title>
       <link>https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-4-caracoles</link>
       <guid isPermaLink="false">bakunin-mo-aotearoa-5</guid>
       <pubDate>Sun, 26 Jul 2026 19:00:00 +1200</pubDate>
       <category>bakunin-mo-aotearoa</category>
       <description>Tangi o te Tāheke — Bakunin mō Aotearoa — Chiapas to Ōtepoti. Autonomous councils, mandar obedeciendo, and what a Kiwi caracol looks like — marae, co-ops, learning circles, mutual-aid pātaka.</description>
+    </item>
+    <item>
+      <title>Week 3 — Privacy &amp; ethics</title>
+      <link>https://robertmccallnz.github.io/ai-literacy-for-families/#week-3</link>
+      <guid isPermaLink="false">ai-literacy-for-families-4</guid>
+      <pubDate>Mon, 27 Jul 2026 19:00:00 +1200</pubDate>
+      <category>ai-literacy-for-families</category>
+      <description>AI Literacy for Families — a 6-week household course — Who owns the conversation when you talk to a chatbot.</description>
     </item>
     <item>
       <title>Lesson 5: Refusing the algorithmic Leviathan — anarchism in the age of AI</title>
@@ -238,11 +270,91 @@
       <description>Tangi o te Tāheke — Bakunin mō Aotearoa — Bakunin called the state a machine. The machine is now literal. How federation, encryption, and refusal apply to platform capital and state AI.</description>
     </item>
     <item>
+      <title>Week 4 — Critical thinking &amp; fact-checking</title>
+      <link>https://robertmccallnz.github.io/ai-literacy-for-families/#week-4</link>
+      <guid isPermaLink="false">ai-literacy-for-families-5</guid>
+      <pubDate>Mon, 03 Aug 2026 19:00:00 +1200</pubDate>
+      <category>ai-literacy-for-families</category>
+      <description>AI Literacy for Families — a 6-week household course — The SIFT method.</description>
+    </item>
+    <item>
       <title>Lesson 6: Arm the class — closing the AI Warrior thinkers series</title>
       <link>https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-6-arm-the-class</link>
       <guid isPermaLink="false">bakunin-mo-aotearoa-7</guid>
       <pubDate>Sun, 09 Aug 2026 19:00:00 +1200</pubDate>
       <category>bakunin-mo-aotearoa</category>
       <description>Tangi o te Tāheke — Bakunin mō Aotearoa — From Gramsci to Bakunin in six thinkers. The toolkit, the refrain, the kaupapa for the next decade. E kore e mau te rongo ki te whenua kāore e watea.</description>
+    </item>
+    <item>
+      <title>Week 5 — Setting household digital boundaries</title>
+      <link>https://robertmccallnz.github.io/ai-literacy-for-families/#week-5</link>
+      <guid isPermaLink="false">ai-literacy-for-families-6</guid>
+      <pubDate>Mon, 10 Aug 2026 19:00:00 +1200</pubDate>
+      <category>ai-literacy-for-families</category>
+      <description>AI Literacy for Families — a 6-week household course — Co-written, not imposed. The Household AI Agreement.</description>
+    </item>
+    <item>
+      <title>Course launch — Pedagogy of the Algorithm</title>
+      <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-course-launch</link>
+      <guid isPermaLink="false">freire-mo-aotearoa-1</guid>
+      <pubDate>Sun, 16 Aug 2026 19:00:00 +1200</pubDate>
+      <category>freire-mo-aotearoa</category>
+      <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Why Freire, why now. Every chatbot is a banking-model classroom. Freire's antidote, mapped onto kura kaupapa Māori praxis. Six lessons across six weeks.</description>
+    </item>
+    <item>
+      <title>Week 6 — Modeling responsible tech habits</title>
+      <link>https://robertmccallnz.github.io/ai-literacy-for-families/#week-6</link>
+      <guid isPermaLink="false">ai-literacy-for-families-7</guid>
+      <pubDate>Mon, 17 Aug 2026 19:00:00 +1200</pubDate>
+      <category>ai-literacy-for-families</category>
+      <description>AI Literacy for Families — a 6-week household course — Parents commit too. Closing the loop.</description>
+    </item>
+    <item>
+      <title>Lesson 1: Ko wai a Freire? — the teacher who refused to deposit</title>
+      <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-1-ko-wai</link>
+      <guid isPermaLink="false">freire-mo-aotearoa-2</guid>
+      <pubDate>Sun, 23 Aug 2026 19:00:00 +1200</pubDate>
+      <category>freire-mo-aotearoa</category>
+      <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Recife 1921 to São Paulo 1997. The man whose literacy method taught sugar-cane workers to read the word and the world — and got him 70 days in a military prison for it.</description>
+    </item>
+    <item>
+      <title>Lesson 2: The banking model goes industrial — every chatbot is a deposit</title>
+      <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-2-banking-model</link>
+      <guid isPermaLink="false">freire-mo-aotearoa-3</guid>
+      <pubDate>Sun, 30 Aug 2026 19:00:00 +1200</pubDate>
+      <category>freire-mo-aotearoa</category>
+      <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Freire's banking concept of education, retold for the age of generative AI. What happens when the teacher is the model and the deposit is your prompt history.</description>
+    </item>
+    <item>
+      <title>Lesson 3: Problem-posing — how to force the chatbot to think with you</title>
+      <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-3-problem-posing</link>
+      <guid isPermaLink="false">freire-mo-aotearoa-4</guid>
+      <pubDate>Sun, 06 Sep 2026 19:00:00 +1200</pubDate>
+      <category>freire-mo-aotearoa</category>
+      <description>Pedagogy of the Algorithm — Freire mō Aotearoa — From banking to dialogue. Problem-posing as a praxis — the prompts, the discipline, the refusal to be a passive depositor of someone else's training data.</description>
+    </item>
+    <item>
+      <title>Lesson 4: Conscientização — critical consciousness in the algorithmic feed</title>
+      <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-4-conscientizacao</link>
+      <guid isPermaLink="false">freire-mo-aotearoa-5</guid>
+      <pubDate>Sun, 13 Sep 2026 19:00:00 +1200</pubDate>
+      <category>freire-mo-aotearoa</category>
+      <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Freire's central concept. Reading the word and the world when the world is a recommendation algorithm. How conscientização becomes a daily discipline, not a one-off awakening.</description>
+    </item>
+    <item>
+      <title>Lesson 5: Kura kaupapa Māori — Aotearoa's own refusal of the banking model</title>
+      <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-5-kura-kaupapa</link>
+      <guid isPermaLink="false">freire-mo-aotearoa-6</guid>
+      <pubDate>Sun, 20 Sep 2026 19:00:00 +1200</pubDate>
+      <category>freire-mo-aotearoa</category>
+      <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Graham Hingangaroa Smith's kaupapa Māori praxis read alongside Freire. Te reo revitalisation as a Freirean act. The pedagogy that built itself when the Crown's would not teach it.</description>
+    </item>
+    <item>
+      <title>Lesson 6: A Freirean praxis for the AI moment — what we teach next</title>
+      <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-6-praxis</link>
+      <guid isPermaLink="false">freire-mo-aotearoa-7</guid>
+      <pubDate>Sun, 27 Sep 2026 19:00:00 +1200</pubDate>
+      <category>freire-mo-aotearoa</category>
+      <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Closing the loop. A working-class, kaupapa-aligned, AI-aware Freirean praxis. Generative themes for organisers, study circles, and the household. What we carry into Deleuze.</description>
     </item>
 </channel></rss>
