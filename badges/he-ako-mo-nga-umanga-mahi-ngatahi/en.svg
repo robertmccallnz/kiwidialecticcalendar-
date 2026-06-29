@@ -2,13 +2,13 @@
   <rect width="1200" height="1200" fill="#0c0c0c"/>
   <circle cx="600" cy="600" r="560" fill="#0e0e0e" stroke="#c41e1e" stroke-width="10"/>
   <circle cx="600" cy="600" r="500" fill="none" stroke="#1a1a1a" stroke-width="2"/>
-  <defs><path id="arc-739506" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
+  <defs><path id="arc-397506" d="M 120 600 A 480 480 0 0 1 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="54" fill="#f5f0e6" letter-spacing="6">
-  <textPath href="#arc-739506" startOffset="50%" text-anchor="middle">HE AKO MO NGĀ UMANGA MAHI …</textPath>
+  <textPath href="#arc-397506" startOffset="50%" text-anchor="middle">HE AKO MO NGĀ UMANGA MAHI …</textPath>
 </text>
-  <defs><path id="arc-725323" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
+  <defs><path id="arc-128513" d="M 120 600 A 480 480 0 0 0 1080 600"/></defs>
 <text font-family="'Bebas Neue',sans-serif" font-size="42" fill="#c41e1e" letter-spacing="8">
-  <textPath href="#arc-725323" startOffset="50%" text-anchor="middle">COMPLETED — COURSE POU</textPath>
+  <textPath href="#arc-128513" startOffset="50%" text-anchor="middle">COMPLETED — COURSE POU</textPath>
 </text>
   <path d="M600 460 C 720 460 780 560 780 640 C 780 740 700 800 600 800 C 520 800 460 740 460 660 C 460 600 520 560 600 560 C 660 560 700 600 700 640"
                 fill="none" stroke="#f5f0e6" stroke-width="14"/>
