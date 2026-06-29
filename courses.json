@@ -595,6 +595,87 @@
         }
       ],
       "chat_thread": ""
+    },
+    {
+      "title": "Te Pā Tūwatawata — AI, tikanga & data sovereignty",
+      "slug": "te-pa-tuwatawata",
+      "status": "Live",
+      "access": "free_public",
+      "calendar_visibility": "public",
+      "external_course": true,
+      "external_url": "https://te-pa.org/",
+      "badge_glyph": "koru",
+      "license": "CC BY-NC-SA 4.0",
+      "description": "A bilingual te reo Māori / English mini-site of six modules on Māori data sovereignty, tikanga, and Indigenous digital futures. Built on a Freire / Graeber / Kropotkin / Kaupapa Māori pedagogy. Free to use, translate, fork, and self-host.",
+      "lessons": [
+        {
+          "title": "Module 1 — Whakapapa o te raraunga",
+          "date": "2026-06-29",
+          "time": "",
+          "location": "te-pa.org",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "The whakapapa of data — where does data come from, and who does it belong to?",
+          "link": "https://te-pa.org/modules/module-1.html",
+          "published": true
+        },
+        {
+          "title": "Module 2 — Te Pā Tūwatawata hei tauira",
+          "date": "2026-06-29",
+          "time": "",
+          "location": "te-pa.org",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Te Pā Tūwatawata as a model for Indigenous-led digital infrastructure.",
+          "link": "https://te-pa.org/modules/module-2.html",
+          "published": true
+        },
+        {
+          "title": "Module 3 — AI me te raupatu matihiko",
+          "date": "2026-06-29",
+          "time": "",
+          "location": "te-pa.org",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "AI and digital extraction — tracing the colonial logic inside machine learning.",
+          "link": "https://te-pa.org/modules/module-3.html",
+          "published": true
+        },
+        {
+          "title": "Module 4 — Tikanga, ture, mana whakahaere",
+          "date": "2026-06-29",
+          "time": "",
+          "location": "te-pa.org",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Tikanga, law, and governance — how Māori legal frameworks challenge tech power.",
+          "link": "https://te-pa.org/modules/module-4.html",
+          "published": true
+        },
+        {
+          "title": "Module 5 — Hoahoa tika",
+          "date": "2026-06-29",
+          "time": "",
+          "location": "te-pa.org",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Designing ethical systems — what does a decolonised AI architecture look like?",
+          "link": "https://te-pa.org/modules/module-5.html",
+          "published": true
+        },
+        {
+          "title": "Module 6 — He anamata rangatira",
+          "date": "2026-06-29",
+          "time": "",
+          "location": "te-pa.org",
+          "access": "free_public",
+          "calendar_visibility": "public",
+          "teaser": "Sovereign digital futures — building Māori-controlled infrastructure for generations.",
+          "link": "https://te-pa.org/modules/module-6.html",
+          "published": true
+        }
+      ],
+      "chat_thread": ""
     }
   ]
 }
