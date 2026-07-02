@@ -7,7 +7,7 @@ X-WR-CALNAME:The Kiwi Dialectic Courses
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
 UID:ai-warrior-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260702T190000
 DTEND;TZID=Pacific/Auckland:20260702T200000
 SUMMARY:AI Warrior — The Kiwi Dialectic — Course launch — AI Warrior
@@ -17,217 +17,217 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Course launch
-DESCRIPTION:Gramsci for Aotearoa — Course launch\nAccess: free_subscriber\nCourse overview and how to follow along.\nhttps://www.kiwidialectic.com/p/gramsci-for-aotearoa-course-launch
-LOCATION:Substack
+DESCRIPTION:Gramsci for Aotearoa — Course launch\nAccess: free_subscriber\nCourse overview and how to follow along.\nhttps://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-01.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-01.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-2@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 1: Who was Gramsci, and why read him now?
-DESCRIPTION:Gramsci for Aotearoa — Lesson 1: Who was Gramsci, and why read him now?\nAccess: free_subscriber\nIntroduction to Gramsci's life, ideas, and relevance today.\nhttps://www.kiwidialectic.com/p/gramsci-for-aotearoa-lesson-1-who
-LOCATION:Substack
+DESCRIPTION:Gramsci for Aotearoa — Lesson 1: Who was Gramsci, and why read him now?\nAccess: free_subscriber\nIntroduction to Gramsci's life, ideas, and relevance today.\nhttps://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-02.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-02.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-3@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 2: Hegemony — how ruling ideas become ordinary life
-DESCRIPTION:Gramsci for Aotearoa — Lesson 2: Hegemony — how ruling ideas become ordinary life\nAccess: free_subscriber\nWhy ruling ideas become ordinary life.\nhttps://www.kiwidialectic.com/p/gramsci-for-aotearoa-lesson-2-hegemony
-LOCATION:Substack
+DESCRIPTION:Gramsci for Aotearoa — Lesson 2: Hegemony — how ruling ideas become ordinary life\nAccess: free_subscriber\nWhy ruling ideas become ordinary life.\nhttps://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-03.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-03.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-4@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 3: Organic Intellectuals — who speaks for the working class?
-DESCRIPTION:Gramsci for Aotearoa — Lesson 3: Organic Intellectuals — who speaks for the working class?\nAccess: free_subscriber\nWho speaks for the working class and how?\nhttps://www.kiwidialectic.com/p/gramsci-for-aotearoa-lesson-3-organic
-LOCATION:Substack
+DESCRIPTION:Gramsci for Aotearoa — Lesson 3: Organic Intellectuals — who speaks for the working class?\nAccess: free_subscriber\nWho speaks for the working class and how?\nhttps://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-04.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-04.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-5@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 4: Civil Society, the State, and who controls the institutions
-DESCRIPTION:Gramsci for Aotearoa — Lesson 4: Civil Society, the State, and who controls the institutions\nAccess: free_subscriber\nHow institutions reproduce power — and how to fight back.\nhttps://www.kiwidialectic.com/p/gramsci-for-aotearoa-lesson-4-civil
-LOCATION:Substack
+DESCRIPTION:Gramsci for Aotearoa — Lesson 4: Civil Society, the State, and who controls the institutions\nAccess: free_subscriber\nHow institutions reproduce power — and how to fight back.\nhttps://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-05.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-05.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-6@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 5: War of Position — building counter-power from below
-DESCRIPTION:Gramsci for Aotearoa — Lesson 5: War of Position — building counter-power from below\nAccess: free_subscriber\nThe long game of building socialist counter-power.\nhttps://www.kiwidialectic.com/p/gramsci-for-aotearoa-lesson-5-war
-LOCATION:Substack
+DESCRIPTION:Gramsci for Aotearoa — Lesson 5: War of Position — building counter-power from below\nAccess: free_subscriber\nThe long game of building socialist counter-power.\nhttps://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-06.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-06.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gramsci-for-aotearoa-7@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Gramsci for Aotearoa — Lesson 6: Putting it all together — a socialist toolkit for Aotearoa
-DESCRIPTION:Gramsci for Aotearoa — Lesson 6: Putting it all together — a socialist toolkit for Aotearoa\nAccess: free_subscriber\nApplying Gramsci's framework to Aotearoa New Zealand today.\nhttps://www.kiwidialectic.com/p/gramsci-for-aotearoa-lesson-6-putting
-LOCATION:Substack
+DESCRIPTION:Gramsci for Aotearoa — Lesson 6: Putting it all together — a socialist toolkit for Aotearoa\nAccess: free_subscriber\nApplying Gramsci's framework to Aotearoa New Zealand today.\nhttps://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-07.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gramsci-for-aotearoa/lesson-07.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Course intro — free email course from The Kiwi Dialect
-DESCRIPTION:Kropotkin & Mutual Aid — Course intro — free email course from The Kiwi Dialect\nAccess: free_subscriber\nOverview and how to enrol.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-free-email
-LOCATION:Substack
+DESCRIPTION:Kropotkin & Mutual Aid — Course intro — free email course from The Kiwi Dialect\nAccess: free_subscriber\nOverview and how to enrol.\nhttps://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-01.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-01.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-2@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260620T190000
 DTEND;TZID=Pacific/Auckland:20260620T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 1: Who was Kropotkin, and what is mutual aid?
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 1: Who was Kropotkin, and what is mutual aid?\nAccess: free_subscriber\nAn introduction to cooperation beyond capitalist myth-making.\nhttps://www.kiwidialectic.com/p/lesson-1-who-was-kropotkin-and-what
-LOCATION:Substack
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 1: Who was Kropotkin, and what is mutual aid?\nAccess: free_subscriber\nAn introduction to cooperation beyond capitalist myth-making.\nhttps://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-02.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-02.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-3@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 2: Mutual Aid vs Social Darwinism — nature is not a war of all against all
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 2: Mutual Aid vs Social Darwinism — nature is not a war of all against all\nAccess: free_subscriber\nThe idea that humans are naturally selfish is ideology, not science.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-2
-LOCATION:Substack
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 2: Mutual Aid vs Social Darwinism — nature is not a war of all against all\nAccess: free_subscriber\nThe idea that humans are naturally selfish is ideology, not science.\nhttps://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-03.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-03.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-4@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 3: Mutual Aid in Working-Class History — strikes, friendly societies, and solidarity networks
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 3: Mutual Aid in Working-Class History — strikes, friendly societies, and solidarity networks\nAccess: free_subscriber\nWorking-class people have always built mutual aid networks to survive capitalism.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-3
-LOCATION:Substack
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 3: Mutual Aid in Working-Class History — strikes, friendly societies, and solidarity networks\nAccess: free_subscriber\nWorking-class people have always built mutual aid networks to survive capitalism.\nhttps://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-04.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-04.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-5@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 4: Mutual Aid in Aotearoa — hapū, whānau, working-class communities
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 4: Mutual Aid in Aotearoa — hapū, whānau, working-class communities\nAccess: free_subscriber\nMutual aid is not a Western import to Aotearoa. It was already here.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-4
-LOCATION:Substack
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 4: Mutual Aid in Aotearoa — hapū, whānau, working-class communities\nAccess: free_subscriber\nMutual aid is not a Western import to Aotearoa. It was already here.\nhttps://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-05.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-05.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-6@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 5: The State vs Mutual Aid — when welfare replaced self-organised solidarity
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 5: The State vs Mutual Aid — when welfare replaced self-organised solidarity\nAccess: free_subscriber\nThe welfare state was a genuine gain — and also used to dismantle self-organisation.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-5
-LOCATION:Substack
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 5: The State vs Mutual Aid — when welfare replaced self-organised solidarity\nAccess: free_subscriber\nThe welfare state was a genuine gain — and also used to dismantle self-organisation.\nhttps://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-06.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-06.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kropotkin-mutual-aid-7@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Kropotkin & Mutual Aid — Lesson 6: Mutual Aid Now — from food banks to tenants unions to climate response
-DESCRIPTION:Kropotkin & Mutual Aid — Lesson 6: Mutual Aid Now — from food banks to tenants unions to climate response\nAccess: free_subscriber\nMutual aid is not theoretical. It is happening right now.\nhttps://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-lesson-6
-LOCATION:Substack
+DESCRIPTION:Kropotkin & Mutual Aid — Lesson 6: Mutual Aid Now — from food banks to tenants unions to climate response\nAccess: free_subscriber\nMutual aid is not theoretical. It is happening right now.\nhttps://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-07.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/kropotkin-mutual-aid/lesson-07.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Course intro — free email course from The Kiwi Dialect
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Course intro — free email course from The Kiwi Dialect\nAccess: free_subscriber\nSix lessons on Graeber's big ideas — free. Enrol here.\nhttps://www.kiwidialectic.com/p/graeber-debt-bullshit-jobs-and-direct
-LOCATION:Substack
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Course intro — free email course from The Kiwi Dialect\nAccess: free_subscriber\nSix lessons on Graeber's big ideas — free. Enrol here.\nhttps://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-01.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-01.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-2@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 1: Who was Graeber, and why does anthropology make you dangerous?
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 1: Who was Graeber, and why does anthropology make you dangerous?\nAccess: free_subscriber\nAnthropology, anarchism, and seeing the world differently.\nhttps://www.kiwidialectic.com/p/graeber-lesson-1-who-was-graeber
-LOCATION:Substack
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 1: Who was Graeber, and why does anthropology make you dangerous?\nAccess: free_subscriber\nAnthropology, anarchism, and seeing the world differently.\nhttps://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-02.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-02.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-3@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 2: Debt — the first 5,000 years and why you should never feel morally obligated to a bank
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 2: Debt — the first 5,000 years and why you should never feel morally obligated to a bank\nAccess: free_subscriber\nHow debt was invented as a tool of domination long before capitalism.\nhttps://www.kiwidialectic.com/p/graeber-lesson-2-debt-the-first-5000
-LOCATION:Substack
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 2: Debt — the first 5,000 years and why you should never feel morally obligated to a bank\nAccess: free_subscriber\nHow debt was invented as a tool of domination long before capitalism.\nhttps://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-03.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-03.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-4@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 3: Bullshit Jobs — why so much work under capitalism is meaningless by design
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 3: Bullshit Jobs — why so much work under capitalism is meaningless by design\nAccess: free_subscriber\nWhy most work under capitalism is pointless by design.\nhttps://www.kiwidialectic.com/p/graeber-lesson-3-bullshit-jobs-and
-LOCATION:Substack
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 3: Bullshit Jobs — why so much work under capitalism is meaningless by design\nAccess: free_subscriber\nWhy most work under capitalism is pointless by design.\nhttps://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-04.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-04.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-5@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 4: The Utopia of Rules — why bureaucracy is a problem for the left, not just the right
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 4: The Utopia of Rules — why bureaucracy is a problem for the left, not just the right\nAccess: free_subscriber\nHow paperwork, means-testing, and administration humiliate and exhaust people.\nhttps://www.kiwidialectic.com/p/graeber-lesson-4-the-utopia-of-rules
-LOCATION:Substack
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 4: The Utopia of Rules — why bureaucracy is a problem for the left, not just the right\nAccess: free_subscriber\nHow paperwork, means-testing, and administration humiliate and exhaust people.\nhttps://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-05.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-05.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-6@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 5: The Dawn of Everything — what the deep past tells us about human freedom
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 5: The Dawn of Everything — what the deep past tells us about human freedom\nAccess: free_subscriber\nWhat Occupy Wall Street and other movements actually built.\nhttps://www.kiwidialectic.com/p/graeber-lesson-5-the-dawn-of-everything
-LOCATION:Substack
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 5: The Dawn of Everything — what the deep past tells us about human freedom\nAccess: free_subscriber\nWhat Occupy Wall Street and other movements actually built.\nhttps://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-06.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-06.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:graeber-debt-bullshit-jobs-direct-democracy-7@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 6: Synthesis — what Graeber's work means for thinking and acting in Aotearoa today
-DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 6: Synthesis — what Graeber's work means for thinking and acting in Aotearoa today\nAccess: free_subscriber\nDebt, work, bureaucracy, and direct democracy through a New Zealand lens.\nhttps://www.kiwidialectic.com/p/lesson-6-synthesis-what-graebers
-LOCATION:Substack
+DESCRIPTION:Graeber: Debt, Bullshit Jobs & Direct Democracy — Lesson 6: Synthesis — what Graeber's work means for thinking and acting in Aotearoa today\nAccess: free_subscriber\nDebt, work, bureaucracy, and direct democracy through a New Zealand lens.\nhttps://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-07.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/graeber-debt-bullshit-jobs-direct-democracy/lesson-07.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:he-ako-mo-nga-umanga-mahi-ngatahi-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260626T190000
 DTEND;TZID=Pacific/Auckland:20260626T200000
 SUMMARY:He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa — Course intro — He Ako mo ngā Umanga Mahi Ngātahi
@@ -237,157 +237,157 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:freire-mo-aotearoa-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260816T190000
 DTEND;TZID=Pacific/Auckland:20260816T200000
 SUMMARY:Pedagogy of the Algorithm — Freire mō Aotearoa — Course launch — Pedagogy of the Algorithm
-DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Course launch — Pedagogy of the Algorithm\nAccess: free_subscriber\nWhy Freire, why now. Every chatbot is a banking-model classroom. Freire's antidote, mapped onto kura kaupapa Māori praxis. Six lessons across six weeks.\nhttps://www.kiwidialectic.com/p/freire-mo-aotearoa-course-launch
-LOCATION:Substack
+DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Course launch — Pedagogy of the Algorithm\nAccess: free_subscriber\nWhy Freire, why now. Every chatbot is a banking-model classroom. Freire's antidote, mapped onto kura kaupapa Māori praxis. Six lessons across six weeks.\nhttps://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-01.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-01.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:freire-mo-aotearoa-2@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260823T190000
 DTEND;TZID=Pacific/Auckland:20260823T200000
 SUMMARY:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 1: Ko wai a Freire? — the teacher who refused to deposit
-DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 1: Ko wai a Freire? — the teacher who refused to deposit\nAccess: free_subscriber\nRecife 1921 to São Paulo 1997. The man whose literacy method taught sugar-cane workers to read the word and the world — and got him 70 days in a military prison for it.\nhttps://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-1-ko-wai
-LOCATION:Substack
+DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 1: Ko wai a Freire? — the teacher who refused to deposit\nAccess: free_subscriber\nRecife 1921 to São Paulo 1997. The man whose literacy method taught sugar-cane workers to read the word and the world — and got him 70 days in a military prison for it.\nhttps://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-02.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-02.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:freire-mo-aotearoa-3@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260830T190000
 DTEND;TZID=Pacific/Auckland:20260830T200000
 SUMMARY:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 2: The banking model goes industrial — every chatbot is a deposit
-DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 2: The banking model goes industrial — every chatbot is a deposit\nAccess: free_subscriber\nFreire's banking concept of education, retold for the age of generative AI. What happens when the teacher is the model and the deposit is your prompt history.\nhttps://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-2-banking-model
-LOCATION:Substack
+DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 2: The banking model goes industrial — every chatbot is a deposit\nAccess: free_subscriber\nFreire's banking concept of education, retold for the age of generative AI. What happens when the teacher is the model and the deposit is your prompt history.\nhttps://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-03.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-03.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:freire-mo-aotearoa-4@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260906T190000
 DTEND;TZID=Pacific/Auckland:20260906T200000
 SUMMARY:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 3: Problem-posing — how to force the chatbot to think with you
-DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 3: Problem-posing — how to force the chatbot to think with you\nAccess: free_subscriber\nFrom banking to dialogue. Problem-posing as a praxis — the prompts, the discipline, the refusal to be a passive depositor of someone else's training data.\nhttps://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-3-problem-posing
-LOCATION:Substack
+DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 3: Problem-posing — how to force the chatbot to think with you\nAccess: free_subscriber\nFrom banking to dialogue. Problem-posing as a praxis — the prompts, the discipline, the refusal to be a passive depositor of someone else's training data.\nhttps://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-04.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-04.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:freire-mo-aotearoa-5@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260913T190000
 DTEND;TZID=Pacific/Auckland:20260913T200000
 SUMMARY:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 4: Conscientização — critical consciousness in the algorithmic feed
-DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 4: Conscientização — critical consciousness in the algorithmic feed\nAccess: free_subscriber\nFreire's central concept. Reading the word and the world when the world is a recommendation algorithm. How conscientização becomes a daily discipline, not a one-off awakening.\nhttps://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-4-conscientizacao
-LOCATION:Substack
+DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 4: Conscientização — critical consciousness in the algorithmic feed\nAccess: free_subscriber\nFreire's central concept. Reading the word and the world when the world is a recommendation algorithm. How conscientização becomes a daily discipline, not a one-off awakening.\nhttps://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-05.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-05.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:freire-mo-aotearoa-6@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260920T190000
 DTEND;TZID=Pacific/Auckland:20260920T200000
 SUMMARY:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 5: Kura kaupapa Māori — Aotearoa's own refusal of the banking model
-DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 5: Kura kaupapa Māori — Aotearoa's own refusal of the banking model\nAccess: free_subscriber\nGraham Hingangaroa Smith's kaupapa Māori praxis read alongside Freire. Te reo revitalisation as a Freirean act. The pedagogy that built itself when the Crown's would not teach it.\nhttps://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-5-kura-kaupapa
-LOCATION:Substack
+DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 5: Kura kaupapa Māori — Aotearoa's own refusal of the banking model\nAccess: free_subscriber\nGraham Hingangaroa Smith's kaupapa Māori praxis read alongside Freire. Te reo revitalisation as a Freirean act. The pedagogy that built itself when the Crown's would not teach it.\nhttps://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-06.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-06.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:freire-mo-aotearoa-7@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260927T190000
 DTEND;TZID=Pacific/Auckland:20260927T200000
 SUMMARY:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 6: A Freirean praxis for the AI moment — what we teach next
-DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 6: A Freirean praxis for the AI moment — what we teach next\nAccess: free_subscriber\nClosing the loop. A working-class, kaupapa-aligned, AI-aware Freirean praxis. Generative themes for organisers, study circles, and the household. What we carry into Deleuze.\nhttps://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-6-praxis
-LOCATION:Substack
+DESCRIPTION:Pedagogy of the Algorithm — Freire mō Aotearoa — Lesson 6: A Freirean praxis for the AI moment — what we teach next\nAccess: free_subscriber\nClosing the loop. A working-class, kaupapa-aligned, AI-aware Freirean praxis. Generative themes for organisers, study circles, and the household. What we carry into Deleuze.\nhttps://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-07.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/freire-mo-aotearoa/lesson-07.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:gilles-deleuze-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260621T190000
 DTEND;TZID=Pacific/Auckland:20260621T200000
 SUMMARY:Gilles Deleuze for Educators, Artists, and Organisers — Course intro — coming soon
-DESCRIPTION:Gilles Deleuze for Educators, Artists, and Organisers — Course intro — coming soon\nAccess: free_subscriber\nOverview of the upcoming Deleuze course.\nhttps://www.kiwidialectic.com/p/gilles-deleuze-for-educators-artists
-LOCATION:Substack
+DESCRIPTION:Gilles Deleuze for Educators, Artists, and Organisers — Course intro — coming soon\nAccess: free_subscriber\nOverview of the upcoming Deleuze course.\nhttps://robertmccallnz.github.io/six-thinkers/gilles-deleuze/lesson-01.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/gilles-deleuze/lesson-01.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260704T190000
 DTEND;TZID=Pacific/Auckland:20260704T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Course launch — Tangi o te Tāheke
-DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Course launch — Tangi o te Tāheke\nAccess: free_subscriber\nThe cry of the waterfall. Why Bakunin, why Aotearoa, why now — and how this course closes the AI Warrior thinkers series.\nhttps://www.kiwidialectic.com/p/bakunin-mo-aotearoa-course-launch
-LOCATION:Substack
+DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Course launch — Tangi o te Tāheke\nAccess: free_subscriber\nThe cry of the waterfall. Why Bakunin, why Aotearoa, why now — and how this course closes the AI Warrior thinkers series.\nhttps://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-01.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-01.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-2@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260705T190000
 DTEND;TZID=Pacific/Auckland:20260705T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 1: Ko wai a Bakunin? — the man Marx feared
-DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 1: Ko wai a Bakunin? — the man Marx feared\nAccess: free_subscriber\nThe Russian who split the First International, defended the Paris Commune, and warned that any state — even a workers' state — becomes a new prison.\nhttps://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-1-ko-wai
-LOCATION:Substack
+DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 1: Ko wai a Bakunin? — the man Marx feared\nAccess: free_subscriber\nThe Russian who split the First International, defended the Paris Commune, and warned that any state — even a workers' state — becomes a new prison.\nhttps://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-02.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-02.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-3@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260712T190000
 DTEND;TZID=Pacific/Auckland:20260712T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 2: Mana motuhake — federation from below, not the state from above
-DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 2: Mana motuhake — federation from below, not the state from above\nAccess: free_subscriber\nBakunin's free federation read alongside He Whakaputanga and tino rangatiratanga. Power binds upward from the hapū, never downward from Wellington.\nhttps://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-2-mana-motuhake
-LOCATION:Substack
+DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 2: Mana motuhake — federation from below, not the state from above\nAccess: free_subscriber\nBakunin's free federation read alongside He Whakaputanga and tino rangatiratanga. Power binds upward from the hapū, never downward from Wellington.\nhttps://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-03.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-03.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-4@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260719T190000
 DTEND;TZID=Pacific/Auckland:20260719T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 3: Te tāheke — the passion for destruction is also a creative passion
-DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 3: Te tāheke — the passion for destruction is also a creative passion\nAccess: free_subscriber\nHow to tear down without nihilism. The waterfall as kaupapa: what falls feeds the awa, what is demolished irrigates the kāinga.\nhttps://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-3-te-taheke
-LOCATION:Substack
+DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 3: Te tāheke — the passion for destruction is also a creative passion\nAccess: free_subscriber\nHow to tear down without nihilism. The waterfall as kaupapa: what falls feeds the awa, what is demolished irrigates the kāinga.\nhttps://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-04.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-04.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-5@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260726T190000
 DTEND;TZID=Pacific/Auckland:20260726T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 4: Caracoles in the kāinga — a Zapatista reading for Aotearoa
-DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 4: Caracoles in the kāinga — a Zapatista reading for Aotearoa\nAccess: free_subscriber\nChiapas to Ōtepoti. Autonomous councils, mandar obedeciendo, and what a Kiwi caracol looks like — marae, co-ops, learning circles, mutual-aid pātaka.\nhttps://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-4-caracoles
-LOCATION:Substack
+DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 4: Caracoles in the kāinga — a Zapatista reading for Aotearoa\nAccess: free_subscriber\nChiapas to Ōtepoti. Autonomous councils, mandar obedeciendo, and what a Kiwi caracol looks like — marae, co-ops, learning circles, mutual-aid pātaka.\nhttps://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-05.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-05.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-6@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260802T190000
 DTEND;TZID=Pacific/Auckland:20260802T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 5: Refusing the algorithmic Leviathan — anarchism in the age of AI
-DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 5: Refusing the algorithmic Leviathan — anarchism in the age of AI\nAccess: free_subscriber\nBakunin called the state a machine. The machine is now literal. How federation, encryption, and refusal apply to platform capital and state AI.\nhttps://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-5-algorithmic-leviathan
-LOCATION:Substack
+DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 5: Refusing the algorithmic Leviathan — anarchism in the age of AI\nAccess: free_subscriber\nBakunin called the state a machine. The machine is now literal. How federation, encryption, and refusal apply to platform capital and state AI.\nhttps://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-06.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-06.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bakunin-mo-aotearoa-7@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260809T190000
 DTEND;TZID=Pacific/Auckland:20260809T200000
 SUMMARY:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 6: Arm the class — closing the AI Warrior thinkers series
-DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 6: Arm the class — closing the AI Warrior thinkers series\nAccess: free_subscriber\nFrom Gramsci to Bakunin in six thinkers. The toolkit, the refrain, the kaupapa for the next decade. E kore e mau te rongo ki te whenua kāore e watea.\nhttps://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-6-arm-the-class
-LOCATION:Substack
+DESCRIPTION:Tangi o te Tāheke — Bakunin mō Aotearoa — Lesson 6: Arm the class — closing the AI Warrior thinkers series\nAccess: free_subscriber\nFrom Gramsci to Bakunin in six thinkers. The toolkit, the refrain, the kaupapa for the next decade. E kore e mau te rongo ki te whenua kāore e watea.\nhttps://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-07.html
+LOCATION:https://robertmccallnz.github.io/six-thinkers/bakunin-mo-aotearoa/lesson-07.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-literacy-for-families-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260706T190000
 DTEND;TZID=Pacific/Auckland:20260706T200000
 SUMMARY:AI Literacy for Families — a 6-week household course — Course launch — AI Literacy for Families
@@ -397,7 +397,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-literacy-for-families-2@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260713T190000
 DTEND;TZID=Pacific/Auckland:20260713T200000
 SUMMARY:AI Literacy for Families — a 6-week household course — Week 1 — How AI actually works
@@ -407,7 +407,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-literacy-for-families-3@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260720T190000
 DTEND;TZID=Pacific/Auckland:20260720T200000
 SUMMARY:AI Literacy for Families — a 6-week household course — Week 2 — Bias & deepfakes
@@ -417,7 +417,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-literacy-for-families-4@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260727T190000
 DTEND;TZID=Pacific/Auckland:20260727T200000
 SUMMARY:AI Literacy for Families — a 6-week household course — Week 3 — Privacy & ethics
@@ -427,7 +427,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-literacy-for-families-5@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260803T190000
 DTEND;TZID=Pacific/Auckland:20260803T200000
 SUMMARY:AI Literacy for Families — a 6-week household course — Week 4 — Critical thinking & fact-checking
@@ -437,7 +437,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-literacy-for-families-6@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260810T190000
 DTEND;TZID=Pacific/Auckland:20260810T200000
 SUMMARY:AI Literacy for Families — a 6-week household course — Week 5 — Setting household digital boundaries
@@ -447,7 +447,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-literacy-for-families-7@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260817T190000
 DTEND;TZID=Pacific/Auckland:20260817T200000
 SUMMARY:AI Literacy for Families — a 6-week household course — Week 6 — Modeling responsible tech habits
@@ -457,7 +457,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:te-pa-tuwatawata-1@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Te Pā Tūwatawata — AI, tikanga & data sovereignty — Module 1 — Whakapapa o te raraunga
@@ -467,7 +467,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:te-pa-tuwatawata-2@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Te Pā Tūwatawata — AI, tikanga & data sovereignty — Module 2 — Te Pā Tūwatawata hei tauira
@@ -477,7 +477,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:te-pa-tuwatawata-3@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Te Pā Tūwatawata — AI, tikanga & data sovereignty — Module 3 — AI me te raupatu matihiko
@@ -487,7 +487,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:te-pa-tuwatawata-4@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Te Pā Tūwatawata — AI, tikanga & data sovereignty — Module 4 — Tikanga, ture, mana whakahaere
@@ -497,7 +497,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:te-pa-tuwatawata-5@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Te Pā Tūwatawata — AI, tikanga & data sovereignty — Module 5 — Hoahoa tika
@@ -507,7 +507,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:te-pa-tuwatawata-6@thekiwidialectic
-DTSTAMP:20260629T184822Z
+DTSTAMP:20260702T023952Z
 DTSTART;TZID=Pacific/Auckland:20260629T190000
 DTEND;TZID=Pacific/Auckland:20260629T200000
 SUMMARY:Te Pā Tūwatawata — AI, tikanga & data sovereignty — Module 6 — He anamata rangatira
