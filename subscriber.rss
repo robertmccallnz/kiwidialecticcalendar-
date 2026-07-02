@@ -6,7 +6,15 @@
 <atom:link href="https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/subscriber.rss" rel="self" type="application/rss+xml"/>
 <description>For people who follow the project, not the calendar. AI Warrior site updates plus live indigenous-news pulses from the te-pa.org rhizome mapper.</description>
 <language>en-NZ</language>
-<lastBuildDate>Thu, 02 Jul 2026 04:10:25 +0000</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 05:51:18 +0000</lastBuildDate>
+<item>
+  <title>AI Warrior — Add shared Kiwi Dialectic network hub footer</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/65d0ab04c12b035c222a2ae214200519a1ea3b7a</link>
+  <guid isPermaLink="false">aw-65d0ab04c12b</guid>
+  <pubDate>Thu, 02 Jul 2026 05:50:29 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Add shared Kiwi Dialectic network hub footer</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/65d0ab04c12b035c222a2ae214200519a1ea3b7a">View change on GitHub →</a></p>]]></description>
+</item>
 <item>
   <title>AI Warrior — Add Ecosystem section with te-pa.org featured</title>
   <link>https://github.com/robertmccallnz/ai-warrior/commit/9e9fae1981a1c7f4158ce4a031b22662fc6f6b04</link>
@@ -158,14 +166,6 @@
   <pubDate>Mon, 29 Jun 2026 01:02:03 +0000</pubDate>
   <category>ai-warrior</category>
   <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Point Badges nav link to Pages URL (HTML rendering)</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/593e1ddf43ac892e61494a93fcc138cae89ee07e">View change on GitHub →</a></p>]]></description>
-</item>
-<item>
-  <title>AI Warrior — Wire Mapper + Badges links into AI Warrior nav</title>
-  <link>https://github.com/robertmccallnz/ai-warrior/commit/049f024dd558a290af770e94ae42c000ec42b140</link>
-  <guid isPermaLink="false">aw-049f024dd558</guid>
-  <pubDate>Mon, 29 Jun 2026 01:01:49 +0000</pubDate>
-  <category>ai-warrior</category>
-  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>Wire Mapper + Badges links into AI Warrior nav</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/049f024dd558a290af770e94ae42c000ec42b140">View change on GitHub →</a></p>]]></description>
 </item>
 </channel>
 </rss>
