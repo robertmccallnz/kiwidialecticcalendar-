@@ -10,6 +10,11 @@ Badge design:
 - Thinker glyph centred (star, gear, koru, etc.)
 - Course title arc-text around the top
 - "POU TOHU" + locale label on the lower rim
+
+The showcase page (badges/index.html) is motif-branded per course:
+- Each card reads --accent (course brand_color) and --motif (motif SVG url)
+- Motif banner sits above the card title; kaupapa line explains the choice
+- Primary CTA links to the HTML course (html_course_url), not Substack
 """
 import json, math
 from pathlib import Path
@@ -48,6 +53,16 @@ GLYPHS = {
                     <circle cx="600" cy="620" r="22" fill="#c41e1e" stroke="#c41e1e"/>
                     <path d="M500 540 L600 620 L700 540 M540 700 L600 620 L660 700 M500 540 L540 700 M700 540 L660 700"/>
                   </g>""",
+}
+
+# Human labels for motif slugs (used when a course omits `motif_label`).
+MOTIF_LABELS = {
+    "niho-taniwha": "Niho taniwha",
+    "unaunahi": "Unaunahi",
+    "kowhaiwhai": "Kōwhaiwhai",
+    "koru": "Koru",
+    "takarangi": "Tākarangi",
+    "pa-tuwatawata": "Pā tūwatawata",
 }
 
 def arc_text(text: str, radius: int, top: bool = True, size: int = 54,
@@ -121,66 +136,131 @@ def maybe_png(svg_path: Path) -> None:
     except Exception:
         pass
 
+# CSS block for the motif-branded showcase page. Kept as a separate constant so
+# the f-string interpolation inside write_index() doesn't have to escape braces.
+_CSS = """
+:root{
+  --ink:#f5f0e6;
+  --bg:#0c0c0c;
+  --muted:#8a8a8a;
+  --line:#1a1a1a;
+  --red:#c41e1e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.55}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:32px 22px}
+h1{font-family:'Bebas Neue',sans-serif;font-size:72px;letter-spacing:.02em;margin:0 0 6px}
+h1 .r{color:var(--red)}
+p.lede{max-width:62ch;line-height:1.6;color:#cfc8b9}
+.gate{background:#120e0e;border:1px solid #3a2222;padding:14px 16px;margin:18px 0 8px;font-size:14px;line-height:1.55;color:#cfc8b9;max-width:62ch}
+.gate strong{color:var(--red);font-family:'Bebas Neue',sans-serif;letter-spacing:.08em;display:block;margin-bottom:4px}
+.gate a{color:#fff;border-bottom:1px solid var(--red);text-decoration:none}
+.legend{margin:22px 0 8px;padding:14px 16px;border:1px solid var(--line);background:#0f0f0f;font-size:13px;color:#cfc8b9;max-width:62ch}
+.legend strong{font-family:'Bebas Neue',sans-serif;letter-spacing:.08em;display:block;color:#fff;margin-bottom:4px}
+.badge{
+  --accent:#c41e1e;
+  --motif:none;
+  border:1px solid var(--line);
+  border-top:4px solid var(--accent);
+  background:#0f0f0f;
+  padding:0;
+  margin:28px 0;
+  scroll-margin-top:24px;
+  overflow:hidden;
+}
+.badge .motif-band{
+  height:96px;
+  background-color:var(--accent);
+  background-image:var(--motif);
+  background-repeat:repeat-x;
+  background-position:center;
+  background-size:auto 78%;
+  border-bottom:1px solid rgba(0,0,0,.35);
+  position:relative;
+}
+.badge .motif-band::after{
+  content:attr(data-motif);
+  position:absolute;right:14px;bottom:8px;
+  font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:.16em;
+  color:rgba(255,255,255,.85);text-shadow:0 1px 2px rgba(0,0,0,.5);
+}
+.badge .body{padding:24px 22px}
+.badge h3{font-family:'Bebas Neue',sans-serif;font-size:28px;margin:0 0 4px;letter-spacing:.02em}
+.badge h3 .pill{display:inline-block;background:var(--accent);color:#fff;font-size:12px;letter-spacing:.08em;padding:2px 8px;margin-left:8px;vertical-align:3px;font-family:'Bebas Neue',sans-serif}
+.status{color:var(--muted);font-size:13px;margin-bottom:10px;letter-spacing:.04em}
+.status a{color:#cfc8b9;border-bottom:1px solid #2a2a2a;text-decoration:none}
+.status a:hover{border-color:var(--accent)}
+.kaupapa{font-size:13px;color:#cfc8b9;margin:8px 0 12px;padding-left:12px;border-left:2px solid var(--accent);max-width:62ch}
+.reqs{font-size:13px;line-height:1.6;color:#cfc8b9;margin:0 0 14px;max-width:62ch}
+.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.cta{display:inline-block;padding:10px 16px;background:var(--accent);color:#fff;font-family:'Bebas Neue',sans-serif;letter-spacing:.12em;font-size:13px;text-decoration:none}
+.cta.alt{background:#000;color:var(--ink);border:1px solid var(--line)}
+.cta:hover{filter:brightness(1.12)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:12px}
+.grid a{display:block;background:#101010;border:1px solid var(--line);padding:14px;text-align:center;color:inherit;text-decoration:none;transition:border-color .15s}
+.grid a:hover{border-color:var(--accent)}
+.grid img{width:100%;height:auto;display:block;margin-bottom:10px}
+.grid span{font-family:'Bebas Neue',sans-serif;letter-spacing:.14em;font-size:13px;color:var(--accent)}
+footer{border-top:1px solid var(--line);margin-top:48px;padding:18px 0;color:var(--muted);font-size:13px}
+footer a{color:var(--red)}
+@media (max-width:640px){
+  h1{font-size:52px}
+  .grid{grid-template-columns:1fr}
+  .badge .motif-band{height:72px}
+}
+"""
+
 def write_index(data: dict) -> None:
     rows = []
     for c in data["courses"]:
         slug = c["slug"]
         access = c.get("access", "free_subscriber")
         access_label = "PAID SUBSCRIBER" if access == "paid_subscriber" else "FREE SUBSCRIBER"
+        # Primary course URL: prefer the HTML course, fall back to lesson link,
+        # then to the six-thinkers catalogue. Substack is no longer the default.
         launch = next((l for l in c.get("lessons", []) if l), None)
-        course_url = (launch or {}).get("link") or "https://www.kiwidialectic.com/s/courses"
+        html_url = c.get("html_course_url")
+        course_url = html_url or (launch or {}).get("link") or "https://robertmccallnz.github.io/six-thinkers/"
         chat_url = c.get("chat_thread") or "https://substack.com/chat"
-        rows.append(f"""<article class="badge" id="{slug}">
-  <h3>{c['title']} <span class="pill">{access_label}</span></h3>
-  <div class="status">Status: {c.get('status','')} · <a href="{course_url}">Open course on Substack</a> · <a href="{chat_url}">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="{slug}/mi.svg"><img src="{slug}/mi.svg" alt="{c['title']} — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="{slug}/en.svg"><img src="{slug}/en.svg" alt="{c['title']} — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="{course_url}">Open the course →</a>
-    <a class="cta alt" href="{chat_url}">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+        # Motif + brand colour with sensible defaults.
+        motif = c.get("motif") or "niho-taniwha"
+        accent = c.get("brand_color") or "#c41e1e"
+        kaupapa = c.get("kaupapa") or ""
+        motif_label = c.get("motif_label") or MOTIF_LABELS.get(motif, motif.replace("-", " ").title())
+        motif_url = f"motifs/{motif}-transparent.svg"
+        style = f"--accent:{accent};--motif:url('{motif_url}')"
+        kaupapa_html = f'<p class="kaupapa">{kaupapa}</p>' if kaupapa else ""
+        rows.append(f"""<article class="badge" id="{slug}" style="{style}">
+  <div class="motif-band" data-motif="{motif_label}"></div>
+  <div class="body">
+    <h3>{c['title']} <span class="pill">{access_label}</span></h3>
+    <div class="status">Status: {c.get('status','')} · <a href="{course_url}">Open the course →</a> · <a href="{chat_url}">Chat thread</a></div>
+    {kaupapa_html}
+    <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
+    <div class="grid">
+      <a href="{slug}/mi.svg"><img src="{slug}/mi.svg" alt="{c['title']} — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
+      <a href="{slug}/en.svg"><img src="{slug}/en.svg" alt="{c['title']} — English badge"/><span>ENGLISH · download SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="{course_url}">Open the course →</a>
+      <a class="cta alt" href="{chat_url}">Claim in chat thread →</a>
+      <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+    </div>
   </div>
 </article>""")
-    html = """<!doctype html><html lang="en"><head><meta charset="utf-8"/>
+    html = ("""<!doctype html><html lang="en"><head><meta charset="utf-8"/>
 <title>Pou Tohu — Course Accreditation Badges · The Kiwi Dialectic</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
-<style>
-body{margin:0;background:#0c0c0c;color:#f5f0e6;font-family:Inter,system-ui,sans-serif}
-.wrap{max-width:1180px;margin:0 auto;padding:32px 22px}
-h1{font-family:'Bebas Neue',sans-serif;font-size:72px;letter-spacing:.02em;margin:0 0 6px}
-h1 .r{color:#c41e1e}
-p.lede{max-width:62ch;line-height:1.6;color:#cfc8b9}
-.gate{background:#120e0e;border:1px solid #3a2222;padding:14px 16px;margin:18px 0 8px;font-size:14px;line-height:1.55;color:#cfc8b9;max-width:62ch}
-.gate strong{color:#c41e1e;font-family:'Bebas Neue',sans-serif;letter-spacing:.08em;display:block;margin-bottom:4px}
-.gate a{color:#fff;border-bottom:1px solid #c41e1e;text-decoration:none}
-.badge{border-top:1px solid #1a1a1a;padding:28px 0;scroll-margin-top:24px}
-.badge h3{font-family:'Bebas Neue',sans-serif;font-size:28px;margin:0 0 4px;letter-spacing:.02em}
-.badge h3 .pill{display:inline-block;background:#c41e1e;color:#fff;font-size:12px;letter-spacing:.08em;padding:2px 8px;margin-left:8px;vertical-align:3px;font-family:'Bebas Neue',sans-serif}
-.status{color:#8a8a8a;font-size:13px;margin-bottom:10px;letter-spacing:.04em}
-.status a{color:#cfc8b9;border-bottom:1px solid #2a2a2a;text-decoration:none}
-.status a:hover{border-color:#c41e1e}
-.reqs{font-size:13px;line-height:1.6;color:#cfc8b9;margin:0 0 14px;max-width:62ch}
-.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
-.cta{display:inline-block;padding:10px 16px;background:#c41e1e;color:#fff;font-family:'Bebas Neue',sans-serif;letter-spacing:.12em;font-size:13px;text-decoration:none}
-.cta.alt{background:#000;color:#f5f0e6;border:1px solid #1a1a1a}
-.cta:hover{filter:brightness(1.1)}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.grid a{display:block;background:#101010;border:1px solid #1a1a1a;padding:14px;text-align:center;color:inherit;text-decoration:none;transition:border-color .15s}
-.grid a:hover{border-color:#c41e1e}
-.grid img{width:100%;height:auto;display:block;margin-bottom:10px}
-.grid span{font-family:'Bebas Neue',sans-serif;letter-spacing:.14em;font-size:13px;color:#c41e1e}
-footer{border-top:1px solid #1a1a1a;margin-top:48px;padding:18px 0;color:#8a8a8a;font-size:13px}
-</style></head><body><div class="wrap">
+<style>""" + _CSS + """</style></head><body><div class="wrap">
 <h1>POU TOHU <span class="r">·</span> ACCREDITATION</h1>
 <p class="lede">A <em>pou tohu</em> — post, marker, badge — is awarded after completing each course. Free to use; please credit The Kiwi Dialectic. Every badge ships in te reo Māori and English; more locales on request.</p>
 <div class="gate"><strong>SUBSCRIBER ACCESS</strong>Every course — free or paid — requires a Kiwi Dialectic subscription. Free subscribers get every lesson, every chat thread, and every pou tohu. Paid subscribers also get the workbooks and live Q&amp;A. <a href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a></div>
+<div class="legend"><strong>Kaupapa Māori motif branding</strong>Each course carries a motif and colour that reflects its whakaaro — niho taniwha for teeth at the threshold, unaunahi for scales of mutual aid, kōwhaiwhai for painted rafters of shared meaning, koru for unfurling growth, tākarangi for the double spiral, and pā tūwatawata for the fortified home course.</div>
 """ + "\n".join(rows) + """
-<footer>The Kiwi Dialectic · Ōtepoti / Dunedin · <a href="https://www.kiwidialectic.com" style="color:#c41e1e">kiwidialectic.com</a></footer>
-</div></body></html>"""
+<footer>The Kiwi Dialectic · Ōtepoti / Dunedin · <a href="https://robertmccallnz.github.io/six-thinkers/">six-thinkers catalogue</a> · <a href="https://www.kiwidialectic.com">kiwidialectic.com</a></footer>
+</div></body></html>""")
     (BADGES / "index.html").write_text(html)
 
 def main():

@@ -26,7 +26,9 @@
       "badge_claim_url": null,
       "motif": "niho-taniwha",
       "brand_color": "#c41e1e",
-      "kaupapa": "Niho taniwha — teeth at the threshold. The parent course of the six-thinkers series."
+      "kaupapa": "Niho taniwha — teeth at the threshold. The parent course of the six-thinkers series.",
+      "html_course_url": "https://robertmccallnz.github.io/ai-warrior/",
+      "motif_label": "Niho taniwha"
     },
     {
       "title": "Gramsci for Aotearoa",
@@ -120,7 +122,9 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#gramsci-for-aotearoa",
       "motif": "niho-taniwha",
       "brand_color": "#3a5a7a",
-      "kaupapa": "Niho taniwha — teeth at the threshold of hegemony."
+      "kaupapa": "Niho taniwha — teeth at the threshold of hegemony.",
+      "html_course_url": "https://robertmccallnz.github.io/six-thinkers/#gramsci",
+      "motif_label": "Niho taniwha"
     },
     {
       "title": "Kropotkin & Mutual Aid",
@@ -214,7 +218,9 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#kropotkin-mutual-aid",
       "motif": "unaunahi",
       "brand_color": "#16a085",
-      "kaupapa": "Unaunahi — overlapping scales, collective armour. Cooperation as survival."
+      "kaupapa": "Unaunahi — overlapping scales, collective armour. Cooperation as survival.",
+      "html_course_url": "https://robertmccallnz.github.io/six-thinkers/#kropotkin",
+      "motif_label": "Unaunahi"
     },
     {
       "title": "Graeber: Debt, Bullshit Jobs & Direct Democracy",
@@ -308,7 +314,9 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#graeber-debt-bullshit-jobs-direct-democracy",
       "motif": "kowhaiwhai",
       "brand_color": "#8e44ad",
-      "kaupapa": "Kōwhaiwhai — ture, whakapapa, tikanga. Debt as the first 5,000 years."
+      "kaupapa": "Kōwhaiwhai — ture, whakapapa, tikanga. Debt as the first 5,000 years.",
+      "html_course_url": "https://robertmccallnz.github.io/six-thinkers/#graeber",
+      "motif_label": "Kōwhaiwhai"
     },
     {
       "title": "He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa",
@@ -336,7 +344,9 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#he-ako-mo-nga-umanga-mahi-ngatahi",
       "motif": "koru",
       "brand_color": "#27ae60",
-      "kaupapa": "Koru — new life, unfurling. How to start a cooperative in Aotearoa."
+      "kaupapa": "Koru — new life, unfurling. How to start a cooperative in Aotearoa.",
+      "html_course_url": "https://robertmccallnz.github.io/cooperative-aotearoa/",
+      "motif_label": "Koru"
     },
     {
       "title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
@@ -430,7 +440,9 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#freire-mo-aotearoa",
       "motif": "kowhaiwhai",
       "brand_color": "#d35400",
-      "kaupapa": "Kōwhaiwhai — the first law of the classroom. The banking model, refused."
+      "kaupapa": "Kōwhaiwhai — the first law of the classroom. The banking model, refused.",
+      "html_course_url": "https://robertmccallnz.github.io/six-thinkers/#freire",
+      "motif_label": "Kōwhaiwhai"
     },
     {
       "title": "Gilles Deleuze for Educators, Artists, and Organisers",
@@ -458,7 +470,9 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#gilles-deleuze",
       "motif": "takarangi",
       "brand_color": "#e67e22",
-      "kaupapa": "Tākarangi — spirals of past and future. Rhizomes, assemblages, lines of flight."
+      "kaupapa": "Tākarangi — spirals of past and future. Rhizomes, assemblages, lines of flight.",
+      "html_course_url": "https://robertmccallnz.github.io/six-thinkers/#deleuze",
+      "motif_label": "Tākarangi"
     },
     {
       "title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -552,7 +566,9 @@
       "badge_claim_url": "https://robertmccallnz.github.io/kiwidialecticcalendar-/badges/#bakunin-mo-aotearoa",
       "motif": "niho-taniwha",
       "brand_color": "#7a1a1a",
-      "kaupapa": "Niho taniwha — the teeth of refusal. Te tāheke tears down what dams the awa."
+      "kaupapa": "Niho taniwha — the teeth of refusal. Te tāheke tears down what dams the awa.",
+      "html_course_url": "https://robertmccallnz.github.io/six-thinkers/#bakunin",
+      "motif_label": "Niho taniwha"
     },
     {
       "title": "AI Literacy for Families — a 6-week household course",
@@ -646,7 +662,9 @@
       "chat_thread": "",
       "motif": "koru",
       "brand_color": "#3498db",
-      "kaupapa": "Koru — the household unfurling. If AI Warrior trains the organiser, this trains the household."
+      "kaupapa": "Koru — the household unfurling. If AI Warrior trains the organiser, this trains the household.",
+      "html_course_url": "https://robertmccallnz.github.io/ai-literacy-for-families/",
+      "motif_label": "Koru"
     },
     {
       "title": "Te Pā Tūwatawata — AI, tikanga & data sovereignty",
@@ -730,7 +748,9 @@
       "chat_thread": "",
       "motif": "pa-tuwatawata",
       "brand_color": "#c0392b",
-      "kaupapa": "Pā tūwatawata — the fortified palisade. Organised sovereignty. The namesake motif."
+      "kaupapa": "Pā tūwatawata — the fortified palisade. Organised sovereignty. The namesake motif.",
+      "html_course_url": "https://te-pa.org/",
+      "motif_label": "Pā tūwatawata"
     }
   ]
 }
