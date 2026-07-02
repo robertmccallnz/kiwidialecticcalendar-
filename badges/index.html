@@ -1,176 +1,330 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
 <title>Pou Tohu — Course Accreditation Badges · The Kiwi Dialectic</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+<meta name="description" content="Pou Tohu — course accreditation badges from The Kiwi Dialectic. Every course carries its own motif and colour: koru, kōwhaiwhai, niho taniwha, pā tūwatawata, tākarangi, unaunahi."/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet"/>
 <style>
-body{margin:0;background:#0c0c0c;color:#f5f0e6;font-family:Inter,system-ui,sans-serif}
-.wrap{max-width:1180px;margin:0 auto;padding:32px 22px}
-h1{font-family:'Bebas Neue',sans-serif;font-size:72px;letter-spacing:.02em;margin:0 0 6px}
-h1 .r{color:#c41e1e}
-p.lede{max-width:62ch;line-height:1.6;color:#cfc8b9}
-.gate{background:#120e0e;border:1px solid #3a2222;padding:14px 16px;margin:18px 0 8px;font-size:14px;line-height:1.55;color:#cfc8b9;max-width:62ch}
-.gate strong{color:#c41e1e;font-family:'Bebas Neue',sans-serif;letter-spacing:.08em;display:block;margin-bottom:4px}
-.gate a{color:#fff;border-bottom:1px solid #c41e1e;text-decoration:none}
-.badge{border-top:1px solid #1a1a1a;padding:28px 0;scroll-margin-top:24px}
-.badge h3{font-family:'Bebas Neue',sans-serif;font-size:28px;margin:0 0 4px;letter-spacing:.02em}
-.badge h3 .pill{display:inline-block;background:#c41e1e;color:#fff;font-size:12px;letter-spacing:.08em;padding:2px 8px;margin-left:8px;vertical-align:3px;font-family:'Bebas Neue',sans-serif}
-.status{color:#8a8a8a;font-size:13px;margin-bottom:10px;letter-spacing:.04em}
-.status a{color:#cfc8b9;border-bottom:1px solid #2a2a2a;text-decoration:none}
-.status a:hover{border-color:#c41e1e}
-.reqs{font-size:13px;line-height:1.6;color:#cfc8b9;margin:0 0 14px;max-width:62ch}
-.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
-.cta{display:inline-block;padding:10px 16px;background:#c41e1e;color:#fff;font-family:'Bebas Neue',sans-serif;letter-spacing:.12em;font-size:13px;text-decoration:none}
-.cta.alt{background:#000;color:#f5f0e6;border:1px solid #1a1a1a}
-.cta:hover{filter:brightness(1.1)}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.grid a{display:block;background:#101010;border:1px solid #1a1a1a;padding:14px;text-align:center;color:inherit;text-decoration:none;transition:border-color .15s}
-.grid a:hover{border-color:#c41e1e}
-.grid img{width:100%;height:auto;display:block;margin-bottom:10px}
-.grid span{font-family:'Bebas Neue',sans-serif;letter-spacing:.14em;font-size:13px;color:#c41e1e}
-footer{border-top:1px solid #1a1a1a;margin-top:48px;padding:18px 0;color:#8a8a8a;font-size:13px}
-</style></head><body><div class="wrap">
+  :root{
+    --bg:#0c0c0c; --ink:#f5f0e6; --dim:#cfc8b9; --mute:#8a8a8a;
+    --line:#1a1a1a; --line-2:#2a2a2a;
+    --red:#c41e1e;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.55}
+  a{color:inherit}
+  .wrap{max-width:1180px;margin:0 auto;padding:32px 22px 64px}
+
+  /* Header */
+  h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,7vw,84px);letter-spacing:.02em;margin:0 0 6px;line-height:1}
+  h1 .r{color:var(--red)}
+  p.lede{max-width:64ch;line-height:1.6;color:var(--dim);font-size:17px}
+  .gate{background:#120e0e;border:1px solid #3a2222;padding:14px 16px;margin:18px 0 8px;font-size:14px;line-height:1.55;color:var(--dim);max-width:64ch}
+  .gate strong{color:var(--red);font-family:'Bebas Neue',sans-serif;letter-spacing:.08em;display:block;margin-bottom:4px}
+  .gate a{color:#fff;border-bottom:1px solid var(--red);text-decoration:none}
+
+  /* Motif legend */
+  .legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:22px 0 8px;padding:14px;background:#111;border:1px solid var(--line)}
+  .legend-item{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--dim)}
+  .legend-swatch{width:22px;height:22px;flex-shrink:0;border:1px solid rgba(255,255,255,.12)}
+  .legend-item b{font-family:'Bebas Neue',sans-serif;letter-spacing:.06em;color:var(--ink);font-size:13px}
+
+  /* Badge card */
+  .badge{
+    --accent:#c41e1e;
+    --accent-soft:rgba(196,30,30,.14);
+    position:relative;
+    margin:26px 0;
+    background:linear-gradient(180deg,#0f0f0f 0%,#0a0a0a 100%);
+    border:1px solid var(--line);
+    border-left:4px solid var(--accent);
+    padding:0;
+    scroll-margin-top:24px;
+    overflow:hidden;
+  }
+  .badge.upcoming{opacity:.94}
+
+  /* Motif banner strip at top */
+  .motif-band{
+    height:72px;
+    background-color:var(--accent);
+    background-image:var(--motif);
+    background-repeat:repeat-x;
+    background-size:auto 100%;
+    background-position:center;
+    position:relative;
+    border-bottom:2px solid rgba(0,0,0,.45);
+    box-shadow:inset 0 -8px 24px rgba(0,0,0,.35);
+  }
+  .motif-band::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,0) 20%,rgba(0,0,0,0) 80%,rgba(0,0,0,.35));
+    pointer-events:none;
+  }
+  .motif-label{
+    position:absolute;top:50%;right:14px;transform:translateY(-50%);
+    font-family:'Bebas Neue',sans-serif;letter-spacing:.14em;font-size:12px;
+    color:#fff;background:rgba(0,0,0,.55);padding:4px 10px;
+  }
+
+  .badge-body{padding:22px 22px 22px}
+  .badge h3{font-family:'Bebas Neue',sans-serif;font-size:30px;margin:0 0 6px;letter-spacing:.02em;line-height:1.15}
+  .badge h3 .pill{display:inline-block;background:var(--accent);color:#fff;font-size:11px;letter-spacing:.1em;padding:3px 9px;margin-left:8px;vertical-align:4px;font-family:'Bebas Neue',sans-serif}
+  .badge h3 .pill.upcoming{background:#333;color:var(--dim)}
+  .kaupapa{font-family:'Instrument Serif',serif;font-style:italic;color:var(--dim);margin:0 0 12px;font-size:16px}
+  .status{color:var(--mute);font-size:13px;margin-bottom:12px;letter-spacing:.02em}
+  .status a{color:var(--dim);border-bottom:1px solid var(--line-2);text-decoration:none}
+  .status a:hover{border-color:var(--accent)}
+  .reqs{font-size:14px;line-height:1.65;color:var(--dim);margin:0 0 16px;max-width:66ch}
+
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:6px 0 4px}
+  .grid a{display:block;background:#0a0a0a;border:1px solid var(--line);padding:14px;text-align:center;color:inherit;text-decoration:none;transition:border-color .15s, background .15s}
+  .grid a:hover{border-color:var(--accent);background:var(--accent-soft)}
+  .grid img{width:100%;height:auto;display:block;margin-bottom:10px}
+  .grid span{font-family:'Bebas Neue',sans-serif;letter-spacing:.14em;font-size:12px;color:var(--accent)}
+
+  .ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  .cta{display:inline-block;padding:10px 18px;background:var(--accent);color:#fff;font-family:'Bebas Neue',sans-serif;letter-spacing:.12em;font-size:13px;text-decoration:none;transition:filter .15s}
+  .cta:hover{filter:brightness(1.15)}
+  .cta.alt{background:#000;color:var(--ink);border:1px solid var(--line-2)}
+  .cta.alt:hover{border-color:var(--accent)}
+
+  footer{border-top:1px solid var(--line);margin-top:56px;padding:22px 0;color:var(--mute);font-size:13px;text-align:center}
+  footer a{color:var(--red);text-decoration:none}
+
+  /* ═══ PER-COURSE MOTIF + COLOUR THEMES ═══ */
+  /* AI Warrior — Niho taniwha, kiwi red */
+  #ai-warrior{--accent:#c41e1e;--accent-soft:rgba(196,30,30,.14);--motif:url(motifs/niho-taniwha-transparent.svg)}
+  /* Gramsci — Niho taniwha, slate (challenge at the gates of hegemony) */
+  #gramsci-for-aotearoa{--accent:#3a5a7a;--accent-soft:rgba(58,90,122,.16);--motif:url(motifs/niho-taniwha-transparent.svg)}
+  /* Kropotkin — Unaunahi, moana teal (overlapping scales / mutual aid) */
+  #kropotkin-mutual-aid{--accent:#16a085;--accent-soft:rgba(22,160,133,.16);--motif:url(motifs/unaunahi-transparent.svg)}
+  /* Graeber — Kōwhaiwhai, violet (the first law, whakapapa of debt) */
+  #graeber-debt-bullshit-jobs-direct-democracy{--accent:#8e44ad;--accent-soft:rgba(142,68,173,.16);--motif:url(motifs/kowhaiwhai-transparent.svg)}
+  /* Cooperative — Koru, green (new growth, unfurling collective) */
+  #he-ako-mo-nga-umanga-mahi-ngatahi{--accent:#27ae60;--accent-soft:rgba(39,174,96,.16);--motif:url(motifs/koru-transparent.svg)}
+  /* Freire — Kōwhaiwhai, amber-orange (pedagogy of the algorithm) */
+  #freire-mo-aotearoa{--accent:#d35400;--accent-soft:rgba(211,84,0,.16);--motif:url(motifs/kowhaiwhai-transparent.svg)}
+  /* Deleuze — Tākarangi, amber (spirals, rhizomes, lines of flight) */
+  #gilles-deleuze{--accent:#e67e22;--accent-soft:rgba(230,126,34,.16);--motif:url(motifs/takarangi-transparent.svg)}
+  /* Bakunin — Niho taniwha, blood-red (te tāheke, refusal) */
+  #bakunin-mo-aotearoa{--accent:#7a1a1a;--accent-soft:rgba(122,26,26,.18);--motif:url(motifs/niho-taniwha-transparent.svg)}
+  /* AI Literacy for Families — Koru, sky blue (the household unfurling) */
+  #ai-literacy-for-families{--accent:#3498db;--accent-soft:rgba(52,152,219,.16);--motif:url(motifs/koru-transparent.svg)}
+  /* Te Pā Tūwatawata — Pā tūwatawata, kiwi red (the namesake) */
+  #te-pa-tuwatawata{--accent:#c0392b;--accent-soft:rgba(192,57,43,.16);--motif:url(motifs/pa-tuwatawata-transparent.svg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
 <h1>POU TOHU <span class="r">·</span> ACCREDITATION</h1>
-<p class="lede">A <em>pou tohu</em> — post, marker, badge — is awarded after completing each course. Free to use; please credit The Kiwi Dialectic. Every badge ships in te reo Māori and English; more locales on request.</p>
-<div class="gate"><strong>SUBSCRIBER ACCESS</strong>Every course — free or paid — requires a Kiwi Dialectic subscription. Free subscribers get every lesson, every chat thread, and every pou tohu. Paid subscribers also get the workbooks and live Q&amp;A. <a href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a></div>
+<p class="lede">A <em>pou tohu</em> — post, marker, badge — is awarded after completing each course. Free to use; please credit The Kiwi Dialectic. Every course carries its own motif and colour, drawn from the six kaupapa Māori motifs at the heart of the mahi. Every badge ships in te reo Māori and English; more locales on request.</p>
+
+<div class="gate"><strong>ACCESS</strong>Every course is free to read. Free subscribers to <a href="https://www.kiwidialectic.com/subscribe">The Kiwi Dialectic</a> also get chat threads, live Q&amp;A, and course announcements.</div>
+
+<!-- Motif legend -->
+<div class="legend" aria-label="Motif legend">
+  <div class="legend-item"><span class="legend-swatch" style="background:#c41e1e"></span><span><b>Niho taniwha</b><br>Challenge · threshold</span></div>
+  <div class="legend-item"><span class="legend-swatch" style="background:#16a085"></span><span><b>Unaunahi</b><br>Kotahitanga · armour</span></div>
+  <div class="legend-item"><span class="legend-swatch" style="background:#8e44ad"></span><span><b>Kōwhaiwhai</b><br>Ture · first law</span></div>
+  <div class="legend-item"><span class="legend-swatch" style="background:#27ae60"></span><span><b>Koru</b><br>New life · growth</span></div>
+  <div class="legend-item"><span class="legend-swatch" style="background:#e67e22"></span><span><b>Tākarangi</b><br>Cycles · duality</span></div>
+  <div class="legend-item"><span class="legend-swatch" style="background:#c0392b"></span><span><b>Pā tūwatawata</b><br>Sovereignty · protection</span></div>
+</div>
+
+<!-- ═══════════ AI WARRIOR — Niho taniwha · kiwi red ═══════════ -->
 <article class="badge" id="ai-warrior">
-  <h3>AI Warrior — The Kiwi Dialectic <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Live · <a href="https://kiwidialectic.com">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="ai-warrior/mi.svg"><img src="ai-warrior/mi.svg" alt="AI Warrior — The Kiwi Dialectic — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="ai-warrior/en.svg"><img src="ai-warrior/en.svg" alt="AI Warrior — The Kiwi Dialectic — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://kiwidialectic.com">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+  <div class="motif-band"><span class="motif-label">Niho taniwha</span></div>
+  <div class="badge-body">
+    <h3>AI Warrior — The Kiwi Dialectic <span class="pill">FREE</span></h3>
+    <p class="kaupapa">Niho taniwha — teeth at the threshold. The parent course of the six-thinkers series. Train the mind. Arm the class.</p>
+    <div class="status">Status: Live · <a href="https://robertmccallnz.github.io/ai-warrior/">Open the HTML course</a> · <a href="https://robertmccallnz.github.io/six-thinkers/">The six thinkers catalogue</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all six thinkers on the HTML course site, (2) post a short reflection in the Kiwi Dialectic chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
+    <div class="grid">
+      <a href="ai-warrior/mi.svg"><img src="ai-warrior/mi.svg" alt="AI Warrior — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="ai-warrior/en.svg"><img src="ai-warrior/en.svg" alt="AI Warrior — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/ai-warrior/">Open the course →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/six-thinkers/">All six thinkers →</a>
+    </div>
   </div>
 </article>
+
+<!-- ═══════════ GRAMSCI — Niho taniwha · slate ═══════════ -->
 <article class="badge" id="gramsci-for-aotearoa">
-  <h3>Gramsci for Aotearoa <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Live · <a href="https://www.kiwidialectic.com/p/gramsci-for-aotearoa-course-launch">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="gramsci-for-aotearoa/mi.svg"><img src="gramsci-for-aotearoa/mi.svg" alt="Gramsci for Aotearoa — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="gramsci-for-aotearoa/en.svg"><img src="gramsci-for-aotearoa/en.svg" alt="Gramsci for Aotearoa — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/gramsci-for-aotearoa-course-launch">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+  <div class="motif-band"><span class="motif-label">Niho taniwha</span></div>
+  <div class="badge-body">
+    <h3>Gramsci for Aotearoa <span class="pill">FREE</span></h3>
+    <p class="kaupapa">Niho taniwha — teeth at the threshold of hegemony. Power, counter-power, war of position.</p>
+    <div class="status">Status: Live · <a href="https://robertmccallnz.github.io/six-thinkers/#gramsci">Course page on Six Thinkers</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all seven lessons on the HTML course site, (2) post a completion reflection in the Kiwi Dialectic chat thread.</p>
+    <div class="grid">
+      <a href="gramsci-for-aotearoa/mi.svg"><img src="gramsci-for-aotearoa/mi.svg" alt="Gramsci for Aotearoa — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="gramsci-for-aotearoa/en.svg"><img src="gramsci-for-aotearoa/en.svg" alt="Gramsci for Aotearoa — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/six-thinkers/#gramsci">Open the course →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/six-thinkers/">All six thinkers →</a>
+    </div>
   </div>
 </article>
+
+<!-- ═══════════ KROPOTKIN — Unaunahi · moana teal ═══════════ -->
 <article class="badge" id="kropotkin-mutual-aid">
-  <h3>Kropotkin & Mutual Aid <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Live · <a href="https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-free-email">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="kropotkin-mutual-aid/mi.svg"><img src="kropotkin-mutual-aid/mi.svg" alt="Kropotkin & Mutual Aid — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="kropotkin-mutual-aid/en.svg"><img src="kropotkin-mutual-aid/en.svg" alt="Kropotkin & Mutual Aid — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/kropotkin-and-mutual-aid-free-email">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+  <div class="motif-band"><span class="motif-label">Unaunahi</span></div>
+  <div class="badge-body">
+    <h3>Kropotkin &amp; Mutual Aid <span class="pill">FREE</span></h3>
+    <p class="kaupapa">Unaunahi — overlapping scales, collective armour. Cooperation as survival.</p>
+    <div class="status">Status: Live · <a href="https://robertmccallnz.github.io/six-thinkers/#kropotkin">Course page on Six Thinkers</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all seven lessons on the HTML course site, (2) post a completion reflection in the Kiwi Dialectic chat thread.</p>
+    <div class="grid">
+      <a href="kropotkin-mutual-aid/mi.svg"><img src="kropotkin-mutual-aid/mi.svg" alt="Kropotkin & Mutual Aid — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="kropotkin-mutual-aid/en.svg"><img src="kropotkin-mutual-aid/en.svg" alt="Kropotkin & Mutual Aid — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/six-thinkers/#kropotkin">Open the course →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/six-thinkers/">All six thinkers →</a>
+    </div>
   </div>
 </article>
+
+<!-- ═══════════ GRAEBER — Kōwhaiwhai · violet ═══════════ -->
 <article class="badge" id="graeber-debt-bullshit-jobs-direct-democracy">
-  <h3>Graeber: Debt, Bullshit Jobs & Direct Democracy <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Live · <a href="https://www.kiwidialectic.com/p/graeber-debt-bullshit-jobs-and-direct">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="graeber-debt-bullshit-jobs-direct-democracy/mi.svg"><img src="graeber-debt-bullshit-jobs-direct-democracy/mi.svg" alt="Graeber: Debt, Bullshit Jobs & Direct Democracy — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="graeber-debt-bullshit-jobs-direct-democracy/en.svg"><img src="graeber-debt-bullshit-jobs-direct-democracy/en.svg" alt="Graeber: Debt, Bullshit Jobs & Direct Democracy — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/graeber-debt-bullshit-jobs-and-direct">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+  <div class="motif-band"><span class="motif-label">Kōwhaiwhai</span></div>
+  <div class="badge-body">
+    <h3>Graeber: Debt, Bullshit Jobs &amp; Direct Democracy <span class="pill">FREE</span></h3>
+    <p class="kaupapa">Kōwhaiwhai — ture, whakapapa, tikanga. Reading debt as the first 5,000 years of moral obligation.</p>
+    <div class="status">Status: Live · <a href="https://robertmccallnz.github.io/six-thinkers/#graeber">Course page on Six Thinkers</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all seven lessons on the HTML course site, (2) post a completion reflection in the Kiwi Dialectic chat thread.</p>
+    <div class="grid">
+      <a href="graeber-debt-bullshit-jobs-direct-democracy/mi.svg"><img src="graeber-debt-bullshit-jobs-direct-democracy/mi.svg" alt="Graeber — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="graeber-debt-bullshit-jobs-direct-democracy/en.svg"><img src="graeber-debt-bullshit-jobs-direct-democracy/en.svg" alt="Graeber — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/six-thinkers/#graeber">Open the course →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/six-thinkers/">All six thinkers →</a>
+    </div>
   </div>
 </article>
+
+<!-- ═══════════ HE AKO / COOPERATIVE — Koru · green ═══════════ -->
 <article class="badge" id="he-ako-mo-nga-umanga-mahi-ngatahi">
-  <h3>He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Live · <a href="https://www.kiwidialectic.com/p/he-ako-mo-nga-umanga-mahi-ngatahi">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="he-ako-mo-nga-umanga-mahi-ngatahi/mi.svg"><img src="he-ako-mo-nga-umanga-mahi-ngatahi/mi.svg" alt="He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="he-ako-mo-nga-umanga-mahi-ngatahi/en.svg"><img src="he-ako-mo-nga-umanga-mahi-ngatahi/en.svg" alt="He Ako mo ngā Umanga Mahi Ngātahi — How to Start a Cooperative in Aotearoa — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/he-ako-mo-nga-umanga-mahi-ngatahi">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
-  </div>
-</article>
-<article class="badge" id="freire-mo-aotearoa">
-  <h3>Pedagogy of the Algorithm — Freire mō Aotearoa <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Upcoming · <a href="https://www.kiwidialectic.com/p/freire-mo-aotearoa-course-launch">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="freire-mo-aotearoa/mi.svg"><img src="freire-mo-aotearoa/mi.svg" alt="Pedagogy of the Algorithm — Freire mō Aotearoa — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="freire-mo-aotearoa/en.svg"><img src="freire-mo-aotearoa/en.svg" alt="Pedagogy of the Algorithm — Freire mō Aotearoa — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/freire-mo-aotearoa-course-launch">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+  <div class="motif-band"><span class="motif-label">Koru</span></div>
+  <div class="badge-body">
+    <h3>He Ako mō ngā Umanga Mahi Ngātahi <span class="pill">FREE</span></h3>
+    <p class="kaupapa">Koru — new life, unfurling. How to start a cooperative in Aotearoa: practical, grounded in te ao Māori and working-class solidarity.</p>
+    <div class="status">Status: Live · <a href="https://robertmccallnz.github.io/cooperative-aotearoa/">Open the HTML course</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all six modules on the HTML course site, (2) post a short reflection or your cooperative's kaupapa in the chat thread.</p>
+    <div class="grid">
+      <a href="he-ako-mo-nga-umanga-mahi-ngatahi/mi.svg"><img src="he-ako-mo-nga-umanga-mahi-ngatahi/mi.svg" alt="He Ako mō ngā Umanga — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="he-ako-mo-nga-umanga-mahi-ngatahi/en.svg"><img src="he-ako-mo-nga-umanga-mahi-ngatahi/en.svg" alt="He Ako mō ngā Umanga — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/cooperative-aotearoa/">Open the course →</a>
+    </div>
   </div>
 </article>
-<article class="badge" id="gilles-deleuze">
-  <h3>Gilles Deleuze for Educators, Artists, and Organisers <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Upcoming · <a href="https://www.kiwidialectic.com/p/gilles-deleuze-for-educators-artists">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="gilles-deleuze/mi.svg"><img src="gilles-deleuze/mi.svg" alt="Gilles Deleuze for Educators, Artists, and Organisers — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="gilles-deleuze/en.svg"><img src="gilles-deleuze/en.svg" alt="Gilles Deleuze for Educators, Artists, and Organisers — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/gilles-deleuze-for-educators-artists">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
-  </div>
-</article>
-<article class="badge" id="bakunin-mo-aotearoa">
-  <h3>Tangi o te Tāheke — Bakunin mō Aotearoa <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Upcoming · <a href="https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-course-launch">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="bakunin-mo-aotearoa/mi.svg"><img src="bakunin-mo-aotearoa/mi.svg" alt="Tangi o te Tāheke — Bakunin mō Aotearoa — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="bakunin-mo-aotearoa/en.svg"><img src="bakunin-mo-aotearoa/en.svg" alt="Tangi o te Tāheke — Bakunin mō Aotearoa — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-course-launch">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+
+<!-- ═══════════ FREIRE — Kōwhaiwhai · amber-orange ═══════════ -->
+<article class="badge upcoming" id="freire-mo-aotearoa">
+  <div class="motif-band"><span class="motif-label">Kōwhaiwhai</span></div>
+  <div class="badge-body">
+    <h3>Pedagogy of the Algorithm — Freire mō Aotearoa <span class="pill upcoming">UPCOMING</span></h3>
+    <p class="kaupapa">Kōwhaiwhai — the first law of the classroom. The banking model, refused. Sundays 19:00 NZST from 16 August 2026.</p>
+    <div class="status">Status: Upcoming · <a href="https://robertmccallnz.github.io/six-thinkers/#freire">Course page on Six Thinkers</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all seven lessons when the HTML course goes live, (2) post a completion reflection in the chat thread.</p>
+    <div class="grid">
+      <a href="freire-mo-aotearoa/mi.svg"><img src="freire-mo-aotearoa/mi.svg" alt="Freire mō Aotearoa — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="freire-mo-aotearoa/en.svg"><img src="freire-mo-aotearoa/en.svg" alt="Freire mō Aotearoa — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/six-thinkers/#freire">Course page →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/six-thinkers/">All six thinkers →</a>
+    </div>
   </div>
 </article>
+
+<!-- ═══════════ DELEUZE — Tākarangi · amber ═══════════ -->
+<article class="badge upcoming" id="gilles-deleuze">
+  <div class="motif-band"><span class="motif-label">Tākarangi</span></div>
+  <div class="badge-body">
+    <h3>Gilles Deleuze for Educators, Artists &amp; Organisers <span class="pill upcoming">UPCOMING</span></h3>
+    <p class="kaupapa">Tākarangi — spirals of past and future. Rhizomes, assemblages, lines of flight.</p>
+    <div class="status">Status: Upcoming · <a href="https://robertmccallnz.github.io/six-thinkers/#deleuze">Course page on Six Thinkers</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all lessons when the HTML course goes live, (2) post a completion reflection in the chat thread.</p>
+    <div class="grid">
+      <a href="gilles-deleuze/mi.svg"><img src="gilles-deleuze/mi.svg" alt="Deleuze — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="gilles-deleuze/en.svg"><img src="gilles-deleuze/en.svg" alt="Deleuze — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/six-thinkers/#deleuze">Course page →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/six-thinkers/">All six thinkers →</a>
+    </div>
+  </div>
+</article>
+
+<!-- ═══════════ BAKUNIN — Niho taniwha · blood-red ═══════════ -->
+<article class="badge upcoming" id="bakunin-mo-aotearoa">
+  <div class="motif-band"><span class="motif-label">Niho taniwha</span></div>
+  <div class="badge-body">
+    <h3>Tangi o te Tāheke — Bakunin mō Aotearoa <span class="pill upcoming">UPCOMING</span></h3>
+    <p class="kaupapa">Niho taniwha — the teeth of refusal. Federalist, anti-authoritarian socialism. The waterfall tears down what dams the awa. Closes the AI Warrior series.</p>
+    <div class="status">Status: Upcoming · <a href="https://robertmccallnz.github.io/six-thinkers/#bakunin">Course page on Six Thinkers</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all seven lessons when the HTML course goes live, (2) post a completion reflection in the chat thread.</p>
+    <div class="grid">
+      <a href="bakunin-mo-aotearoa/mi.svg"><img src="bakunin-mo-aotearoa/mi.svg" alt="Bakunin mō Aotearoa — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="bakunin-mo-aotearoa/en.svg"><img src="bakunin-mo-aotearoa/en.svg" alt="Bakunin mō Aotearoa — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/six-thinkers/#bakunin">Course page →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/six-thinkers/">All six thinkers →</a>
+    </div>
+  </div>
+</article>
+
+<!-- ═══════════ AI LITERACY FOR FAMILIES — Koru · sky blue ═══════════ -->
 <article class="badge" id="ai-literacy-for-families">
-  <h3>AI Literacy for Families — a 6-week household course <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Live · <a href="https://www.kiwidialectic.com/p/ai-literacy-for-families-launch">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="ai-literacy-for-families/mi.svg"><img src="ai-literacy-for-families/mi.svg" alt="AI Literacy for Families — a 6-week household course — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="ai-literacy-for-families/en.svg"><img src="ai-literacy-for-families/en.svg" alt="AI Literacy for Families — a 6-week household course — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://www.kiwidialectic.com/p/ai-literacy-for-families-launch">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+  <div class="motif-band"><span class="motif-label">Koru</span></div>
+  <div class="badge-body">
+    <h3>AI Literacy for Families — a 6-week household course <span class="pill">FREE</span></h3>
+    <p class="kaupapa">Koru — the household unfurling. If AI Warrior trains the organiser, this trains the household.</p>
+    <div class="status">Status: Live · <a href="https://robertmccallnz.github.io/ai-literacy-for-families/">Open the HTML course</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all six weekly modules with your teen, (2) co-sign a Household AI Agreement, (3) post a short reflection in the chat thread.</p>
+    <div class="grid">
+      <a href="ai-literacy-for-families/mi.svg"><img src="ai-literacy-for-families/mi.svg" alt="AI Literacy for Families — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="ai-literacy-for-families/en.svg"><img src="ai-literacy-for-families/en.svg" alt="AI Literacy for Families — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://robertmccallnz.github.io/ai-literacy-for-families/">Open the course →</a>
+    </div>
   </div>
 </article>
+
+<!-- ═══════════ TE PĀ TŪWATAWATA — Pā tūwatawata · kiwi red ═══════════ -->
 <article class="badge" id="te-pa-tuwatawata">
-  <h3>Te Pā Tūwatawata — AI, tikanga & data sovereignty <span class="pill">FREE SUBSCRIBER</span></h3>
-  <div class="status">Status: Live · <a href="https://te-pa.org/modules/module-1.html">Open course on Substack</a> · <a href="https://substack.com/chat">Chat thread</a></div>
-  <p class="reqs">To claim this pou tohu you must (1) be a Kiwi Dialectic subscriber, (2) read all lessons on Substack, (3) post your completion reflection in the course chat thread. Robert awards the badge by reply with your name added below the SVG.</p>
-  <div class="grid">
-    <a href="te-pa-tuwatawata/mi.svg"><img src="te-pa-tuwatawata/mi.svg" alt="Te Pā Tūwatawata — AI, tikanga & data sovereignty — te reo Māori badge"/><span>TE REO MĀORI · download SVG</span></a>
-    <a href="te-pa-tuwatawata/en.svg"><img src="te-pa-tuwatawata/en.svg" alt="Te Pā Tūwatawata — AI, tikanga & data sovereignty — English badge"/><span>ENGLISH · download SVG</span></a>
-  </div>
-  <div class="ctas">
-    <a class="cta" href="https://te-pa.org/modules/module-1.html">Open the course →</a>
-    <a class="cta alt" href="https://substack.com/chat">Claim in chat thread →</a>
-    <a class="cta alt" href="https://www.kiwidialectic.com/subscribe">Subscribe (free) →</a>
+  <div class="motif-band"><span class="motif-label">Pā tūwatawata</span></div>
+  <div class="badge-body">
+    <h3>Te Pā Tūwatawata — AI, tikanga &amp; data sovereignty <span class="pill">FREE</span></h3>
+    <p class="kaupapa">Pā tūwatawata — the fortified palisade. Organised sovereignty. The course's namesake motif.</p>
+    <div class="status">Status: Live · <a href="https://te-pa.org/">te-pa.org</a> · <a href="https://robertmccallnz.github.io/te-pa-course/">Fork on GitHub Pages</a></div>
+    <p class="reqs">To claim this pou tohu: (1) work through all six modules on te-pa.org, (2) post a completion reflection in the chat thread. CC BY-NC-SA 4.0 — free to translate, fork, and self-host.</p>
+    <div class="grid">
+      <a href="te-pa-tuwatawata/mi.svg"><img src="te-pa-tuwatawata/mi.svg" alt="Te Pā Tūwatawata — te reo Māori badge"/><span>TE REO MĀORI · SVG</span></a>
+      <a href="te-pa-tuwatawata/en.svg"><img src="te-pa-tuwatawata/en.svg" alt="Te Pā Tūwatawata — English badge"/><span>ENGLISH · SVG</span></a>
+    </div>
+    <div class="ctas">
+      <a class="cta" href="https://te-pa.org/modules/module-1.html">Open the course →</a>
+      <a class="cta alt" href="https://robertmccallnz.github.io/te-pa-course/">Forkable template →</a>
+    </div>
   </div>
 </article>
-<footer>The Kiwi Dialectic · Ōtepoti / Dunedin · <a href="https://www.kiwidialectic.com" style="color:#c41e1e">kiwidialectic.com</a></footer>
-</div></body></html>
+
+<footer>The Kiwi Dialectic · Ōtepoti / Dunedin · <a href="https://robertmccallnz.github.io/six-thinkers/">Six Thinkers catalogue</a> · <a href="https://robertmccallnz.github.io/kiwidialecticcalendar-/">Course calendar</a></footer>
+
+</div>
+</body>
+</html>
