@@ -4,7 +4,7 @@
 <link>https://www.kiwidialectic.com/s/courses</link>
 <description>Course lesson events across The Kiwi Dialectic.</description>
 <language>en-NZ</language>
-<lastBuildDate>Mon, 06 Jul 2026 02:14:18 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 08:35:33 +0000</lastBuildDate>
     <item>
       <title>Course launch</title>
       <link>https://www.kiwidialectic.com/p/gramsci-for-aotearoa-course-launch</link>
@@ -302,6 +302,14 @@
       <description>AI Literacy for Families — a 6-week household course — Structural problems with the same root.</description>
     </item>
     <item>
+      <title>Module 01 — The power to transcend paradigms</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-01.html</link>
+      <guid isPermaLink="false">leverage-points-course-1</guid>
+      <pubDate>Mon, 20 Jul 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
+    </item>
+    <item>
       <title>Lesson 4: Caracoles in the kāinga — a Zapatista reading for Aotearoa</title>
       <link>https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-4-caracoles</link>
       <guid isPermaLink="false">bakunin-mo-aotearoa-5</guid>
@@ -316,6 +324,14 @@
       <pubDate>Mon, 27 Jul 2026 19:00:00 +1200</pubDate>
       <category>ai-literacy-for-families</category>
       <description>AI Literacy for Families — a 6-week household course — Who owns the conversation when you talk to a chatbot.</description>
+    </item>
+    <item>
+      <title>Module 02 — The mindset or paradigm out of which the system arises</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-02.html</link>
+      <guid isPermaLink="false">leverage-points-course-2</guid>
+      <pubDate>Mon, 27 Jul 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
     </item>
     <item>
       <title>Lesson 5: Refusing the algorithmic Leviathan — anarchism in the age of AI</title>
@@ -334,6 +350,14 @@
       <description>AI Literacy for Families — a 6-week household course — The SIFT method.</description>
     </item>
     <item>
+      <title>Module 03 — The goals of the system</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-03.html</link>
+      <guid isPermaLink="false">leverage-points-course-3</guid>
+      <pubDate>Mon, 03 Aug 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
+    </item>
+    <item>
       <title>Lesson 6: Arm the class — closing the AI Warrior thinkers series</title>
       <link>https://www.kiwidialectic.com/p/bakunin-mo-aotearoa-lesson-6-arm-the-class</link>
       <guid isPermaLink="false">bakunin-mo-aotearoa-7</guid>
@@ -348,6 +372,14 @@
       <pubDate>Mon, 10 Aug 2026 19:00:00 +1200</pubDate>
       <category>ai-literacy-for-families</category>
       <description>AI Literacy for Families — a 6-week household course — Co-written, not imposed. The Household AI Agreement.</description>
+    </item>
+    <item>
+      <title>Module 04 — The power to add, change, evolve, or self-organize system structure</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-04.html</link>
+      <guid isPermaLink="false">leverage-points-course-4</guid>
+      <pubDate>Mon, 10 Aug 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
     </item>
     <item>
       <title>Course launch — Pedagogy of the Algorithm</title>
@@ -366,12 +398,28 @@
       <description>AI Literacy for Families — a 6-week household course — Parents commit too. Closing the loop.</description>
     </item>
     <item>
+      <title>Module 05 — The rules of the system (incentives, punishments, constraints)</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-05.html</link>
+      <guid isPermaLink="false">leverage-points-course-5</guid>
+      <pubDate>Mon, 17 Aug 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
+    </item>
+    <item>
       <title>Lesson 1: Ko wai a Freire? — the teacher who refused to deposit</title>
       <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-1-ko-wai</link>
       <guid isPermaLink="false">freire-mo-aotearoa-2</guid>
       <pubDate>Sun, 23 Aug 2026 19:00:00 +1200</pubDate>
       <category>freire-mo-aotearoa</category>
       <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Recife 1921 to São Paulo 1997. The man whose literacy method taught sugar-cane workers to read the word and the world — and got him 70 days in a military prison for it.</description>
+    </item>
+    <item>
+      <title>Module 06 — The structure of information flows</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-06.html</link>
+      <guid isPermaLink="false">leverage-points-course-6</guid>
+      <pubDate>Mon, 24 Aug 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
     </item>
     <item>
       <title>Lesson 2: The banking model goes industrial — every chatbot is a deposit</title>
@@ -382,12 +430,28 @@
       <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Freire's banking concept of education, retold for the age of generative AI. What happens when the teacher is the model and the deposit is your prompt history.</description>
     </item>
     <item>
+      <title>Module 07 — The gain around driving positive feedback loops</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-07.html</link>
+      <guid isPermaLink="false">leverage-points-course-7</guid>
+      <pubDate>Mon, 31 Aug 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
+    </item>
+    <item>
       <title>Lesson 3: Problem-posing — how to force the chatbot to think with you</title>
       <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-3-problem-posing</link>
       <guid isPermaLink="false">freire-mo-aotearoa-4</guid>
       <pubDate>Sun, 06 Sep 2026 19:00:00 +1200</pubDate>
       <category>freire-mo-aotearoa</category>
       <description>Pedagogy of the Algorithm — Freire mō Aotearoa — From banking to dialogue. Problem-posing as a praxis — the prompts, the discipline, the refusal to be a passive depositor of someone else's training data.</description>
+    </item>
+    <item>
+      <title>Module 08 — The strength of negative feedback loops</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-08.html</link>
+      <guid isPermaLink="false">leverage-points-course-8</guid>
+      <pubDate>Mon, 07 Sep 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
     </item>
     <item>
       <title>Lesson 4: Conscientização — critical consciousness in the algorithmic feed</title>
@@ -398,6 +462,14 @@
       <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Freire's central concept. Reading the word and the world when the world is a recommendation algorithm. How conscientização becomes a daily discipline, not a one-off awakening.</description>
     </item>
     <item>
+      <title>Module 09 — The lengths of delays, relative to the rate of system change</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-09.html</link>
+      <guid isPermaLink="false">leverage-points-course-9</guid>
+      <pubDate>Mon, 14 Sep 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
+    </item>
+    <item>
       <title>Lesson 5: Kura kaupapa Māori — Aotearoa's own refusal of the banking model</title>
       <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-5-kura-kaupapa</link>
       <guid isPermaLink="false">freire-mo-aotearoa-6</guid>
@@ -406,11 +478,35 @@
       <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Graham Hingangaroa Smith's kaupapa Māori praxis read alongside Freire. Te reo revitalisation as a Freirean act. The pedagogy that built itself when the Crown's would not teach it.</description>
     </item>
     <item>
+      <title>Module 10 — The structure of material stocks and flows</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-10.html</link>
+      <guid isPermaLink="false">leverage-points-course-10</guid>
+      <pubDate>Mon, 21 Sep 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
+    </item>
+    <item>
       <title>Lesson 6: A Freirean praxis for the AI moment — what we teach next</title>
       <link>https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-6-praxis</link>
       <guid isPermaLink="false">freire-mo-aotearoa-7</guid>
       <pubDate>Sun, 27 Sep 2026 19:00:00 +1200</pubDate>
       <category>freire-mo-aotearoa</category>
       <description>Pedagogy of the Algorithm — Freire mō Aotearoa — Closing the loop. A working-class, kaupapa-aligned, AI-aware Freirean praxis. Generative themes for organisers, study circles, and the household. What we carry into Deleuze.</description>
+    </item>
+    <item>
+      <title>Module 11 — The sizes of buffers and other stabilising stocks</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-11.html</link>
+      <guid isPermaLink="false">leverage-points-course-11</guid>
+      <pubDate>Mon, 28 Sep 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
+    </item>
+    <item>
+      <title>Module 12 — Constants, parameters, numbers (subsidies, taxes, standards)</title>
+      <link>https://robertmccallnz.github.io/leverage-points-course/modules/module-12.html</link>
+      <guid isPermaLink="false">leverage-points-course-12</guid>
+      <pubDate>Mon, 05 Oct 2026 19:00:00 +1200</pubDate>
+      <category>leverage-points-course</category>
+      <description>Twelve Leverage Points — Meadows for Aotearoa</description>
     </item>
 </channel></rss>

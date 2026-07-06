@@ -6,7 +6,15 @@
 <atom:link href="https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/subscriber.rss" rel="self" type="application/rss+xml"/>
 <description>For people who follow the project, not the calendar. AI Warrior site updates plus live indigenous-news pulses from the te-pa.org rhizome mapper.</description>
 <language>en-NZ</language>
-<lastBuildDate>Mon, 06 Jul 2026 02:14:21 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 08:35:35 +0000</lastBuildDate>
+<item>
+  <title>AI Warrior — chore: trigger clean Pages deploy (artifact collision)</title>
+  <link>https://github.com/robertmccallnz/ai-warrior/commit/daf925a94a9cdebbe451516e7ec8e2ba2f4ff22e</link>
+  <guid isPermaLink="false">aw-daf925a94a9c</guid>
+  <pubDate>Mon, 06 Jul 2026 02:21:14 +0000</pubDate>
+  <category>ai-warrior</category>
+  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>chore: trigger clean Pages deploy (artifact collision)</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/daf925a94a9cdebbe451516e7ec8e2ba2f4ff22e">View change on GitHub →</a></p>]]></description>
+</item>
 <item>
   <title>AI Warrior — Wire into Kiwi Dialectic × Te Pā ecosystem: shared footer + canonical…</title>
   <link>https://github.com/robertmccallnz/ai-warrior/commit/f0126c0b44dfedd25ab40119f01a56875c35399a</link>
@@ -158,14 +166,6 @@
   <pubDate>Mon, 29 Jun 2026 04:59:38 +0000</pubDate>
   <category>ai-warrior</category>
   <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>feat(design): Hotere-informed redesign v0.3 — full site, additive CSS…</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/0626b294fae2da2e2dba73e6153304d1369642f0">View change on GitHub →</a></p>]]></description>
-</item>
-<item>
-  <title>AI Warrior — refactor: route AI Literacy for Families to its own site (#2)</title>
-  <link>https://github.com/robertmccallnz/ai-warrior/commit/e00d26c9c54e283ec7d614b71468b01711ed202a</link>
-  <guid isPermaLink="false">aw-e00d26c9c54e</guid>
-  <pubDate>Mon, 29 Jun 2026 04:59:18 +0000</pubDate>
-  <category>ai-warrior</category>
-  <description><![CDATA[<p><strong>Update to the AI Warrior site / course materials.</strong></p><p>refactor: route AI Literacy for Families to its own site (#2)</p><p><a href="https://github.com/robertmccallnz/ai-warrior/commit/e00d26c9c54e283ec7d614b71468b01711ed202a">View change on GitHub →</a></p>]]></description>
 </item>
 </channel>
 </rss>

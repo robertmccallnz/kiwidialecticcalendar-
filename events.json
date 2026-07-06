@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T02:14:18+00:00",
+  "generated_at": "2026-07-06T08:35:33+00:00",
   "source": "https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/courses.json",
   "ics": "https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/the-kiwi-dialectic-courses.ics",
   "rss": "https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/events.rss",
-  "count": 51,
+  "count": 63,
   "events": [
     {
       "id": "gramsci-for-aotearoa-1",
@@ -561,6 +561,21 @@
       "badge": ""
     },
     {
+      "id": "leverage-points-course-1",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 0,
+      "title": "Module 01 — The power to transcend paradigms",
+      "start": "2026-07-20T19:00:00+12:00",
+      "end": "2026-07-20T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-01.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
+    },
+    {
       "id": "bakunin-mo-aotearoa-5",
       "course_slug": "bakunin-mo-aotearoa",
       "course_title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -589,6 +604,21 @@
       "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-3",
       "chat": "",
       "badge": ""
+    },
+    {
+      "id": "leverage-points-course-2",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 1,
+      "title": "Module 02 — The mindset or paradigm out of which the system arises",
+      "start": "2026-07-27T19:00:00+12:00",
+      "end": "2026-07-27T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-02.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
     },
     {
       "id": "bakunin-mo-aotearoa-6",
@@ -621,6 +651,21 @@
       "badge": ""
     },
     {
+      "id": "leverage-points-course-3",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 2,
+      "title": "Module 03 — The goals of the system",
+      "start": "2026-08-03T19:00:00+12:00",
+      "end": "2026-08-03T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-03.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
+    },
+    {
       "id": "bakunin-mo-aotearoa-7",
       "course_slug": "bakunin-mo-aotearoa",
       "course_title": "Tangi o te Tāheke — Bakunin mō Aotearoa",
@@ -649,6 +694,21 @@
       "link": "https://robertmccallnz.github.io/ai-literacy-for-families/#week-5",
       "chat": "",
       "badge": ""
+    },
+    {
+      "id": "leverage-points-course-4",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 3,
+      "title": "Module 04 — The power to add, change, evolve, or self-organize system structure",
+      "start": "2026-08-10T19:00:00+12:00",
+      "end": "2026-08-10T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-04.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
     },
     {
       "id": "freire-mo-aotearoa-1",
@@ -681,6 +741,21 @@
       "badge": ""
     },
     {
+      "id": "leverage-points-course-5",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 4,
+      "title": "Module 05 — The rules of the system (incentives, punishments, constraints)",
+      "start": "2026-08-17T19:00:00+12:00",
+      "end": "2026-08-17T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-05.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
+    },
+    {
       "id": "freire-mo-aotearoa-2",
       "course_slug": "freire-mo-aotearoa",
       "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
@@ -694,6 +769,21 @@
       "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-1-ko-wai",
       "chat": "",
       "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "leverage-points-course-6",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 5,
+      "title": "Module 06 — The structure of information flows",
+      "start": "2026-08-24T19:00:00+12:00",
+      "end": "2026-08-24T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-06.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
     },
     {
       "id": "freire-mo-aotearoa-3",
@@ -711,6 +801,21 @@
       "badge": "freire-mo-aotearoa-pou"
     },
     {
+      "id": "leverage-points-course-7",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 6,
+      "title": "Module 07 — The gain around driving positive feedback loops",
+      "start": "2026-08-31T19:00:00+12:00",
+      "end": "2026-08-31T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-07.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
+    },
+    {
       "id": "freire-mo-aotearoa-4",
       "course_slug": "freire-mo-aotearoa",
       "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
@@ -724,6 +829,21 @@
       "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-3-problem-posing",
       "chat": "",
       "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "leverage-points-course-8",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 7,
+      "title": "Module 08 — The strength of negative feedback loops",
+      "start": "2026-09-07T19:00:00+12:00",
+      "end": "2026-09-07T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-08.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
     },
     {
       "id": "freire-mo-aotearoa-5",
@@ -741,6 +861,21 @@
       "badge": "freire-mo-aotearoa-pou"
     },
     {
+      "id": "leverage-points-course-9",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 8,
+      "title": "Module 09 — The lengths of delays, relative to the rate of system change",
+      "start": "2026-09-14T19:00:00+12:00",
+      "end": "2026-09-14T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-09.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
+    },
+    {
       "id": "freire-mo-aotearoa-6",
       "course_slug": "freire-mo-aotearoa",
       "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
@@ -756,6 +891,21 @@
       "badge": "freire-mo-aotearoa-pou"
     },
     {
+      "id": "leverage-points-course-10",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 9,
+      "title": "Module 10 — The structure of material stocks and flows",
+      "start": "2026-09-21T19:00:00+12:00",
+      "end": "2026-09-21T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-10.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
+    },
+    {
       "id": "freire-mo-aotearoa-7",
       "course_slug": "freire-mo-aotearoa",
       "course_title": "Pedagogy of the Algorithm — Freire mō Aotearoa",
@@ -769,6 +919,36 @@
       "link": "https://www.kiwidialectic.com/p/freire-mo-aotearoa-lesson-6-praxis",
       "chat": "",
       "badge": "freire-mo-aotearoa-pou"
+    },
+    {
+      "id": "leverage-points-course-11",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 10,
+      "title": "Module 11 — The sizes of buffers and other stabilising stocks",
+      "start": "2026-09-28T19:00:00+12:00",
+      "end": "2026-09-28T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-11.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
+    },
+    {
+      "id": "leverage-points-course-12",
+      "course_slug": "leverage-points-course",
+      "course_title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "lesson_index": 11,
+      "title": "Module 12 — Constants, parameters, numbers (subsidies, taxes, standards)",
+      "start": "2026-10-05T19:00:00+12:00",
+      "end": "2026-10-05T20:00:00+12:00",
+      "location": "Substack + leverage-points-course",
+      "access": "public",
+      "teaser": "",
+      "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-12.html",
+      "chat": null,
+      "badge": "leverage-points-pou"
     }
   ]
 }
