@@ -751,6 +751,157 @@
       "kaupapa": "Pā tūwatawata — the fortified palisade. Organised sovereignty. The namesake motif.",
       "html_course_url": "https://te-pa.org/",
       "motif_label": "Pā tūwatawata"
+    },
+    {
+      "title": "Twelve Leverage Points — Meadows for Aotearoa",
+      "slug": "leverage-points-course",
+      "status": "Live",
+      "access": "public",
+      "calendar_visibility": "public",
+      "description": "A 12-week working-class course through Donella Meadows' 'Places to Intervene in a System' — refracted through kaupapa Māori, Oceanic and Indigenous motifs, and Aotearoa political indicators. Deep-to-shallow: paradigm to parameters. Twelve modules. Twelve pou. One rhizome.",
+      "lessons": [
+        {
+          "title": "Module 01 — The power to transcend paradigms",
+          "date": "2026-07-20",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-01.html",
+          "published": true
+        },
+        {
+          "title": "Module 02 — The mindset or paradigm out of which the system arises",
+          "date": "2026-07-27",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-02.html",
+          "published": true
+        },
+        {
+          "title": "Module 03 — The goals of the system",
+          "date": "2026-08-03",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-03.html",
+          "published": true
+        },
+        {
+          "title": "Module 04 — The power to add, change, evolve, or self-organize system structure",
+          "date": "2026-08-10",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-04.html",
+          "published": true
+        },
+        {
+          "title": "Module 05 — The rules of the system (incentives, punishments, constraints)",
+          "date": "2026-08-17",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-05.html",
+          "published": true
+        },
+        {
+          "title": "Module 06 — The structure of information flows",
+          "date": "2026-08-24",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-06.html",
+          "published": true
+        },
+        {
+          "title": "Module 07 — The gain around driving positive feedback loops",
+          "date": "2026-08-31",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-07.html",
+          "published": true
+        },
+        {
+          "title": "Module 08 — The strength of negative feedback loops",
+          "date": "2026-09-07",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-08.html",
+          "published": true
+        },
+        {
+          "title": "Module 09 — The lengths of delays, relative to the rate of system change",
+          "date": "2026-09-14",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-09.html",
+          "published": true
+        },
+        {
+          "title": "Module 10 — The structure of material stocks and flows",
+          "date": "2026-09-21",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-10.html",
+          "published": true
+        },
+        {
+          "title": "Module 11 — The sizes of buffers and other stabilising stocks",
+          "date": "2026-09-28",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-11.html",
+          "published": true
+        },
+        {
+          "title": "Module 12 — Constants, parameters, numbers (subsidies, taxes, standards)",
+          "date": "2026-10-05",
+          "time": "19:00",
+          "location": "Substack + leverage-points-course",
+          "access": "public",
+          "calendar_visibility": "public",
+          "teaser": "",
+          "link": "https://robertmccallnz.github.io/leverage-points-course/modules/module-12.html",
+          "published": true
+        }
+      ],
+      "chat_thread": null,
+      "badge_glyph": "purple-koru",
+      "badge_slug": "leverage-points-pou",
+      "badge_claim_url": null,
+      "motif": "takarangi",
+      "brand_color": "#8e44ad",
+      "kaupapa": "Takarangi — the double spiral of te ao Māori. Meadows tier 1 (transcend paradigms) meets Aotearoa's kōrero on systems and mana motuhake.",
+      "html_course_url": "https://robertmccallnz.github.io/leverage-points-course/",
+      "motif_label": "Takarangi"
     }
   ]
 }
