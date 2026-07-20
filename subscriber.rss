@@ -6,7 +6,7 @@
 <atom:link href="https://raw.githubusercontent.com/robertmccallnz/kiwidialecticcalendar-/main/subscriber.rss" rel="self" type="application/rss+xml"/>
 <description>For people who follow the project, not the calendar. AI Warrior site updates plus live indigenous-news pulses from the te-pa.org rhizome mapper.</description>
 <language>en-NZ</language>
-<lastBuildDate>Mon, 13 Jul 2026 19:26:01 +0000</lastBuildDate>
+<lastBuildDate>Mon, 20 Jul 2026 19:46:24 +0000</lastBuildDate>
 <item>
   <title>AI Warrior — chore: trigger clean Pages deploy (artifact collision)</title>
   <link>https://github.com/robertmccallnz/ai-warrior/commit/daf925a94a9cdebbe451516e7ec8e2ba2f4ff22e</link>
